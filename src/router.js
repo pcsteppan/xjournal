@@ -22,7 +22,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/:artwork',
+      path: '/artwork/:artwork',
       name: 'ArtworkPage',
       props: true,
       component: () => import('./views/ArtworkPage.vue')
