@@ -1,0 +1,20 @@
+{
+  "issues" : {
+    "1" : {
+      
+    }
+  },
+  "artworks" : {
+    "id" : {
+      "artistIds" : [],
+      "imageIds" : [],
+      "issue" : "1"
+    }
+  },
+  "artists" : {
+
+  },
+  "images" : {
+
+  }
+}
