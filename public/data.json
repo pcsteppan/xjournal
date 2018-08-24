@@ -6,13 +6,722 @@
   },
   "artworks" : {
     "id" : {
-      "artistIds" : [],
-      "imageIds" : [],
-      "issue" : "1"
+      "title" : "Summer Daze",
+      "yearMade" : "2018",
+      "description" : "Acrylic",
+      "size" : {
+        "width" : "23\"",
+        "height" : "17.5\""
+      },
+      "artistIds" : {
+        "anabelen-zuniga" : "anabelen-zuniga"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Freedom",
+      "yearMade" : "2017",
+      "description" : "Screen print",
+      "size" : {
+        "width" : "24\"",
+        "height" : "38\""
+      },
+      "artistIds" : {
+        "haider-khan" : "haider-khan"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Anhedonia",
+      "yearMade" : "2017",
+      "description" : "Fabric, fishnets, harness, wood, stertcher bars, canvas, paint, gesso, cotton batting, and thread",
+      "size" : {
+        "width" : "40\"",
+        "height" : "40\""
+      },
+      "artistIds" : {
+        "kristina-mengis" : "kristina-mengis"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Buoy",
+      "yearMade" : "2017",
+      "description" : "Fabric, fringe, canvas, paint, wood, cotton batting, staples",
+      "size" : {
+        "width" : "74\"",
+        "height" : "35\""
+      },
+      "artistIds" : {
+        "kristina-mengis" : "kristina-mengis"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Burst Obstruction 1",
+      "yearMade" : "2017",
+      "description" : "Acrylic, foam, glue, yarn",
+      "size" : {
+        "width" : "36\"",
+        "height" : "36\""
+      },
+      "artistIds" : {
+        "nola-thompson" : "nola-thompson"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Heart and Vines",
+      "yearMade" : "2017",
+      "description" : "Charcoal",
+      "size" : {
+        "width" : "24\"",
+        "height" : "36\""
+      },
+      "artistIds" : {
+        "salvador-solis" : "salvador-solis"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Bauhaus book cover",
+      "yearMade" : "2017",
+      "description" : "Graphic design",
+      "size" : {
+        "width" : "10\"",
+        "height" : "10\""
+      },
+      "artistIds" : {
+        "sidath-wanigasinghe" : "sidath-wanigasinghe"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Run to the 606",
+      "yearMade" : "2018",
+      "description" : "Oil and collage",
+      "size" : {
+        "width" : "20.5\"",
+        "height" : "19.5\""
+      },
+      "artistIds" : {
+        "olivia-peterson" : "olivia-peterson"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Mt. Kailash",
+      "yearMade" : "2018",
+      "description" : "Acrylic, charcoal, chalk",
+      "size" : {
+        "width" : "56.5\"",
+        "height" : "56.5\""
+      },
+      "artistIds" : {
+        "andrea-volpe" : "andrea-volpe"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Abstract",
+      "yearMade" : "2017",
+      "description" : "Oil",
+      "size" : {
+        "width" : "48\"",
+        "height" : "60\""
+      },
+      "artistIds" : {
+        "david-petrak" : "david-petrak"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Blonde",
+      "yearMade" : "2017",
+      "description" : "Album design",
+      "size" : {
+        "width" : "12\"",
+        "height" : "12\""
+      },
+      "artistIds" : {
+        "evan-economos" : "evan-economos"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Entwined",
+      "yearMade" : "2017",
+      "description" : "Oil on watercolor paper",
+      "size" : {
+        "width" : "24\"",
+        "height" : "36\""
+      },
+      "artistIds" : {
+        "david-petrak" : "david-petrak"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Sneaker Guys website",
+      "yearMade" : "2017",
+      "description" : "Design, photography",
+      "size" : {
+        "width" : "none",
+        "height" : "none"
+      },
+      "artistIds" : {
+        "sidath-wanigasinghe" : "sidath-wanigasinghe"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "The Catepillar's Escape",
+      "yearMade" : "2018",
+      "description" : "Linocut",
+      "size" : {
+        "width" : "36\"",
+        "height" : "36\""
+      },
+      "artistIds" : {
+        "sam-lisec" : "sam-lisec"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Grandmother",
+      "yearMade" : "2018",
+      "description" : "Linocut",
+      "size" : {
+        "width" : "24\"",
+        "height" : "26\""
+      },
+      "artistIds" : {
+        "jini-john" : "jini-john"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Tear the Rock",
+      "yearMade" : "2018",
+      "description" : "Oil, wood, plaster",
+      "size" : {
+        "width" : "13.5\"",
+        "height" : "14\""
+      },
+      "artistIds" : {
+        "madeline-simms" : "madeline-simms"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Loose",
+      "yearMade" : "2018",
+      "description" : "Oil, wood, plaster, fabric",
+      "size" : {
+        "width" : "16.5\"",
+        "height" : "12.5\""
+      },
+      "artistIds" : {
+        "madeline-simms" : "madeline-simms"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "On My Back Porch",
+      "yearMade" : "2017",
+      "description" : "Oil and collage",
+      "size" : {
+        "width" : "9\"",
+        "height" : "12\""
+      },
+      "artistIds" : {
+        "olivia-peterson" : "olivia-peterson"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Reflected Lace",
+      "yearMade" : "2018",
+      "description" : "Photography",
+      "size" : {
+        "width" : "none",
+        "height" : "none"
+      },
+      "artistIds" : {
+        "ben-hosto" : "ben-hosto"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Die Schwarze Sonne",
+      "yearMade" : "2018",
+      "description" : "Acrylic, charcoal, chalk",
+      "size" : {
+        "width" : "29.5\"",
+        "height" : "31\""
+      },
+      "artistIds" : {
+        "andrea-volpe" : "andrea-volpe"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Grandmother's Tale",
+      "yearMade" : "2017",
+      "description" : "Book design",
+      "size" : {
+        "width" : "6\"",
+        "height" : "6\""
+      },
+      "artistIds" : {
+        "nola-thompson" : "nola-thompson"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Sunsaan",
+      "yearMade" : "2018",
+      "description" : "Mixed media",
+      "size" : {
+        "width" : "48\"",
+        "height" : "48\""
+      },
+      "artistIds" : {
+        "utsah-pandey" : "utsah-pandey"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Therapy 1",
+      "yearMade" : "2018",
+      "description" : "Oil on watercolor paper",
+      "size" : {
+        "width" : "24\"",
+        "height" : "35\""
+      },
+      "artistIds" : {
+        "david-petrak" : "david-petrak"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "Therapy 2",
+      "yearMade" : "2018",
+      "description" : "Oil on watercolor paper",
+      "size" : {
+        "width" : "24\"",
+        "height" : "36\""
+      },
+      "artistIds" : {
+        "david-petrak" : "david-petrak"
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
+    },
+    "id" : {
+      "title" : "",
+      "yearMade" : "",
+      "description" : "",
+      "size" : {
+        "width" : "\"",
+        "height" : "\""
+      },
+      "artistIds" : {
+        "" : ""
+      },
+      "imageIds" : {
+
+      },
+      "issueIds" : {
+        "1" : "1"
+      }
     }
   },
   "artists" : {
-
+    "" : {
+      "name" : "Danay Barrera",
+      "artworks" : "",
+      "gradiationYear" : "2021"
+    },
+    "" : {
+      "name" : "Alexandra Bird",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Shifa Dandia",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Jinglun Ding",
+      "artworks" : "",
+      "gradiationYear" : "2017"
+    },
+    "" : {
+      "name" : "Evan Economos",
+      "artworks" : "",
+      "gradiationYear" : "2019"
+    },
+    "" : {
+      "name" : "Ryan Foxall",
+      "artworks" : "",
+      "gradiationYear" : "2017"
+    },
+    "" : {
+      "name" : "Sachika Goel",
+      "artworks" : "",
+      "gradiationYear" : "2020"
+    },
+    "" : {
+      "name" : "Ben Hosto",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Jini John",
+      "artworks" : "",
+      "gradiationYear" : "2020"
+    },
+    "" : {
+      "name" : "Minni Kang",
+      "artworks" : "",
+      "gradiationYear" : "2021"
+    },
+    "" : {
+      "name" : "Haider Khan",
+      "artworks" : "",
+      "gradiationYear" : "2020"
+    },
+    "" : {
+      "name" : "Mara Lane",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Sam Lisec",
+      "artworks" : "",
+      "gradiationYear" : "2021"
+    },
+    "" : {
+      "name" : "Emma Lister",
+      "artworks" : "",
+      "gradiationYear" : "2017"
+    },
+    "" : {
+      "name" : "Kristen Marvin",
+      "artworks" : "",
+      "gradiationYear" : "2017"
+    },
+    "" : {
+      "name" : "Kristina Mengis",
+      "artworks" : "",
+      "gradiationYear" : "2017"
+    },
+    "" : {
+      "name" : "Billy Nguyen",
+      "artworks" : "",
+      "gradiationYear" : "2020"
+    },
+    "" : {
+      "name" : "Olivia Peterson",
+      "artworks" : "",
+      "gradiationYear" : "2019"
+    },
+    "" : {
+      "name" : "David Petrak",
+      "artworks" : "",
+      "gradiationYear" : "2019"
+    },
+    "" : {
+      "name" : "Arthur Santoro",
+      "artworks" : "",
+      "gradiationYear" : "2021"
+    },
+    "" : {
+      "name" : "Madeline Simms",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Salvador Solis",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Patrick Steppan",
+      "artworks" : "",
+      "gradiationYear" : "2020"
+    },
+    "" : {
+      "name" : "Nola Thompson",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Teddy Turner",
+      "artworks" : "",
+      "gradiationYear" : "2018"
+    },
+    "" : {
+      "name" : "Andrea Volpe",
+      "artworks" : "2018"
+    },
+    "" : {
+      "name" : "Sidath Wanigasinghe",
+      "artworks" : "",
+      "gradiationYear" : "2017"
+    },
+    "" : {
+      "name" : "Anabelen Zuniga",
+      "artworks" : "",
+      "gradiationYear" : "2019"
+    }
   },
   "images" : {
 
