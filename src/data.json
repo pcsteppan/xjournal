@@ -248,7 +248,10 @@
         "eESoUpjgF7" : "eESoUpjgF7"
       },
       "images" : {
-        "Entwined.png" : "Entwined.png"
+        "Entwined.png" : {
+          "url" : "Entwined.png",
+          "type" : "Primary"
+        }
       },
       "issueIds" : {
         "1" : "1"
@@ -382,6 +385,7 @@
         "OnMyBackPorch.png" : {
           "url" : "OnMyBackPorch.png",
           "type" : "Primary" 
+        }
       },
       "issueIds" : {
         "1" : "1"
@@ -449,8 +453,8 @@
           "url" : "Nola2.png",
           "type" : "Secondary"
         },
-        "Nola3.png" : {
-          "url" : "Nola3.png",
+        "Nola4.png" : {
+          "url" : "Nola4.png",
           "type" : "Secondary"
         },
         "Nola1.png" : {
@@ -712,7 +716,7 @@
       },
       "images" : {
         "BackwatersOfKerala.png" : {
-          "url" : "BackwaterOfKerala.png",
+          "url" : "BackwatersOfKerala.png",
           "type" : "Primary"
         }
       },
@@ -1076,7 +1080,6 @@
       "issueIds" : {
         "1" : "1"
       }
-    }
     }
   },
   "artists" : {

@@ -1,6 +1,10 @@
 <template>
   <div class="artwork-list-item-container">
-    <img :src="arturl"/>
+    <img
+      v-for="(imageurl, key) in imageurls"
+      :src="imageurl"
+      :key="key"
+    />
   </div>
 </template>
 
@@ -9,7 +13,7 @@ export default {
   props: {
     artwork: {
       required: true,
-      type: String
+      type: Object
     }
   },
 
@@ -20,15 +24,29 @@ export default {
   },
 
   computed: {
-    arturl () {
-      return `${this.baseUrl}images/${this.artwork}.png`
+    imageurls () {
+      console.log(Object.values(this.artwork.images))
+      let imageurls = Object.values(this.artwork.images)
+        .filter(image => image.type === 'Primary')
+        .map(image => {
+          return `${this.baseUrl}images/${image.url}`
+        })
+      console.log(imageurls)
+      return imageurls
     }
   }
 }
 </script>
 
 <style>
-  .artwork-list-item-container{
-    width: 5em;
+.artwork-list-item-container{
+  max-width: 100vw;
+  display: block;
+}
+  .artwork-list-item-container > img{
+    width: 70%;
+    display: inline-block;
+    padding: 5%;
+    padding-bottom: 9em;
   }
 </style>
