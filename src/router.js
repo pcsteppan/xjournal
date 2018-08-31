@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+// import Face from './views/Face.vue'
+import IssuePage from './views/IssuePage.vue'
 
 Vue.use(Router)
 
@@ -10,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'IssuePage',
+      component: IssuePage
     },
     {
       path: '/about',
@@ -20,18 +21,6 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    },
-    {
-      path: '/artwork/:artwork',
-      name: 'ArtworkPage',
-      props: true,
-      component: () => import('./views/ArtworkPage.vue')
-    },
-    {
-      path: '/issue/:issueNumber',
-      name: 'issue',
-      props: true,
-      component: () => import('./views/IssuePage.vue')
     }
   ]
 })

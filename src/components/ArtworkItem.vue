@@ -1,13 +1,15 @@
 <template>
-  <div class="artwork-list-item-container">
-    <p class="artistName">{{artistName}}</p>
-    <p class="artworkTitle">{{artworkTitle}}</p>
+  <section class="container">
+    <p class="artworkInfo">
+    {{artistName}}, {{yearMade}}<br/>
+    {{artworkTitle}}
+    </p>
     <img
       v-for="(imageurl, key) in imageurls"
       :src="imageurl"
       :key="key"
     />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -41,29 +43,27 @@ export default {
     },
     artworkTitle () {
       return this.artwork.title
+    },
+    yearMade () {
+      return this.artwork.yearMade
     }
   }
 }
 </script>
 
-<style>
-  .artwork-list-item-container{
+<style scoped>
+  .container{
     max-width: 100vw;
     max-height: 100vh;
     display: block;
   }
-  .artwork-list-item-container > img{
-    width: 100%;
-    display: inline-block;
-    padding-bottom: 9em;
-  }
-  .artistName, .artworkTitle {
+  .artworkInfo {
     text-align: left;
-    padding-right: 1em;
-  }
-  .artworkTitle {
+    padding-left: 1rem;
+    font-size: 1rem;
     font-family: 'Happy Times Italic';
     padding-top: none;
-    line-height: 0;
+    line-height: 1.2rem;
+    padding-bottom: 2rem;
   }
 </style>

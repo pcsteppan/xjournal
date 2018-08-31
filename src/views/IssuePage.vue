@@ -1,33 +1,62 @@
 <template>
   <div class="container">
-    <h1>Issue {{issueNumber}}</h1>
-    <ArtworkListItem
-      v-for="(value, key) in artworks"
-      :artwork="value"
-      :key="key">
-    </ArtworkListItem>
+    <ArtworkItem
+    v-touch="touch"
+    :artwork="currentArtwork">
+    </ArtworkItem>
   </div>
 </template>
 
 <script>
 import sourceData from '@/data'
-import ArtworkListItem from '@/components/ArtworkListItem'
+import ArtworkItem from '@/components/ArtworkItem'
 
 export default {
+  name: 'IssuePage',
+
   components: {
-    ArtworkListItem
+    ArtworkItem
   },
 
-  props: {
-    issueNumber: {
-      required: true,
-      type: String
+  data () {
+    return {
+      x: false,
+      y: false,
+      currentArtworkIndex: 0
     }
   },
 
   computed: {
     artworks () {
       return Object.values(sourceData.artworks)
+    },
+
+    currentArtwork () {
+      return this.artworks[this.currentArtworkIndex]
+    },
+
+    touch () {
+      return {
+        methods: true
+      }
+    }
+  },
+
+  methods: {
+    dblClick () {
+      console.log('99')
+    },
+
+    swipeLeft () {
+      (this.currentArtworkIndex === (this.artworks.length) - 1)
+        ? this.currentArtworkIndex = 0
+        : this.currentArtworkIndex++
+    },
+
+    swipeRight () {
+      (this.currentArtworkIndex === 0)
+        ? this.currentArtworkIndex = (this.artworks.length) - 1
+        : this.currentArtworkIndex--
     }
   }
 }

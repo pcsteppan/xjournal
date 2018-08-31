@@ -6303,10 +6303,6 @@ thread-loader@^1.1.5:
     loader-runner "^2.3.0"
     loader-utils "^1.1.0"
 
-three@^0.95.0:
-  version "0.95.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.95.0.tgz#b60ea076ba17df9faba9e855b86ab3f541289abf"
-
 through2@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"
@@ -6612,6 +6608,10 @@ utils-merge@1.0.1:
 uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
+v-touch@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/v-touch/-/v-touch-1.5.2.tgz#7b3b06c513d25078e751fa7d84a497c9c7c257c7"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"

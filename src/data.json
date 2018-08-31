@@ -60,7 +60,7 @@
       },
       "images" : {
         "Avolition.png" : {
-          "url" : "Avolition.png",
+          "url" : "Anhedonia.png",
           "type" : "Primary"
         }
       },
@@ -82,6 +82,24 @@
       "images" : {
         "Mengis3.png" : {
           "url" : "Mengis3.png",
+          "type" : "Primary"
+        }
+      }
+    },
+    "0Zp8Ff5Lgu" : {
+      "title" : "Avolition",
+      "yearMade" : "2017",
+      "description" : "Fabric, wood, fencing, dog collar, canvas, gauze, gesso, cotton batting, thread, and oil",
+      "size" : {
+        "width" : "85\"",
+        "height" : "35\""
+      },
+      "artistIds" : {
+        "8CUW9uboqH" : "8CUW9uboqH"
+      },
+      "images" : {
+        "Mengis2.png" : {
+          "url" : "Mengis2.png",
           "type" : "Primary"
         }
       },
@@ -475,7 +493,7 @@
         "height" : "48\""
       },
       "artistIds" : {
-        "utsah-pandey" : "utsah-pandey"
+        "dDtqNisB12" : "dDtqNisB12"
       },
       "images" : {
         "Sunsaan1.png" : {
@@ -545,7 +563,10 @@
         "8CUW9uboqH" : "8CUW9uboqH"
       },
       "images" : {
-        
+        "Avolition.png" : {
+          "url" : "Avolition.png",
+          "type" : "Primary"
+        }
       },
       "issueIds" : {
         "1" : "1"
@@ -1167,6 +1188,11 @@
       "name" : "Billy Nguyen",
       "artworks" : "",
       "gradiationYear" : "2020"
+    },
+    "dDtqNisB12" : {
+      "name" : "Utsah Pandey",
+      "artworks" : "",
+      "gradiationYear" : "2018"
     },
     "5AbeqXu50S" : {
       "name" : "Olivia Peterson",
