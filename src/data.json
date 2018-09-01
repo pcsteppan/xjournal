@@ -59,7 +59,7 @@
         "8CUW9uboqH" : "8CUW9uboqH"
       },
       "images" : {
-        "Avolition.png" : {
+        "Anhedonia.png" : {
           "url" : "Anhedonia.png",
           "type" : "Primary"
         }
@@ -80,8 +80,8 @@
         "8CUW9uboqH" : "8CUW9uboqH"
       },
       "images" : {
-        "Mengis3.png" : {
-          "url" : "Mengis3.png",
+        "Buoy.png" : {
+          "url" : "Buoy.png",
           "type" : "Primary"
         }
       }
@@ -98,8 +98,8 @@
         "8CUW9uboqH" : "8CUW9uboqH"
       },
       "images" : {
-        "Mengis2.png" : {
-          "url" : "Mengis2.png",
+        "Avolition.png" : {
+          "url" : "Avolition.png",
           "type" : "Primary"
         }
       },
@@ -119,8 +119,8 @@
         "9gW8S7G00r" : "9gW8S7G00r"
       },
       "images" : {
-        "BurstObstructor.png" : {
-          "url" : "BurstObstructor.png",
+        "BurstObstruction1.png" : {
+          "url" : "BurstObstruction1.png",
           "type" : "Primary"
         }
       },
@@ -140,8 +140,8 @@
         "HGQXNL66i7" : "HGQXNL66i7"
       },
       "images" : {
-        "HeartVines.png" : {
-          "url" : "HeartVines.png",
+        "HeartsAndVines.png" : {
+          "url" : "HeartsAndVines.png",
           "type" : "Primary"
         }
       },
@@ -161,8 +161,8 @@
         "jrLfN78muX" : "jrLfN78muX"
       },
       "images" : {
-        "Bauhaus.png" : {
-          "url" : "Bauhaus.png",
+        "BauhausBookCover.png" : {
+          "url" : "BauhausBookCover.png",
           "type" : "Primary"
         }
       },
@@ -248,6 +248,14 @@
         "Blonde1.png" : {
           "url" : "Blonde1.png",
           "type" : "Primary"
+        },
+        "Blonde2.png" : {
+          "url" : "Blonde2.png",
+          "type" : "Primary"
+        },
+        "Blonde3.png" : {
+          "url" : "Blonde3.png",
+          "type" : "Primary"
         }
       },
       "issueIds" : {
@@ -287,12 +295,12 @@
         "jrLfN78muX" : "jrLfN78muX"
       },
       "images" : {
-        "ShoePage.png" : {
-          "url" : "ShoePage.png",
+        "SneakerGuysWebsite1.png" : {
+          "url" : "SneakerGuysWebsite1.png",
           "type" : "Primary"
         },
-        "ShopPage.png" : {
-          "url" : "ShopPage.png",
+        "SneakerGuysWebsite2.png" : {
+          "url" : "SneakerGuysWebsite2.png",
           "type" : "Primary"
         }
       },
@@ -312,12 +320,12 @@
         "N7VqeDJR1A" : "N7VqeDJR1A"
       },
       "images" : {
-        "TheCaterpillar'sEscape1.png" : { 
-          "url" : "TheCaterpillar'sEscape1.png",
+        "TheCaterpillarsEscape1.png" : { 
+          "url" : "TheCaterpillarsEscape1.png",
           "type" : "Primary"
         },
-        "CaterpillarsEscapeGreen.png" : { 
-          "url" : "CaterpillarsEscapeGreen.png",
+        "TheCaterpillarsEscape2.png" : { 
+          "url" : "TheCaterpillarsEscape2.png",
           "type" : "Primary"
         }
       },
@@ -463,21 +471,21 @@
         "9gW8S7G00r" : "9gW8S7G00r"
       },
       "images" : {
-        "Nola5.png" : {
-          "url" : "Nola5.png",
+        "GrandmothersTale1.png" : {
+          "url" : "GrandmothersTale1.png",
           "type" : "Primary"
         },
-        "Nola2.png" : {
-          "url" : "Nola2.png",
-          "type" : "Secondary"
+        "GrandmothersTale2.png" : {
+          "url" : "GrandmothersTale2.png",
+          "type" : "Primary"
         },
-        "Nola4.png" : {
-          "url" : "Nola4.png",
-          "type" : "Secondary"
+        "GrandmothersTale3.png" : {
+          "url" : "GrandmothersTale3.png",
+          "type" : "Primary"
         },
-        "Nola1.png" : {
-          "url" : "Nola1.png",
-          "type" : "Secondary"
+        "GrandmothersTale4.png" : {
+          "url" : "GrandmothersTale4.png",
+          "type" : "Primary"
         }
       },
       "issueIds" : {
@@ -627,12 +635,12 @@
         "fNtawUW02I" : "fNtawUW02I"
       },
       "images" : {
-        "Legs1.png" : {
-          "url" : "Legs1.png",
+        "Untitled1.png" : {
+          "url" : "Untitled1.png",
           "type" : "Primary"
         },
-        "Legs2.png" : {
-          "url" : "Legs2.png",
+        "Untitled2.png" : {
+          "url" : "Untitled2.png",
           "type" : "Primary"
         }
       },
@@ -652,8 +660,8 @@
         "jrLfN78muX" : "jrLfN78muX"
       },
       "images" : {
-        "NeonLoop_s.png" : {
-          "url" : "NeonLoop_s.png",
+        "NeonLoop.png" : {
+          "url" : "NeonLoop.png",
           "type" : "Primary"
         }
       },
@@ -674,7 +682,7 @@
       },
       "images" : {
         "IKEA.png" : {
-          "url" : "IKEA.png",
+          "url" : "MomIDontWANTToBeAtIKEA.png",
           "type" : "Primary"
         }
       },
@@ -746,7 +754,7 @@
       }
     },
     "uJPJmm8QDB" : {
-      "title" : "Character movements from __Save the Forest__",
+      "title" : "Character movements from Save the Forest",
       "yearMade" : "2018",
       "description" : "Digital animation",
       "size" : {
@@ -757,8 +765,8 @@
         "imo7wqF6pk" : "imo7wqF6pk"
       },
       "images" : {
-        "ArthursAnimation.png" : {
-          "url" : "ArthursAnimation.png",
+        "CharacterMovementsFromSaveTheForest.png" : {
+          "url" : "CharacterMovementsFromSaveTheForest.png",
           "type" : "Primary"
         }
       },
@@ -968,8 +976,8 @@
         "eWRCo5EBek" : "eWRCo5EBek"
       },
       "images" : {
-        "Whale.png" : {
-          "url" : "Whale.png",
+        "OrganicLinear1.png" : {
+          "url" : "OrganicLinear1.png",
           "type" : "Primary"
         }
       },
@@ -1060,20 +1068,20 @@
           "url" : "Escape1.png",
           "type" : "Primary"
         },
-        "Escape5.png" : {
-          "url" : "Escape5.png",
+        "Escape2.png" : {
+          "url" : "Escape2.png",
           "type" : "Secondary"
         },
         "Escape3.png" : {
           "url" : "Escape3.png",
           "type" : "Secondary"
         },
-        "Escape2.png" : {
-          "url" : "Escape2.png",
-          "type" : "Secondary"
-        },
         "Escape4.png" : {
           "url" : "Escape4.png",
+          "type" : "Secondary"
+        },
+        "Escape5.png" : {
+          "url" : "Escape5.png",
           "type" : "Secondary"
         }
       },

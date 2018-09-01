@@ -2,11 +2,12 @@
   <section class="container">
     <p class="artworkInfo">
     {{artistName}}, {{yearMade}}<br/>
-    {{artworkTitle}}
+    <span class="italic">{{artworkTitle}}</span>
     </p>
     <img
-      v-for="(imageurl, key) in imageurls"
-      :src="imageurl"
+      v-for="(data, key) in imagesrcsandsrcsets"
+      :src="data.src"
+      :srcset="data.srcset"
       :key="key"
     />
   </section>
@@ -30,11 +31,16 @@ export default {
   },
 
   computed: {
-    imageurls () {
+    imagesrcsandsrcsets () {
       const imageurls = Object.values(this.artwork.images)
         .filter(image => image.type === 'Primary')
         .map(image => {
-          return `${this.baseUrl}images/${image.url}`
+          return {
+            'src': `${this.baseUrl}images/1200/${image.url}`,
+            'srcset': `${this.baseUrl}images/400/${image.url} 400w,
+              ${this.baseUrl}images/768/${image.url} 768w,
+              ${this.baseUrl}images/1200/${image.url} 1200w`
+          }
         })
       return imageurls
     },
@@ -61,9 +67,12 @@ export default {
     text-align: left;
     padding-left: 1rem;
     font-size: 1rem;
-    font-family: 'Happy Times Italic';
+    font-family: 'Happy Times';
     padding-top: none;
     line-height: 1.2rem;
     padding-bottom: 2rem;
+  }
+  .italic{
+    font-family: 'Happy Times Italic'
   }
 </style>
