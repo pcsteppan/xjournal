@@ -1,9 +1,22 @@
 <template>
-  <div class="container">
+  <div class="issue-container">
     <ArtworkItem
+      v-if="artworkIndex"
       v-touch="touch"
       :artwork="currentArtwork">
     </ArtworkItem>
+    <section v-else id="issue-nav-wrapper">
+      <nav id="issue-nav">
+        <ul>
+          <li>essay</li>
+          <li>
+            <router-link to="./1/1">artwork</router-link>
+          </li>
+          <li>artists</li>
+          <li>info</li>
+        </ul>
+      </nav>
+    </section>
   </div>
 </template>
 
@@ -45,7 +58,7 @@ export default {
     },
 
     artworkIndexN () {
-      return Number(this.artworkIndex)
+      return Math.abs(Number(this.artworkIndex)) % this.artworks.length
     },
 
     touch () {
@@ -79,6 +92,20 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  #issue-nav-wrapper{
+    position: absolute;
+    top: 0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+  }
+  #issue-nav{
+    grid-area: 2 / 2;
+  }
+  li {
+    font-size: 1.5rem;
+  }
 </style>
