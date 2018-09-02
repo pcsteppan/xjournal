@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <ArtworkItem
-    v-touch="touch"
-    :artwork="currentArtwork">
+      v-touch="touch"
+      :artwork="currentArtwork">
     </ArtworkItem>
   </div>
 </template>
@@ -14,6 +14,15 @@ import ArtworkItem from '@/components/ArtworkItem'
 export default {
   name: 'IssuePage',
 
+  props: {
+    artworkIndex: {
+      type: [String, Number]
+    },
+    issueIndex: {
+      type: String
+    }
+  },
+
   components: {
     ArtworkItem
   },
@@ -21,18 +30,22 @@ export default {
   data () {
     return {
       x: false,
-      y: false,
-      currentArtworkIndex: 0
+      y: false
     }
   },
 
   computed: {
     artworks () {
       return Object.values(sourceData.artworks)
+      // TODO: add issue filtering
     },
 
     currentArtwork () {
-      return this.artworks[this.currentArtworkIndex]
+      return this.artworks[this.artworkIndexN - 1]
+    },
+
+    artworkIndexN () {
+      return Number(this.artworkIndex)
     },
 
     touch () {
@@ -43,20 +56,24 @@ export default {
   },
 
   methods: {
-    dblClick () {
-      console.log('99')
-    },
-
     swipeLeft () {
-      (this.currentArtworkIndex === (this.artworks.length) - 1)
-        ? this.currentArtworkIndex = 0
-        : this.currentArtworkIndex++
+      this.$router.push({name: 'IssuePageWithArtwork',
+        params: {
+          artworkIndex: (this.artworkIndexN === (this.artworks.length))
+            ? 1
+            : (this.artworkIndexN + 1),
+          issueIndex: this.issueIndex
+        }})
     },
 
     swipeRight () {
-      (this.currentArtworkIndex === 0)
-        ? this.currentArtworkIndex = (this.artworks.length) - 1
-        : this.currentArtworkIndex--
+      this.$router.push({name: 'IssuePageWithArtwork',
+        params: {
+          artworkIndex: (this.artworkIndexN === 1)
+            ? this.artworks.length
+            : (this.artworkIndexN - 1),
+          issueIndex: this.issueIndex
+        }})
     }
   }
 }

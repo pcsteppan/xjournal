@@ -4,7 +4,7 @@
     <p>
       <span class="italic oooo">x journal</span> is an annual undergraduate visual arts publication created in 2017 and published by knox college. x is proud to host the eclectic range of work made by the knox college student body
     </p>
-    <h1>team</h1>
+    <h1>staff</h1>
     <ul>
       <li>
         <span class="name">evan economos </span>
@@ -19,7 +19,7 @@
         <span class="role">faculty advisor</span>
       </li>
     </ul>
-    <h1>past team</h1>
+    <h1>ex-staff</h1>
     <ul>
       <li>
         <span class="name">nola thompson </span>
