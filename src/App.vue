@@ -2,7 +2,7 @@
   <div id="app">
     <nav id="nav">
       <router-link to="/">x journal</router-link>
-      <router-link to="/issue/1">issue 1</router-link>
+      <router-link class="not-exact" to="/issue/1">issue 1</router-link>
       <router-link to="/about">about</router-link>
     </nav>
     <router-view/>
@@ -91,6 +91,10 @@ a {
 }
 
 #nav a.router-link-exact-active {
+  color: #311;
+}
+
+#nav a.router-link-active.not-exact {
   color: #311;
 }
 </style>

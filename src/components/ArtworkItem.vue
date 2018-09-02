@@ -85,6 +85,7 @@ export default {
     font-family: 'Happy Times';
     line-height: 1rem;
     border-top: 1px solid orangered;
+    padding-bottom: 1rem;
   }
   .italic{
     font-family: 'Happy Times Italic'
