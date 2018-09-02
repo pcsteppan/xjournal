@@ -31,18 +31,22 @@ export default {
        url('static/fonts/happy-times-at-the-ikob_italic-webfont.woff') format('woff');
 }
   @media (min-width: 768px) {
-    html{font-size: 16px;}
+    html{font-size: 12px;}
   }
   @media (min-width: 992px) {
-    html{font-size: 20px;}
+    html{font-size: 14px;}
   }
   @media (min-width: 1200px) {
-    html{font-size: 24px;}
+    html{font-size: 16px;}
   }
 
 *{
   box-sizing: border-box;
   vertical-align: baseline;
+}
+
+html{
+  overflow-x: hidden;
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, .splash, .error, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
@@ -62,7 +66,7 @@ img {
   font-family: 'Happy Times', 'Happy Times Italic', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   display: grid;
   grid-template-rows: 1.5rem 1fr;
@@ -74,12 +78,12 @@ img {
 }
 
 #nav a {
-  color: #2c3e50;
+  color: #daa;
   text-decoration: none;
   font-size: 1.5rem;
 }
 
 #nav a.router-link-exact-active {
-  color: #f32458;
+  color: #311;
 }
 </style>
