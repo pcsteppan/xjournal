@@ -85,7 +85,7 @@ img {
 }
 
 a {
-  color: #daa;
+  color: #799299;
   text-decoration: none;
   font-size: 1.5rem;
 }

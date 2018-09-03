@@ -8,7 +8,8 @@
     <section v-else id="issue-nav-wrapper">
       <nav id="issue-nav">
         <ul>
-          <li>essay</li>
+          <li>
+            <router-link to="./1/essay">essay</router-link></li>
           <li>
             <router-link to="./1/1">artwork</router-link>
           </li>

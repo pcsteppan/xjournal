@@ -44,9 +44,9 @@ export default {
             'srcset': `${this.baseUrl}images/400/${image.url} 400w,
               ${this.baseUrl}images/768/${image.url} 768w,
               ${this.baseUrl}images/1200/${image.url} 1200w`,
-            'sizes': `(max-width: 400px) 400px,
-              (max-width: 768px) 768px,
-              1200px`
+            'sizes': `(max-width: 400px) 100vw,
+              (max-width: 768px) 100vw,
+              100vw`
           }
         })
     },

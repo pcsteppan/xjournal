@@ -42,26 +42,18 @@
 
 <style scoped>
   .about{
-    margin: 0 3rem 0 4rem;
+    margin: 0 1rem;
   }
-  h1{
-    font-size: 2rem;
-    padding-top: 2rem;
+  p, ul{
+    margin-bottom: 2rem;
   }
-  li{
-    list-style: none;
-    font-family: 'Happy Times Italic';
-  }
-  .role{
-    color: orangered;
+  .oooo, .role{
+    color: #f05;
   }
   .about{
     padding-top:5em;
   }
   .italic {
     font-family: 'Happy Times Italic'
-  }
-  .oooo {
-    color: orangered;
   }
 </style>
