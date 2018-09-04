@@ -44,11 +44,14 @@ export default {
             'srcset': `${this.baseUrl}images/400/${image.url} 400w,
               ${this.baseUrl}images/768/${image.url} 768w,
               ${this.baseUrl}images/1200/${image.url} 1200w`,
-            'sizes': `(max-width: 400px) 100vw,
-              (max-width: 768px) 100vw,
-              100vw`
+            'sizes': `(max-width: 400px) ${this.intendedImageWidth},
+              (max-width: 768px) ${this.intendedImageWidth},
+              ${this.intendedImageWidth}`
           }
         })
+    },
+    intendedImageWidth () {
+      return '100vw'
     },
     artistName () {
       return sourceData.artists[Object.values(this.artwork.artistIds)[0]].name
@@ -93,12 +96,12 @@ export default {
   @media (min-width: 768px) {
     .artwork-container{
       padding: 0 2.5vw;
-      grid-template-columns: 10vw 1fr;
+      grid-template-columns: 10vw 1fr 10vw;
       grid-gap: 5vw;
       width: 100%;
     }
     section.image-container.dyptych{
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(4, 1fr);
       grid-gap: 10px;
     }
   }

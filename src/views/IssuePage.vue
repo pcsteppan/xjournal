@@ -73,7 +73,7 @@ export default {
     swipeLeft () {
       this.$router.push({name: 'IssuePageWithArtwork',
         params: {
-          artworkIndex: (this.artworkIndexN === (this.artworks.length))
+          artworkIndex: (this.artworkIndexN === (this.artworks.length - 1))
             ? 1
             : (this.artworkIndexN + 1),
           issueIndex: this.issueIndex
@@ -84,7 +84,7 @@ export default {
       this.$router.push({name: 'IssuePageWithArtwork',
         params: {
           artworkIndex: (this.artworkIndexN === 1)
-            ? this.artworks.length
+            ? this.artworks.length - 1
             : (this.artworkIndexN - 1),
           issueIndex: this.issueIndex
         }})
