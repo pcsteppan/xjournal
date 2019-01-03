@@ -1,9 +1,15 @@
 <template>
   <div class="issue-container">
+    <PageTurner
+      v-if="artworkIndex"
+      @turn-left="swipeRight"
+      @turn-right="swipeLeft"
+      />
     <ArtworkItem
       v-if="artworkIndex"
       v-touch="touch"
-      :artwork="currentArtwork">
+      :artwork="currentArtwork"
+      :pageNumber="artworkIndex">
     </ArtworkItem>
     <section v-else id="issue-nav-wrapper">
       <nav id="issue-nav">
@@ -18,12 +24,18 @@
         </ul>
       </nav>
     </section>
+    <!-- <p
+      v-if="artworkIndex"
+      class="absolute bottom-0 left-50 pa1 w-100 center tc">
+      {{artworkIndex}}
+    </p> -->
   </div>
 </template>
 
 <script>
 import sourceData from '@/data'
-import ArtworkItem from '@/components/ArtworkItem'
+import ArtworkItem from '@/components/ArtworkItem.vue'
+import PageTurner from '@/components/PageTurner.vue'
 
 export default {
   name: 'IssuePage',
@@ -38,7 +50,8 @@ export default {
   },
 
   components: {
-    ArtworkItem
+    ArtworkItem,
+    PageTurner
   },
 
   data () {
@@ -59,7 +72,7 @@ export default {
     },
 
     artworkIndexN () {
-      return Math.abs(Number(this.artworkIndex)) % this.artworks.length
+      return Number(this.artworkIndex)
     },
 
     touch () {
@@ -73,7 +86,7 @@ export default {
     swipeLeft () {
       this.$router.push({name: 'IssuePageWithArtwork',
         params: {
-          artworkIndex: (this.artworkIndexN === (this.artworks.length - 1))
+          artworkIndex: (this.artworkIndexN === (this.artworks.length))
             ? 1
             : (this.artworkIndexN + 1),
           issueIndex: this.issueIndex
@@ -84,7 +97,7 @@ export default {
       this.$router.push({name: 'IssuePageWithArtwork',
         params: {
           artworkIndex: (this.artworkIndexN === 1)
-            ? this.artworks.length - 1
+            ? this.artworks.length
             : (this.artworkIndexN - 1),
           issueIndex: this.issueIndex
         }})
@@ -93,7 +106,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   #issue-nav-wrapper{
     position: absolute;
     top: 0;

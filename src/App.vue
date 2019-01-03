@@ -10,6 +10,8 @@
 </template>
 
 <script>
+// import tachyons from 'tachyons'
+
 export default {
   data () {
     return {
@@ -19,6 +21,7 @@ export default {
 }
 </script>
 
+<style src='tachyons/css/tachyons.min.css'></style>
 <style>
 @font-face {
   font-family: 'Happy Times';
@@ -31,7 +34,7 @@ export default {
   src: url('static/fonts/happy-times-at-the-ikob_italic-webfont.woff2') format('woff2'),
        url('static/fonts/happy-times-at-the-ikob_italic-webfont.woff') format('woff');
 }
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     html{font-size: 12px;}
   }
   @media (min-width: 992px) {
@@ -39,11 +42,16 @@ export default {
   }
   @media (min-width: 1200px) {
     html{font-size: 16px;}
-  }
+  } */
 
 *{
   box-sizing: border-box;
   vertical-align: baseline;
+}
+
+:root {
+  --main-red: #f05;
+  --main-slate: #5a6b70;
 }
 
 html{
@@ -65,6 +73,7 @@ html, body, div, span, object, iframe, h1, h2, h3, .splash, .error, h4, h5, h6, 
 img {
   max-width: 100%;
   height: auto;
+  cursor: zoom-in;
 }
 
 #app {
@@ -85,7 +94,7 @@ img {
 }
 
 a {
-  color: #799299;
+  color: var(--main-slate);
   text-decoration: none;
   font-size: 1.5rem;
 }

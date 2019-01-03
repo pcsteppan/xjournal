@@ -4,6 +4,7 @@
     {{artistName}}, {{yearMade}}<br/>
     <span class="italic">{{artworkTitle}}</span>
     </p>
+    <p class="tr f6">{{pageNumber}}</p>
     <section class="image-container" :class="layout">
       <img
         v-for="(data, key) in imagesrcsandsrcsets"
@@ -23,6 +24,10 @@ export default {
     artwork: {
       required: true,
       type: Object
+    },
+    pageNumber: {
+      require: true,
+      type: Number
     }
   },
 
@@ -69,14 +74,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .artwork-container{
     width: 100vw;
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: auto 1fr;
     position: relative;
-    height: calc(100vh - 4.5rem);
+    /* height: calc(100vh - 4.5rem); */
   }
   .image-container{
     display: grid;
@@ -102,11 +107,13 @@ export default {
     }
     section.image-container.dyptych{
       grid-template-columns: repeat(4, 1fr);
-      grid-gap: 10px;
+      grid-gap: 2px;
     }
-  }
-  @media (min-width: 992px) {
-  }
-  @media (min-width: 1200px) {
+    section.image-container.dyptych > img{
+      grid-column: 3 / 5;
+    }
+    section.image-container.dyptych:first-child {
+      grid-column: 1 / 3;
+    }
   }
 </style>
