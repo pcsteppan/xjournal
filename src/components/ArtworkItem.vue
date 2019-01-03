@@ -4,8 +4,7 @@
     {{artistName}}, {{yearMade}}<br/>
     <span class="italic">{{artworkTitle}}</span>
     </p>
-    <p class="tr f6">{{pageNumber}}</p>
-    <section class="image-container" :class="layout">
+    <section class="image-container mh-100" :class="layout">
       <img
         v-for="(data, key) in imagesrcsandsrcsets"
         :srcset="data.srcset"

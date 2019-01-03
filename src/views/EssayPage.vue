@@ -1,6 +1,6 @@
 <template>
   <div id="essay--wrapper" class="flex-ns justify-center ma1 mr3 ml3">
-    <div id="essay--display-wrapper" class="fl-ns f6 w-50-ns lh-display">
+    <div id="essay--display-wrapper" class="fl-ns f7 w-50-ns lh-display">
       <h1 class="measure-narrow">
         Beholder, or Beholden?<br/>
         What We Bring to Art and What We
