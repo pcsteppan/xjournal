@@ -1,12 +1,13 @@
 <template>
   <section class="artwork-container">
-    <p class="artwork-info">
+    <p class="artwork-info serif">
     {{artistName}}, {{yearMade}}<br/>
-    <span class="italic">{{artworkTitle}}</span>
+    <span class="serif i">{{artworkTitle}}</span>
     </p>
-    <section class="image-container mh-100" :class="layout">
+    <section class="image-container" :class="layout">
       <img
         v-for="(data, key) in imagesrcsandsrcsets"
+        class="z-2 mh-100"
         :srcset="data.srcset"
         :sizes="data.sizes"
         :key="key"
@@ -67,7 +68,7 @@ export default {
       return this.artwork.yearMade
     },
     layout () {
-      return 'dyptych'
+      return this.images.length === 1 ? 'mono' : 'dyptych'
     }
   }
 }
@@ -89,13 +90,10 @@ export default {
   }
   .artwork-info {
     font-size: 0.75rem;
-    font-family: 'Happy Times';
+    /* font-family: 'Happy Times'; */
     line-height: 1rem;
     border-top: 1px solid orangered;
     padding-bottom: 1rem;
-  }
-  .italic{
-    font-family: 'Happy Times Italic'
   }
   @media (min-width: 768px) {
     .artwork-container{
@@ -104,15 +102,30 @@ export default {
       grid-gap: 5vw;
       width: 100%;
     }
-    section.image-container.dyptych{
+    section.image-container.dyptych, section.image-container.mono{
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 2px;
+      max-height: calc(100vh - 4rem - 4rem);
     }
-    section.image-container.dyptych > img{
-      grid-column: 3 / 5;
+
+    section.image-container > img {
+      justify-self: center;
+      max-height: 100%;
     }
-    section.image-container.dyptych:first-child {
-      grid-column: 1 / 3;
+
+    section.image-container.dyptych > img {
+      grid-column: 3 / span 2;
+      justify-self: start;
+      z-index: 2;
+    }
+    section.image-container.dyptych>img:first-child {
+      grid-column: 1 / span 2;
+      justify-self: end;
+    }
+
+    section.image-container.mono > img{
+      grid-column: 2 / span 2;
+      justify-self: center;
     }
   }
 </style>

@@ -24,7 +24,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "1"
     },
     "GqIGeVsFi1" : {
       "title" : "Freedom",
@@ -45,7 +46,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "2"
     },
     "tH2ekoy8dP" : {
       "title" : "Anhedonia",
@@ -66,7 +68,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "3"
     },
     "9pq4LtfMaO" : {
       "title" : "Buoy",
@@ -84,7 +87,11 @@
           "url" : "Buoy.jpg",
           "type" : "Primary"
         }
-      }
+      },
+      "issueIds" : {
+        "1" : "1"
+      },
+      "pageNumber" : "4"
     },
     "0Zp8Ff5Lgu" : {
       "title" : "Avolition",
@@ -105,7 +112,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "5"
     },
     "UUfMkCJRvT" : {
       "title" : "Burst Obstruction 1",
@@ -126,7 +134,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "6"
     },
     "PqII3FdA6y" : {
       "title" : "Heart and Vines",
@@ -147,7 +156,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "7"
     },
     "ghz72CQwZP" : {
       "title" : "Bauhaus book cover",
@@ -168,7 +178,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "8"
     },
     "P6JG9pBvvV" : {
       "title" : "Run to the 606",
@@ -189,7 +200,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "9"
     },
     "NqmJXim7J2" : {
       "title" : "Mt. Kailash",
@@ -210,7 +222,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "10"
     },
     "CXqnhmOJ5R" : {
       "title" : "Abstract",
@@ -231,7 +244,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "11"
     },
     "CN1hbIsVC9" : {
       "title" : "Blonde",
@@ -260,7 +274,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "12"
     },
     "1PISwhZCje" : {
       "title" : "Entwined",
@@ -281,7 +296,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "13"
     },
     "vxcPqySzOG" : {
       "title" : "Sneaker Guys website",
@@ -306,7 +322,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "14"
     },
     "QosgtOeWNE" : {
       "title" : "The Catepillar's Escape",
@@ -331,7 +348,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "15"
     },
     "XmtFgQ7q6p" : {
       "title" : "Grandmother",
@@ -352,7 +370,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "16"
     },
     "Jx6WLxGIga" : {
       "title" : "Tear the Rock",
@@ -373,7 +392,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "17"
     },
     "E9UWjRmE2F" : {
       "title" : "Loose",
@@ -394,7 +414,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "18"
     },
     "ewikKVFPvy" : {
       "title" : "On My Back Porch",
@@ -415,7 +436,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "19"
     },
     "4mwM1KYyja" : {
       "title" : "Reflected Lace",
@@ -436,7 +458,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "20"
     },
     "7hxCWUXIYu" : {
       "title" : "Die Schwarze Sonne",
@@ -457,7 +480,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "21"
     },
     "2vZPNrY5Bo" : {
       "title" : "Grandmother's Tale",
@@ -490,7 +514,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "22"
     },
     "wmiFf8hVcN" : {
       "title" : "Sunsaan",
@@ -515,7 +540,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "23"
     },
     "daZpsESSuN" : {
       "title" : "Therapy 1",
@@ -536,7 +562,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "24"
     },
     "ghrodEtZ73" : {
       "title" : "Therapy 2",
@@ -557,7 +584,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "25"
     },
     "2C38GCWD6k" : {
       "title" : "Avolition",
@@ -578,7 +606,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "26"
     },
     "FKIei8YLxr" : {
       "title" : "Collaged Perspective",
@@ -599,7 +628,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "27"
     },
     "H3sidBGlHy" : {
       "title" : "Untitled",
@@ -620,7 +650,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "28"
     },
     "xX8VijsRPA" : {
       "title" : "Untitled",
@@ -646,7 +677,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "29"
     },
     "9t6z3CSEeD" : {
       "title" : "Neon Loop",
@@ -667,7 +699,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "30"
     },
     "kfk3xg3U1W" : {
       "title" : "\"Mom I don't WANT to be at IKEA\"",
@@ -688,7 +721,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "31"
     },
     "ehRebD5fyD" : {
       "title" : "Charlie and Effie",
@@ -709,7 +743,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "32"
     },
     "6duzzezcQr" : {
       "title" : "Excuse Me",
@@ -730,7 +765,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "33"
     },
     "AhUU3hc2xl" : {
       "title" : "Backwaters of Kerala",
@@ -751,7 +787,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "34"
     },
     "uJPJmm8QDB" : {
       "title" : "Character movements from Save the Forest",
@@ -772,7 +809,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "35"
     },
     "dlu2MjAfWO" : {
       "title" : "Border Wall 2",
@@ -793,7 +831,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "36"
     },
     "EgUJhwECIq" : {
       "title" : "Three plants",
@@ -814,7 +853,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "37"
     },
     "K3OwKN1XI2" : {
       "title" : "Reflection II",
@@ -835,7 +875,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "38"
     },
     "jY8CvRUsxf" : {
       "title" : "Small Payne's Gray Drawing #1",
@@ -856,7 +897,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "39"
     },
     "CBjM1gBykR" : {
       "title" : "The 15th floor of St. Mary's",
@@ -877,7 +919,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "40"
     },
     "aqJ6vRJip5" : {
       "title" : "Border Wall 1",
@@ -898,7 +941,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "41"
     },
     "dR6CC4MWQK" : {
       "title" : "We Live in This Field",
@@ -919,7 +963,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "42"
     },
     "wSMys5HWeI" : {
       "title" : "Silent Chaos",
@@ -940,7 +985,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "43"
     },
     "1vvHM7vVr6" : {
       "title" : "The Scream",
@@ -961,7 +1007,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "44"
     },
     "WAZ7Zy9dfB" : {
       "title" : "Organic Linear 1",
@@ -983,7 +1030,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "45"
     },
     "lU8K8eBl98" : {
       "title" : "Drown",
@@ -1008,7 +1056,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "46"
     },
     "wI3xvO0NHP" : {
       "title" : "Smudged",
@@ -1029,7 +1078,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "47"
     },
     "Tc0mxjVZug" : {
       "title" : "Brambles",
@@ -1050,7 +1100,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "48"
     },
     "htkErj7UDX" : {
       "title" : "Escape",
@@ -1087,7 +1138,8 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "49"
     },
     "U7K2kGh5pc" : {
       "title" : "Rosenrot",
@@ -1108,153 +1160,155 @@
       },
       "issueIds" : {
         "1" : "1"
-      }
+      },
+      "pageNumber" : "50"
     }
   },
   "artists" : {
     "vezLEEm8w3" : {
       "name" : "Danay Barrera",
       "artworks" : "",
-      "gradiationYear" : "2021"
+      "graduationYear" : "2021"
     },
     "befWs1GQsf" : {
       "name" : "Alexandra Bird",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "LX5KhFpFge" : {
       "name" : "Shifa Dandia",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "Qo54vuwMVd" : {
       "name" : "Jinglun Ding",
       "artworks" : "",
-      "gradiationYear" : "2017"
+      "graduationYear" : "2017"
     },
     "mKOsPKWBSV" : {
       "name" : "Evan Economos",
       "artworks" : "",
-      "gradiationYear" : "2019"
+      "graduationYear" : "2019"
     },
     "eWRCo5EBek" : {
       "name" : "Ryan Foxall",
       "artworks" : "",
-      "gradiationYear" : "2017"
+      "graduationYear" : "2017"
     },
     "9NWCtZ6CqB" : {
       "name" : "Sachika Goel",
       "artworks" : "",
-      "gradiationYear" : "2020"
+      "graduationYear" : "2020"
     },
     "gQYeXuB2KH" : {
       "name" : "Ben Hosto",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "WpxPpYxpkU" : {
       "name" : "Jini John",
       "artworks" : "",
-      "gradiationYear" : "2020"
+      "graduationYear" : "2020"
     },
     "EDTpduDalL" : {
       "name" : "Minnie Kang",
       "artworks" : "",
-      "gradiationYear" : "2021"
+      "graduationYear" : "2021"
     },
     "BUw4qqrEkX" : {
       "name" : "Haider Khan",
       "artworks" : "",
-      "gradiationYear" : "2020"
+      "graduationYear" : "2020"
     },
     "WUdSdgPpE6" : {
       "name" : "Mara Lane",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "N7VqeDJR1A" : {
       "name" : "Sam Lisec",
       "artworks" : "",
-      "gradiationYear" : "2021"
+      "graduationYear" : "2021"
     },
     "fNtawUW02I" : {
       "name" : "Emma Lister",
       "artworks" : "",
-      "gradiationYear" : "2017"
+      "graduationYear" : "2017"
     },
     "lH3dv6oRiE" : {
       "name" : "Kristen Marvin",
       "artworks" : "",
-      "gradiationYear" : "2017"
+      "graduationYear" : "2017"
     },
     "8CUW9uboqH" : {
       "name" : "Kristina Mengis",
       "artworks" : "",
-      "gradiationYear" : "2017"
+      "graduationYear" : "2017"
     },
     "xWbyyJUkhx" : {
       "name" : "Billy Nguyen",
       "artworks" : "",
-      "gradiationYear" : "2020"
+      "graduationYear" : "2020"
     },
     "dDtqNisB12" : {
       "name" : "Utsah Pandey",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "5AbeqXu50S" : {
       "name" : "Olivia Peterson",
       "artworks" : "",
-      "gradiationYear" : "2019"
+      "graduationYear" : "2019"
     },
     "eESoUpjgF7" : {
       "name" : "David Petrak",
       "artworks" : "",
-      "gradiationYear" : "2019"
+      "graduationYear" : "2019"
     },
     "imo7wqF6pk" : {
       "name" : "Arthur Santoro",
       "artworks" : "",
-      "gradiationYear" : "2021"
+      "graduationYear" : "2021"
     },
     "bYV8rjw1du" : {
       "name" : "Madeline Simms",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "HGQXNL66i7" : {
       "name" : "Salvador Solis",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "JrgCdZBT4k" : {
       "name" : "Patrick Steppan",
       "artworks" : "",
-      "gradiationYear" : "2020"
+      "graduationYear" : "2020"
     },
     "9gW8S7G00r" : {
       "name" : "Nola Thompson",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "Mo2Wr2LzT1" : {
       "name" : "Teddy Turner",
       "artworks" : "",
-      "gradiationYear" : "2018"
+      "graduationYear" : "2018"
     },
     "jrLfN78muX" : {
       "name" : "Andrea Volpe",
-      "artworks" : "2018"
+      "artworks" : "",
+      "graduationYear" : "2018"
     },
     "kJPaoGdO6c" : {
       "name" : "Sidath Wanigasinghe",
       "artworks" : "",
-      "gradiationYear" : "2017"
+      "graduationYear" : "2017"
     },
     "fA0OOtlNRB" : {
       "name" : "Anabelen Zuniga",
       "artworks" : "",
-      "gradiationYear" : "2019"
+      "graduationYear" : "2019"
     }
   }
 }

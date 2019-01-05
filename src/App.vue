@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <nav id="nav">
-      <router-link to="/">x journal</router-link>
-      <router-link class="not-exact" to="/issue/1">issue 1</router-link>
-      <router-link to="/about">about</router-link>
+      <router-link class="hover-red gray link f5 f3-ns serif" to="/">x journal</router-link>
+      <router-link class="hover-red gray link f5 f3-ns serif" to="/about">about</router-link>
+      <router-link class="hover-red gray link f5 f3-ns serif" to="/issue/1">issue 1</router-link>
+      <router-link class="hover-red gray link f5 f3-ns serif" to="/submit">submit</router-link>
     </nav>
     <router-view/>
   </div>
@@ -21,9 +22,9 @@ export default {
 }
 </script>
 
-<style src='tachyons/css/tachyons.min.css'></style>
+<style src='tachyons/css/tachyons.css'></style>
 <style>
-@font-face {
+/* @font-face {
   font-family: 'Happy Times';
   src: url('static/fonts/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
        url('static/fonts/happy-times-at-the-ikob-webfont.woff') format('woff');
@@ -33,7 +34,7 @@ export default {
   font-family: 'Happy Times Italic';
   src: url('static/fonts/happy-times-at-the-ikob_italic-webfont.woff2') format('woff2'),
        url('static/fonts/happy-times-at-the-ikob_italic-webfont.woff') format('woff');
-}
+} */
   /* @media (min-width: 768px) {
     html{font-size: 12px;}
   }
@@ -47,6 +48,7 @@ export default {
 *{
   box-sizing: border-box;
   vertical-align: baseline;
+  font-variant-numeric: oldstyle-nums;
 }
 
 :root {
@@ -72,12 +74,12 @@ html, body, div, span, object, iframe, h1, h2, h3, .splash, .error, h4, h5, h6, 
 
 img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
   cursor: zoom-in;
 }
 
 #app {
-  font-family: 'Happy Times', 'Happy Times Italic', Helvetica, Arial, sans-serif;
+  /* font-family: georgia, 'Happy Times', 'Happy Times Italic', Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -90,20 +92,6 @@ img {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-}
-
-a {
-  color: var(--main-slate);
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-#nav a.router-link-exact-active {
-  color: #311;
-}
-
-#nav a.router-link-active.not-exact {
-  color: #311;
+  grid-template-columns: repeat(4, 1fr);
 }
 </style>

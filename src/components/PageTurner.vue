@@ -9,7 +9,7 @@
   .page-turner {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 5rem);
     z-index:1;
   }
   .page-turner--left, .page-turner--right {

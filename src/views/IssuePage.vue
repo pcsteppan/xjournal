@@ -1,26 +1,28 @@
 <template>
   <div class="issue-container">
     <PageTurner
-      v-if="artworkIndex"
+      v-if="isArtwork"
       @turn-left="swipeRight"
       @turn-right="swipeLeft"
       />
     <ArtworkItem
-      v-if="artworkIndex"
+      v-if="isArtwork"
       v-touch="touch"
       :artwork="currentArtwork"
       :pageNumber="artworkIndex">
     </ArtworkItem>
     <section v-else id="issue-nav-wrapper">
       <nav id="issue-nav">
-        <ul>
+        <ul class="lh-copy list">
           <li>
-            <router-link to="./1/essay">essay</router-link></li>
+            <router-link class="link gray serif f3 hover-red" to="./1/essay">essay</router-link></li>
           <li>
-            <router-link to="./1/1">artwork</router-link>
+            <router-link class="link gray serif f3 hover-red" to="./1/1">artwork</router-link>
           </li>
-          <li>artists</li>
-          <li>info</li>
+            <router-link class="link gray serif f3 hover-red" to="./1/artists">artists</router-link>
+          <li>
+            <router-link class="link gray serif f3 hover-red" to="./1/colophon">colophon</router-link>
+          </li>
         </ul>
       </nav>
     </section>
@@ -75,6 +77,10 @@ export default {
       return Number(this.artworkIndex)
     },
 
+    isArtwork () {
+      return !isNaN(this.artworkIndexN) // === 'number'
+    },
+
     touch () {
       return {
         methods: true
@@ -118,8 +124,5 @@ export default {
   }
   #issue-nav{
     grid-area: 2 / 2;
-  }
-  li {
-    font-size: 1.5rem;
   }
 </style>
