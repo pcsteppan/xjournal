@@ -1,24 +1,29 @@
 <template>
-  <ul class="ma3 w-100 serif pa0 mla mra">
-  <li
-    v-for="artistId in artistIds"
-    v-bind:key="artistId"
-    class="lh-copy cb w-50-ns pt4">
-    <p class="f6 f5-ns fl tl w-40">
-      {{artistName(artistId)}}
-    </p>
-    <ul>
-      <router-link
-        class="fr cr w-60 pl2"
-        v-for="artwork in artistsWorks(artistId)"
-        v-bind:key="artwork"
-        :to="{path:`${artwork.pageNumber}`}"
-        tag="li">
-        <a class="f6 f5-ns">{{artwork.title}}</a>
-      </router-link>
+  <section class="bg-red">
+    <ul class="fr ma0 w-75 w-50-ns serif pa0 white ttl">
+      <li
+        v-for="artistId in artistIds"
+        v-bind:key="artistId"
+        class="fl lh-copy cb w-100 mt4 bt artist-wrapper"
+      >
+        <p class="f5 f3-ns fl tl w-40">{{artistName(artistId)}}</p>
+        <ul>
+          <router-link
+            class="fr cr w-50 pl2"
+            v-for="artwork in artistsWorks(artistId)"
+            v-bind:key="artwork"
+            :to="{path:`${artwork.pageNumber}`}"
+            tag="li"
+          >
+            <a class="f6 f5-ns white link">
+              <span class="small-caps ">{{artwork.yearMade}}</span>
+              &nbsp;{{artwork.title}}
+            </a>
+          </router-link>
+        </ul>
+      </li>
     </ul>
-  </li>
-  </ul>
+  </section>
 </template>
 
 <script>
@@ -48,12 +53,15 @@ export default {
 </script>
 
 <style>
-  @media screen and (min-width: 30em){
-    .col-2-ns {
-      columns: 2 auto;
-    }
+@media screen and (min-width: 30em) {
+  .col-2-ns {
+    columns: 2 auto;
   }
-  /* .o > p:nth-child(2) {
+}
+.artist-wrapper {
+  min-height: 4rem;
+}
+/* .o > p:nth-child(2) {
     text-decoration: overline;
   } */
 </style>

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Face from './views/Face.vue'
+import CoverPage from './views/CoverPage.vue'
 import IssuePage from './views/IssuePage.vue'
 import ArtistsPage from './views/ArtistsPage.vue'
 
@@ -10,11 +10,11 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'Issue Page',
-    //   component: IssuePage
-    // },
+    {
+      path: '/',
+      name: 'Cover',
+      component: CoverPage
+    },
     {
       path: '/about',
       name: 'about',

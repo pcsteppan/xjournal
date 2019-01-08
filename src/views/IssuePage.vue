@@ -26,11 +26,19 @@
         </ul>
       </nav>
     </section>
-    <!-- <p
-      v-if="artworkIndex"
-      class="absolute bottom-0 left-50 pa1 w-100 center tc">
-      {{artworkIndex}}
-    </p> -->
+    <!--preloading-->
+    <div
+      v-if="isArtwork"
+      class="dn">
+      <ArtworkItem
+        :artwork="previousArtwork"
+        :pageNumber="(artworkIndexN-1).toString()">
+      </ArtworkItem>
+      <ArtworkItem
+        :artwork="nextArtwork"
+        :pageNumber="(artworkIndexN+1).toString()">
+      </ArtworkItem>
+    </div>
   </div>
 </template>
 
@@ -69,8 +77,16 @@ export default {
       // TODO: add issue filtering
     },
 
+    previousArtwork () {
+      return this.artworks[this.artworkIndexN - 2]
+    },
+
     currentArtwork () {
       return this.artworks[this.artworkIndexN - 1]
+    },
+
+    nextArtwork () {
+      return this.artworks[this.artworkIndexN]
     },
 
     artworkIndexN () {
@@ -78,7 +94,7 @@ export default {
     },
 
     isArtwork () {
-      return !isNaN(this.artworkIndexN) // === 'number'
+      return !isNaN(this.artworkIndexN)
     },
 
     touch () {
