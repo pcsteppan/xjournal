@@ -1,9 +1,11 @@
 <template>
   <section class="artwork-container">
-    <p class="artwork-info serif">
+    <div class="w-100">
+    <p class="artwork-info serif bt b--red fr w-50 f7 lh-copy">
     {{artistName}}, {{yearMade}}<br/>
     <span class="serif i">{{artworkTitle}}</span>
     </p>
+    </div>
     <section class="image-container" :class="layout">
       <img
         v-for="(data, key) in imagesrcsandsrcsets"
@@ -56,7 +58,7 @@ export default {
         })
     },
     intendedImageWidth () {
-      return '100vw'
+      return '50vw'
     },
     artistName () {
       return sourceData.artists[Object.values(this.artwork.artistIds)[0]].name
@@ -68,7 +70,14 @@ export default {
       return this.artwork.yearMade
     },
     layout () {
-      return this.images.length === 1 ? 'mono' : 'dyptych'
+      switch (this.images.length) {
+        case 1:
+          return 'mono'
+        case 2:
+          return 'dyptych'
+        default:
+          return 'collection'
+      }
     }
   }
 }
@@ -88,21 +97,13 @@ export default {
     grid-auto-rows: auto;
     grid-gap: 10px;
   }
-  .artwork-info {
-    font-size: 0.75rem;
-    /* font-family: 'Happy Times'; */
-    line-height: 1rem;
-    border-top: 1px solid orangered;
-    padding-bottom: 1rem;
-  }
   @media (min-width: 768px) {
     .artwork-container{
-      padding: 0 2.5vw;
-      grid-template-columns: 10vw 1fr 10vw;
-      grid-gap: 5vw;
+      /* padding: 0 2.5vw; */
+      grid-template-columns: 25vw 50vw 25vw;
       width: 100%;
     }
-    section.image-container.dyptych, section.image-container.mono{
+    section.image-container{
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 2px;
       max-height: calc(100vh - 4rem - 4rem);
@@ -118,8 +119,17 @@ export default {
       justify-self: start;
       z-index: 2;
     }
-    section.image-container.dyptych>img:first-child {
+
+    section.image-container.collection > img {
+      grid-column: 4 / span 1;
+      justify-self: start;
+      z-index: 2;
+    }
+
+    section.image-container.dyptych>img:first-child,
+    section.image-container.collection>img:first-child {
       grid-column: 1 / span 2;
+      grid-row: 1 / span 2;
       justify-self: end;
     }
 

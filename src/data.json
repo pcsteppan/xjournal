@@ -93,28 +93,6 @@
       },
       "pageNumber" : "4"
     },
-    "0Zp8Ff5Lgu" : {
-      "title" : "Avolition",
-      "yearMade" : "2017",
-      "description" : "Fabric, wood, fencing, dog collar, canvas, gauze, gesso, cotton batting, thread, and oil",
-      "size" : {
-        "width" : "85\"",
-        "height" : "35\""
-      },
-      "artistIds" : {
-        "8CUW9uboqH" : "8CUW9uboqH"
-      },
-      "images" : {
-        "Avolition.jpg" : {
-          "url" : "Avolition.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "5"
-    },
     "UUfMkCJRvT" : {
       "title" : "Burst Obstruction 1",
       "yearMade" : "2017",
@@ -135,7 +113,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "6"
+      "pageNumber" : "5"
     },
     "PqII3FdA6y" : {
       "title" : "Heart and Vines",
@@ -157,7 +135,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "7"
+      "pageNumber" : "6"
     },
     "ghz72CQwZP" : {
       "title" : "Bauhaus book cover",
@@ -179,7 +157,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "8"
+      "pageNumber" : "7"
     },
     "P6JG9pBvvV" : {
       "title" : "Run to the 606",
@@ -201,7 +179,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "9"
+      "pageNumber" : "8"
     },
     "NqmJXim7J2" : {
       "title" : "Mt. Kailash",
@@ -223,7 +201,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "10"
+      "pageNumber" : "9"
     },
     "CXqnhmOJ5R" : {
       "title" : "Abstract",
@@ -245,7 +223,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "11"
+      "pageNumber" : "10"
     },
     "CN1hbIsVC9" : {
       "title" : "Blonde",
@@ -275,7 +253,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "12"
+      "pageNumber" : "11"
     },
     "1PISwhZCje" : {
       "title" : "Entwined",
@@ -297,7 +275,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "13"
+      "pageNumber" : "12"
     },
     "vxcPqySzOG" : {
       "title" : "Sneaker Guys website",
@@ -323,7 +301,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "14"
+      "pageNumber" : "13"
     },
     "QosgtOeWNE" : {
       "title" : "The Catepillar's Escape",
@@ -349,7 +327,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "15"
+      "pageNumber" : "14"
     },
     "XmtFgQ7q6p" : {
       "title" : "Grandmother",
@@ -371,7 +349,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "16"
+      "pageNumber" : "15"
     },
     "Jx6WLxGIga" : {
       "title" : "Tear the Rock",
@@ -393,7 +371,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "17"
+      "pageNumber" : "16"
     },
     "E9UWjRmE2F" : {
       "title" : "Loose",
@@ -415,7 +393,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "18"
+      "pageNumber" : "17"
     },
     "ewikKVFPvy" : {
       "title" : "On My Back Porch",
@@ -437,7 +415,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "19"
+      "pageNumber" : "18"
     },
     "4mwM1KYyja" : {
       "title" : "Reflected Lace",
@@ -459,7 +437,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "20"
+      "pageNumber" : "19"
     },
     "7hxCWUXIYu" : {
       "title" : "Die Schwarze Sonne",
@@ -481,7 +459,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "21"
+      "pageNumber" : "20"
     },
     "2vZPNrY5Bo" : {
       "title" : "Grandmother's Tale",
@@ -515,7 +493,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "22"
+      "pageNumber" : "21"
     },
     "wmiFf8hVcN" : {
       "title" : "Sunsaan",
@@ -541,7 +519,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "23"
+      "pageNumber" : "22"
     },
     "daZpsESSuN" : {
       "title" : "Therapy 1",
@@ -563,7 +541,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "24"
+      "pageNumber" : "23"
     },
     "ghrodEtZ73" : {
       "title" : "Therapy 2",
@@ -585,7 +563,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "25"
+      "pageNumber" : "24"
     },
     "2C38GCWD6k" : {
       "title" : "Avolition",
@@ -607,7 +585,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "26"
+      "pageNumber" : "25"
     },
     "FKIei8YLxr" : {
       "title" : "Collaged Perspective",
@@ -629,7 +607,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "27"
+      "pageNumber" : "26"
     },
     "H3sidBGlHy" : {
       "title" : "Untitled",
@@ -651,7 +629,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "28"
+      "pageNumber" : "27"
     },
     "xX8VijsRPA" : {
       "title" : "Untitled",
@@ -678,7 +656,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "29"
+      "pageNumber" : "28"
     },
     "9t6z3CSEeD" : {
       "title" : "Neon Loop",
@@ -700,7 +678,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "30"
+      "pageNumber" : "29"
     },
     "kfk3xg3U1W" : {
       "title" : "\"Mom I don't WANT to be at IKEA\"",
@@ -722,7 +700,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "31"
+      "pageNumber" : "30"
     },
     "ehRebD5fyD" : {
       "title" : "Charlie and Effie",
@@ -744,7 +722,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "32"
+      "pageNumber" : "31"
     },
     "6duzzezcQr" : {
       "title" : "Excuse Me",
@@ -766,7 +744,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "33"
+      "pageNumber" : "32"
     },
     "AhUU3hc2xl" : {
       "title" : "Backwaters of Kerala",
@@ -788,7 +766,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "34"
+      "pageNumber" : "33"
     },
     "uJPJmm8QDB" : {
       "title" : "Character movements from Save the Forest",
@@ -810,7 +788,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "35"
+      "pageNumber" : "34"
     },
     "dlu2MjAfWO" : {
       "title" : "Border Wall 2",
@@ -832,7 +810,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "36"
+      "pageNumber" : "35"
     },
     "EgUJhwECIq" : {
       "title" : "Three plants",
@@ -854,7 +832,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "37"
+      "pageNumber" : "36"
     },
     "K3OwKN1XI2" : {
       "title" : "Reflection II",
@@ -876,7 +854,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "38"
+      "pageNumber" : "37"
     },
     "jY8CvRUsxf" : {
       "title" : "Small Payne's Gray Drawing #1",
@@ -898,7 +876,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "39"
+      "pageNumber" : "38"
     },
     "CBjM1gBykR" : {
       "title" : "The 15th floor of St. Mary's",
@@ -920,7 +898,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "40"
+      "pageNumber" : "39"
     },
     "aqJ6vRJip5" : {
       "title" : "Border Wall 1",
@@ -942,7 +920,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "41"
+      "pageNumber" : "40"
     },
     "dR6CC4MWQK" : {
       "title" : "We Live in This Field",
@@ -964,7 +942,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "42"
+      "pageNumber" : "41"
     },
     "wSMys5HWeI" : {
       "title" : "Silent Chaos",
@@ -986,7 +964,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "43"
+      "pageNumber" : "42"
     },
     "1vvHM7vVr6" : {
       "title" : "The Scream",
@@ -1008,7 +986,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "44"
+      "pageNumber" : "43"
     },
     "WAZ7Zy9dfB" : {
       "title" : "Organic Linear 1",
@@ -1031,7 +1009,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "45"
+      "pageNumber" : "44"
     },
     "lU8K8eBl98" : {
       "title" : "Drown",
@@ -1057,7 +1035,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "46"
+      "pageNumber" : "45"
     },
     "wI3xvO0NHP" : {
       "title" : "Smudged",
@@ -1079,7 +1057,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "47"
+      "pageNumber" : "46"
     },
     "Tc0mxjVZug" : {
       "title" : "Brambles",
@@ -1101,7 +1079,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "48"
+      "pageNumber" : "47"
     },
     "htkErj7UDX" : {
       "title" : "Escape",
@@ -1139,7 +1117,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "49"
+      "pageNumber" : "48"
     },
     "U7K2kGh5pc" : {
       "title" : "Rosenrot",
@@ -1161,7 +1139,7 @@
       "issueIds" : {
         "1" : "1"
       },
-      "pageNumber" : "50"
+      "pageNumber" : "49"
     }
   },
   "artists" : {

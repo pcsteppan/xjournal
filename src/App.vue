@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <nav id="nav">
-      <router-link class="hover-red near-black link f5 f3-ns serif" to="/">x journal</router-link>
-      <router-link class="hover-red near-black link f5 f3-ns serif" to="/about">about</router-link>
-      <router-link class="hover-red near-black link f5 f3-ns serif" to="/issue/1">issue 1</router-link>
-      <router-link class="hover-red near-black link f5 f3-ns serif" to="/submit">submit</router-link>
+      <router-link class="hover-red near-black link f5 f4-ns serif" to="/">x journal</router-link>
+      <router-link class="hover-red near-black link f5 f4-ns serif" to="/about">about</router-link>
+      <router-link class="hover-red near-black link f5 f4-ns serif" to="/issue/1">issue 1</router-link>
+      <router-link class="hover-red near-black link f5 f4-ns serif" to="/submit">submit</router-link>
     </nav>
     <router-view/>
   </div>

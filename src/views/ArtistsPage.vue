@@ -16,8 +16,8 @@
             tag="li"
           >
             <a class="f6 f5-ns white link">
-              <span class="small-caps ">{{artwork.yearMade}}</span>
-              &nbsp;{{artwork.title}}
+              <span class="fl w-20 db">{{artwork.yearMade}}</span>
+              &nbsp;<span class="fl w-70 db">{{artwork.title}}</span>
             </a>
           </router-link>
         </ul>
