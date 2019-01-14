@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <nav id="nav">
-      <router-link class="hover-red near-black link f5 f4-ns serif" to="/">x journal</router-link>
-      <router-link class="hover-red near-black link f5 f4-ns serif" to="/about">about</router-link>
-      <router-link class="hover-red near-black link f5 f4-ns serif" to="/issue/1">issue 1</router-link>
-      <router-link class="hover-red near-black link f5 f4-ns serif" to="/submit">submit</router-link>
+      <router-link class="hover-red black-70 link f6 f5-m f4-l serif" :active-class="red" to="/">x journal</router-link>
+      <router-link class="hover-red black-70 link f6 f5-m f4-l serif" :active-class="red" to="/about">about</router-link>
+      <router-link class="hover-red black-70 link f6 f5-m f4-l serif" :active-class="red" to="/issue/1">issue 1</router-link>
+      <router-link class="hover-red black-70 link f6 f5-m f4-l serif" :active-class="red" to="/submit">submit</router-link>
     </nav>
     <router-view/>
   </div>
@@ -47,15 +47,6 @@ export default {
 *{
   box-sizing: border-box;
   vertical-align: baseline;
-  font-variant-numeric: oldstyle-nums diagonal-fractions;
-  -moz-font-feature-settings: "onum" "frac";
-  -webkit-font-feature-settings: "onum" "frac";
-  font-feature-settings: "onum" "frac";
-}
-
-:root {
-  --main-red: #f05;
-  --main-slate: #5a6b70;
 }
 
 html{
@@ -88,12 +79,15 @@ img {
   position: relative;
   display: grid;
   grid-template-rows: 1.5rem 1fr;
-  grid-row-gap: 3rem;
+  grid-row-gap: 1.5rem;
 }
 #nav {
   position: relative;
   z-index: 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+#nav a.router-link-active{
+  font-style: italic;
 }
 </style>

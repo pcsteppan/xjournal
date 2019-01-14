@@ -5,7 +5,7 @@
       <h1 id="title" class="f3 f2-ns lh-display">Beholder, or Beholden?
 What We Bring to Art and What We
 Come Away With</h1>
-      <span class="author i f6">Nicholas Nurre, ’18</span>
+      <span class="author i f7 f6-ns"><span class="ttl small-caps">Nicholas Nurre,</span> ’18</span>
       <div id="essay--body-wrapper" class="w-100-ns lh-copy sans-serif f5 f4-ns">
         <p
           class="measure pb4"
@@ -26,7 +26,8 @@ Come Away With</h1>
           class="measure pb4"
         >As a closing thought, I’d like to consider the images enclosed in this journal and the types of looks we might bring to bear as readers. As members of the Knox community, we might look through the book with a special affection, relishing the talent of our classmates. At the same time, holding the book physically in hand might turn the thing into a “page-turner,” as we feverishly rifle through the pages with a greedy desire to run our eyes over the entire collection in an instant. I would propose, however, a different kind of look. Instead of simply searching for your friends, try looking at these pieces slowly, letting them suggest a way of looking through their visual form. Rather than recognizing a name, look to understand the visual inspirations that drew the artist to create. Our contributing artists have given us a profound collection of works, but they cannot be actualized without our loving scrutiny. And so, I invite you to examine these artworks with an attitude of patience and curiosity. Much like our eponymous “X,” they might contain more than you expect.</p>
       </div>
-    <a class="f6 link dim ph3 pv2 mb2 dib white bg-black serif" href="#0" v-on:click="resetScrollToTop">top</a>
+    <hr/>
+    <a class="f6 link dim ph3 pv2 mb2 dib white bg-black serif fr" href="#0" v-on:click="resetScrollToTop">top</a>
     </div>
   </div>
 </template>

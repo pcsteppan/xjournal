@@ -709,8 +709,17 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
-.sans-serif { font-family: pragmatica, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
-.serif { font-family: plantin, "Times New Roman", times, georgia, serif; }
+
+.sans-serif, .serif{
+  font-variant-numeric: oldstyle-nums diagonal-fractions, common-ligatures;
+  -moz-font-feature-settings: "liga", "onum", "frac";
+  -webkit-font-feature-settings: "liga", "onum" "frac";
+  font-feature-settings: "liga", "onum" "frac";
+}
+
+.sans-serif { font-family: neue-haas-grotesk-text, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+.serif { font-family: plantin, "Times New Roman", times, serif;}
+
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
 /* Monospaced Typefaces (for code) */
@@ -875,7 +884,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .link:link, .link:visited { transition: color .15s ease-in; }
 .link:hover { transition: color .15s ease-in; }
 .link:active { transition: color .15s ease-in; }
-.link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; font-style:italic; }
+.link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
 /*
 
    LISTS

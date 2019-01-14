@@ -1,23 +1,23 @@
 <template>
-  <section class="bg-red">
-    <ul class="fr ma0 w-75 w-50-ns serif pa0 white ttl">
+  <section class="bg-red flex-ns justify-center-ns">
+    <ul class="fr mt3 mt4-ns w-100 w-50-ns sans-serif pa0 white">
       <li
         v-for="artistId in artistIds"
         v-bind:key="artistId"
-        class="fl lh-copy cb w-100 mt4 bt artist-wrapper"
+        class="fl lh-copy cb w-100 mb4 bt-m bt-l bw2 artist-wrapper"
       >
-        <p class="f5 f3-ns fl tl w-40">{{artistName(artistId)}}</p>
+        <p class="f7 f4-ns fl tl w-40 pr3 b ttl tr tl-ns"><span class="fr fn-ns">{{artistName(artistId)}}</span></p>
         <ul>
           <router-link
-            class="fr cr w-50 pl2"
+            class="fr cr w-50-ns w-60 pl1 bt bt-0-m bt-0-l mt2 mt1-ns"
             v-for="artwork in artistsWorks(artistId)"
             v-bind:key="artwork"
             :to="{path:`${artwork.pageNumber}`}"
             tag="li"
           >
-            <a class="f6 f5-ns white link">
-              <span class="fl w-20 db">{{artwork.yearMade}}</span>
-              &nbsp;<span class="fl w-70 db">{{artwork.title}}</span>
+            <a class="f7 f6-ns white link">
+              <span class="fl w-30 db">{{artwork.yearMade}}</span>
+              <span class="fl w-70 db">{{artwork.title}}</span>
             </a>
           </router-link>
         </ul>
@@ -59,7 +59,7 @@ export default {
   }
 }
 .artist-wrapper {
-  min-height: 4rem;
+  /* min-height: 4rem; */
 }
 /* .o > p:nth-child(2) {
     text-decoration: overline;
