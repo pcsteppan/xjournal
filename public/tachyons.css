@@ -29,7 +29,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+html { font-size: 14px; line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 /* Sections
    ========================================================================== */
 /**
@@ -991,6 +991,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .w-33 { width: 33%; }
 .w-34 { width: 34%; }
 .w-40 { width: 40%; }
+.w-45 { width: 45%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
 .w-70 { width: 70%; }

@@ -15,11 +15,11 @@
       <nav id="issue-nav">
         <ul class="lh-copy list">
           <li>
-            <router-link class="link gray serif f4 hover-red" to="./1/essay">essay</router-link></li>
+            <router-link class="link gray serif f3 near-black hover-red" to="./1/essay">essay</router-link></li>
           <li>
-            <router-link class="link gray serif f4 hover-red" to="./1/1">artwork</router-link>
+            <router-link class="link gray serif f3 near-black hover-red" to="./1/1">artwork</router-link>
           </li>
-            <router-link class="link gray serif f4 hover-red" to="./1/artists">artists</router-link>
+            <router-link class="link gray serif f3 near-black hover-red" to="./1/artists">artists</router-link>
           <!-- <li>
             <router-link class="link gray serif f3 hover-red" to="./1/colophon">colophon</router-link>
           </li> -->

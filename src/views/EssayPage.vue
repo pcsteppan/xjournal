@@ -1,8 +1,8 @@
 <template>
-  <div id="essay--wrapper" class="serif ma3 mt0 ma0-ns">
+  <div id="essay--wrapper" class="serif pa3 pa0-ns mt0 ma0-ns">
     <div class="fl-ns w-25-ns w-0 o0 ma0 pa0" style="height: 1px;">&nbsp;</div>
     <div id="essay--display-wrapper" class="fl-ns w-50-ns pb0-ns">
-      <h1 id="title" class="f3 f2-ns lh-display">Beholder, or Beholden?
+      <h1 id="title" class="f5 red f4-ns lh-display">Beholder, or Beholden?
 What We Bring to Art and What We
 Come Away With</h1>
       <span class="author i f7 f6-ns"><span class="ttl small-caps">Nicholas Nurre,</span> ’18</span>

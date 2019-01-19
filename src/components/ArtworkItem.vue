@@ -1,11 +1,16 @@
 <template>
-  <section class="artwork-container">
-    <div class="w-100">
-    <p class="artwork-info sans-serif fr w-100 w-50-l f7 lh-copy bt bt-0-l b--red pt1 mb3">
-    <span class="bt-l b--red w-100 di">{{artistName}}, {{yearMade}}</span><br/>
-    <span class="i bt-l b--red w-100 di">{{artworkTitle}}</span><br/>
-    <!-- <span class="fr fn-ns bt-l b--red di">{{artworkDescription}}</span> -->
-    </p>
+  <section class="artwork-container w-100">
+    <div class="w-100 pr3-ns">
+      <div class="artwork-info sans-serif fr w-100 w-auto-l f7 f6-l lh-copy bt bt-0-ns bw2 b--red mb3 black-80 mw5-ns">
+        <div class="fl w-45 w-100-ns">
+          <span class="bt-ns b--red w-100 dib pl1 bw2">{{artistName}}, {{yearMade}}</span>
+          <span class="bt-ns b--red w-100 dib pl1 i">{{artworkTitle}}</span>
+        </div>
+        <div class="fl w-40 ml3 ml0-ns w-100-ns">
+          <span v-if="artworkMeasurements" v-html="artworkMeasurements" class="bt-ns b--red w-100 dib pl1"></span>
+          <span class="bt-ns b--red w-100 dib pl1 truncate ws-normal-ns visible-ns">{{artworkDescription}}</span>
+        </div>
+      </div>
     </div>
     <section class="image-container" :class="layout">
       <img
@@ -63,6 +68,13 @@ export default {
     },
     artworkDescription () {
       return this.artwork.description
+    },
+    artworkMeasurements () {
+      return [this.artwork.size.width, this.artwork.size.depth, this.artwork.size.height]
+        .filter(x => typeof x !== 'undefined' && x !== 'none')
+        .join(
+          '<span class="red"> &times; </span>'
+        )
     },
     artistName () {
       return sourceData.artists[Object.values(this.artwork.artistIds)[0]].name

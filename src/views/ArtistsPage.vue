@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-red flex-ns justify-center-ns">
-    <ul class="fr mt3 mt4-ns w-100 w-50-ns sans-serif pa0 white">
+  <section class=" flex-ns justify-center-ns">
+    <ul class="fr mt3 mt4-ns w-100 w-50-ns sans-serif pa0 red">
       <li
         v-for="artistId in artistIds"
         v-bind:key="artistId"
@@ -15,7 +15,7 @@
             :to="{path:`${artwork.pageNumber}`}"
             tag="li"
           >
-            <a class="f7 f6-ns white link">
+            <a class="f7 f6-ns black-70 hover-red link">
               <span class="fl w-30 db">{{artwork.yearMade}}</span>
               <span class="fl w-70 db">{{artwork.title}}</span>
             </a>
