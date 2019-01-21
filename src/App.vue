@@ -1,10 +1,10 @@
 <template>
-  <div id="app" class="mt1">
-    <nav id="nav">
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" :exact-active-class="red" to="/">x journal</router-link>
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" :active-class="red" to="/about">about</router-link>
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" :active-class="red" to="/issue/1">issue 1</router-link>
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" :active-class="red" to="/submit">submit</router-link>
+  <div id="app">
+    <nav id="nav" class="mt1">
+      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" exact-active-class="red i" to="/"><span class="red">x</span> journal</router-link>
+      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/about">about</router-link>
+      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/issue/1">issue 1</router-link>
+      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/submit">submit</router-link>
     </nav>
     <router-view/>
   </div>
@@ -83,7 +83,7 @@ img {
 }
 #nav {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

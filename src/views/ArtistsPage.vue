@@ -4,6 +4,7 @@
       <li
         v-for="artistId in artistIds"
         v-bind:key="artistId"
+        :id=artistBookmark(artistId)
         class="fl lh-copy cb w-100 mb4 bt-m bt-l bw2 artist-wrapper"
       >
         <p class="f7 f4-ns fl tl w-40 pr3 b ttl tr tl-ns"><span class="fr fn-ns">{{artistName(artistId)}}</span></p>
@@ -47,21 +48,10 @@ export default {
     },
     artistsWorks (id) {
       return this.artworks.filter(x => x.artistIds[id] === id) // new Set(Object.values(x.artistIds)).has(id))
+    },
+    artistBookmark (id) {
+      return this.artistName(id).split(' ').join('_')
     }
   }
 }
 </script>
-
-<style>
-@media screen and (min-width: 30em) {
-  .col-2-ns {
-    columns: 2 auto;
-  }
-}
-.artist-wrapper {
-  /* min-height: 4rem; */
-}
-/* .o > p:nth-child(2) {
-    text-decoration: overline;
-  } */
-</style>

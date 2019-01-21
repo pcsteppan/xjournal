@@ -1,5 +1,5 @@
 <template>
-  <div class="issue-container">
+  <div class="issue-container h-100">
     <PageTurner
       v-if="isArtwork"
       @turn-left="swipeRight"
@@ -31,14 +31,17 @@
       v-if="isArtwork"
       class="dn">
       <ArtworkItem
+        v-if="(artworkIndexN > 0)"
         :artwork="previousArtwork"
         :pageNumber="(artworkIndexN-1).toString()">
       </ArtworkItem>
       <ArtworkItem
+        v-if="(artworkIndexN < artworks.length)"
         :artwork="nextArtwork"
         :pageNumber="(artworkIndexN+1).toString()">
       </ArtworkItem>
     </div>
+    <p v-if="isArtwork" style="z-index:10;" class="f7 pageNumber absolute bottom-1 w-100 tc sans-serif b black bg-white v-mid dib h2">{{artworkIndexN}}</p>
   </div>
 </template>
 

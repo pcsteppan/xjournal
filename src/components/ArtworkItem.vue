@@ -1,14 +1,14 @@
 <template>
   <section class="artwork-container w-100">
-    <div class="w-100 pr3-ns">
-      <div class="artwork-info sans-serif fr w-100 w-auto-l f7 f6-l lh-copy bt bt-0-ns bw2 b--red mb3 black-80 mw5-ns">
-        <div class="fl w-45 w-100-ns">
-          <span class="bt-ns b--red w-100 dib pl1 bw2">{{artistName}}, {{yearMade}}</span>
-          <span class="bt-ns b--red w-100 dib pl1 i">{{artworkTitle}}</span>
+    <div class="w-100 pr3-l">
+      <div class="artwork-info sans-serif fr w-100 w-60-l f7 f6-l lh-copy bt bt-0-l b--red mb3 black-80">
+        <div class="fl w-45 w-100-l">
+          <router-link class="bt-l b--red w-100 dib pl1 bw2 hover-red di link black-80" :to=artistPageBookmark>{{artistName}}, {{yearMade}}</router-link>
+          <span class="bt-l b--red w-100 dib pl1 i">{{artworkTitle}}</span>
         </div>
-        <div class="fl w-40 ml3 ml0-ns w-100-ns">
-          <span v-if="artworkMeasurements" v-html="artworkMeasurements" class="bt-ns b--red w-100 dib pl1"></span>
-          <span class="bt-ns b--red w-100 dib pl1 truncate ws-normal-ns visible-ns">{{artworkDescription}}</span>
+        <div class="fl w-40 ml3 ml0-l w-100-l">
+          <span v-if="artworkMeasurements" v-html="artworkMeasurements" class="bt-l b--red w-100 dib pl1"></span>
+          <span class="bt-l b--red w-100 dib pl1 truncate ws-normal-ns visible-ns">{{artworkDescription}}</span>
         </div>
       </div>
     </div>
@@ -76,6 +76,9 @@ export default {
           '<span class="red"> &times; </span>'
         )
     },
+    artistPageBookmark () {
+      return `artists#${this.artistName.split(' ').join('_')}`
+    },
     artistName () {
       return sourceData.artists[Object.values(this.artwork.artistIds)[0]].name
     },
@@ -122,7 +125,7 @@ export default {
     grid-column: 1 / span 4;
   }
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 60em) {
     .artwork-container{
       /* padding: 0 2.5vw; */
       grid-template-columns: 25vw 50vw 25vw;
@@ -149,12 +152,12 @@ export default {
     section.image-container.collection img:first-child {
       grid-column: 1 / span 2;
       grid-row: 1 / span 2;
-      justify-self: end;
+      justify-self: start;
     }
 
     section.image-container.mono img{
-      grid-column: 2 / span 2;
-      justify-self: center;
+      grid-column: 2 / span 3;
+      justify-self: start;
     }
   }
 </style>

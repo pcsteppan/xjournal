@@ -483,7 +483,7 @@ img { max-width: 100%; }
 */
 .bw0 { border-width: 0; }
 .bw1 { border-width: .125rem; }
-.bw2 { border-width: .25rem; }
+.bw2 { border-width: .16rem; }
 .bw3 { border-width: .5rem; }
 .bw4 { border-width: 1rem; }
 .bw5 { border-width: 2rem; }
@@ -711,10 +711,10 @@ img { max-width: 100%; }
 */
 
 .sans-serif, .serif{
-  font-variant-numeric: oldstyle-nums diagonal-fractions, common-ligatures;
+  font-variant-numeric: oldstyle-nums diagonal-fractions;
   -moz-font-feature-settings: "liga", "onum", "frac";
-  -webkit-font-feature-settings: "liga", "onum" "frac";
-  font-feature-settings: "liga", "onum" "frac";
+  -webkit-font-feature-settings: "liga", "onum", "frac";
+  font-feature-settings: "liga", "onum", "frac";
 }
 
 .sans-serif { font-family: neue-haas-grotesk-text, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
@@ -1325,6 +1325,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-dark-red:hover { color: #e7040f; }
 .hover-dark-red:focus { color: #e7040f; }
 .hover-red:hover { color: #ff4136; }
+.hover-b--red:hover { border-color: #ff4136; }
 .hover-red:focus { color: #ff4136; }
 .hover-light-red:hover { color: #ff725c; }
 .hover-light-red:focus { color: #ff725c; }
