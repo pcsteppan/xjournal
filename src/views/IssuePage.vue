@@ -41,7 +41,7 @@
         :pageNumber="(artworkIndexN+1).toString()">
       </ArtworkItem>
     </div>
-    <p v-if="isArtwork" style="z-index:10;" class="f7 pageNumber absolute bottom-1 w-100 tc sans-serif b black bg-white v-mid dib h2">{{artworkIndexN}}</p>
+    <p v-if="isArtwork" style="z-index:10;" class="f7 pageNumber fixed bottom-1 w-100 tc sans-serif b black v-mid dib h2">{{artworkIndexN}}</p>
   </div>
 </template>
 
