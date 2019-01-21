@@ -1,7 +1,7 @@
 <template>
   <div id="cover" class="w-100 h-100 flex justify-center items-center">
     <!-- <canvas id="myCanvas" resize></canvas> -->
-    <h1 class="serif w-50-ns w-90 f2-ns f3 lh-display near-black pa4">
+    <h1 class="serif w-50-ns w-90 f2-ns f3 lh-display near-black">
     &ldquo;&hellip;the dual nature of 'X' urges us to look for visual intrigue where we least expect it, transitioning seamlessly from a senseless cog in a linguistic system to an icon with an independent meaning.&rdquo;
     </h1>
   </div>

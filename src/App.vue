@@ -65,6 +65,11 @@ html, body, div, span, object, iframe, h1, h2, h3, .splash, .error, h4, h5, h6, 
   background: transparent;
 }
 
+::selection {
+  color: white;
+  background-color: #ff4136;
+}
+
 img {
   max-width: 100%;
   /* height: auto; */
