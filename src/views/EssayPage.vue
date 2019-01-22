@@ -44,10 +44,6 @@ export default {
 </script>
 
 <style>
-::selection {
-  background: var(--main-red);
-  color: #fff;
-}
 .author {
   color: #14a5cc;
   display: block;
