@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import CoverPage from './views/CoverPage.vue'
 import IssuePage from './views/IssuePage.vue'
 import ArtistsPage from './views/ArtistsPage.vue'
+import SubmissionPage from './views/SubmissionPage.vue'
 
 Vue.use(Router)
 
@@ -42,6 +43,12 @@ export default new Router({
       name: 'IssuePageWithArtwork',
       props: true,
       component: IssuePage
+    },
+    {
+      path: '/submit',
+      name: 'SubmissionPage',
+      props: true,
+      component: SubmissionPage
     }
   ]
 })

@@ -11,14 +11,14 @@
         <ul>
           <router-link
             class="fr cr w-50-ns w-60 pl1 bt bt-0-m bt-0-l mt2 mt1-ns"
-            v-for="artwork in artistsWorks(artistId)"
-            v-bind:key="artwork"
-            :to="{path:`${artwork.pageNumber}`}"
+            v-for="artwork_id in artistsWorks(artistId)"
+            v-bind:key="artwork_id"
+            :to="{path:`${artworkPageNumber(artwork_id)}`}"
             tag="li"
           >
             <a class="f7 f6-ns black-70 hover-red link">
-              <span class="fl w-30 db">{{artwork.yearMade}}</span>
-              <span class="fl w-70 db">{{artwork.title}}</span>
+              <span class="fl w-30 db">{{artworkYear(artwork_id)}}</span>
+              <span class="fl w-70 db">{{artworkTitle(artwork_id)}}</span>
             </a>
           </router-link>
         </ul>
@@ -36,7 +36,7 @@ export default {
       return Object.keys(sourceData.artists)
     },
     artworks () {
-      return Object.values(sourceData.artworks)
+      return Object.keys(sourceData.artworks)
     }
   },
   methods: {
@@ -46,8 +46,17 @@ export default {
     artistYear (id) {
       return sourceData.artists[id].graduationYear
     },
+    artworkPageNumber (id) {
+      return sourceData.artworks[id].pageNumber
+    },
+    artworkYear (id) {
+      return sourceData.artworks[id].year
+    },
+    artworkTitle (id) {
+      return sourceData.artworks[id].title
+    },
     artistsWorks (id) {
-      return this.artworks.filter(x => x.artistIds[id] === id) // new Set(Object.values(x.artistIds)).has(id))
+      return this.artworks.filter(x => sourceData.artworks[x].artistIds[id] === id) // new Set(Object.values(x.artistIds)).has(id))
     },
     artistBookmark (id) {
       return this.artistName(id).split(' ').join('_')

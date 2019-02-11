@@ -1,7 +1,7 @@
 <template>
   <section class="artwork-container w-100">
     <div class="w-100 pr3-l">
-      <div style="z-index: 21;" class="relative artwork-info sans-serif fr w-100 w-60-l f7 f6-l lh-copy bt bt-0-l b--red mb3 black-80">
+      <div style="z-index: 12;" class="relative artwork-info sans-serif fr w-100 w-60-l f7 f6-l lh-copy bt bt-0-l b--red mb3 black-80">
         <div class="fl w-45 w-100-l">
           <router-link class="bt-l b--red w-100 dib pl1 bw2 hover-red di link black-80" :to=artistPageBookmark>{{artistName}}, {{yearMade}}</router-link>
           <span class="bt-l b--red w-100 dib pl1 i">{{artworkTitle}}</span>

@@ -88,7 +88,7 @@ img {
 }
 #nav {
   position: relative;
-  z-index: 10;
+  z-index: 12;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

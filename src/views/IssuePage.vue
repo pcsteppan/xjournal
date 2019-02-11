@@ -9,7 +9,7 @@
       v-if="isArtwork"
       v-touch="touch"
       :artwork="currentArtwork"
-      :pageNumber="artworkIndex">
+      :pageNumber="artworkIndexN">
     </ArtworkItem>
     <section v-else id="issue-nav-wrapper">
       <nav id="issue-nav">
@@ -31,17 +31,17 @@
       v-if="isArtwork"
       class="dn">
       <ArtworkItem
-        v-if="(artworkIndexN > 0)"
+        v-if="(artworkIndexN-1 > 0)"
         :artwork="previousArtwork"
-        :pageNumber="(artworkIndexN-1).toString()">
+        :pageNumber="(artworkIndexN-1)">
       </ArtworkItem>
       <ArtworkItem
-        v-if="(artworkIndexN < artworks.length)"
+        v-if="(artworkIndexN+1 < artworks.length)"
         :artwork="nextArtwork"
-        :pageNumber="(artworkIndexN+1).toString()">
+        :pageNumber="(artworkIndexN+1)">
       </ArtworkItem>
     </div>
-    <p v-if="isArtwork" style="z-index:10;" class="f7 pageNumber fixed bottom-1 w-100 tc sans-serif b black v-mid dib h2">{{artworkIndexN}}</p>
+    <p v-if="isArtwork" style="z-index:10;" class="f7 pageNumber fixed bottom-0 mb1 w-100 tc sans-serif b near-black v-mid dib h2">{{artworkIndexN}}</p>
   </div>
 </template>
 
