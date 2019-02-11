@@ -27,6 +27,10 @@
             <span class="fl w-50 f6 i">designer</span>
           </li>
           <li class="bt bw1 b--red cb item pl1">
+            <span class="fl w-50 w-40-l f6">kyle yang</span>
+            <span class="fl w-50 f6 i">designer</span>
+          </li>
+          <li class="bt bw1 b--red cb item pl1">
             <span class="fl w-50 w-40-l f6">tim stedman</span>
             <span class="fl w-50 f6 i">faculty advisor</span>
           </li>

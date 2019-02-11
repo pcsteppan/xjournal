@@ -13,8 +13,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Cover',
-      component: CoverPage
+      redirect: '/issue/1'
+      // name: 'Cover',
+      // component: CoverPage
     },
     {
       path: '/about',
