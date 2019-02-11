@@ -2,9 +2,9 @@
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center">
     <h1 class="serif lh-display f3 near-black">
-      open submissions
+      submissions are currently closed
     </h1>
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
+    <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       please submit portable work in person. the submission table is in <span class="small-caps">wac</span> on the second floor near the open studios.
     </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
@@ -12,7 +12,7 @@
     </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       submit files <a class="link red dim" href="https://goo.gl/forms/3mLAWzYeLOPi4wBo2">here.</a>
-    </p>
+    </p> -->
   </div>
   </section>
 </template>
