@@ -1288,5 +1288,65 @@
       "artworks" : "",
       "graduationYear" : "2019"
     }
+  },
+  "staff" : {
+    "2018" : {
+      "year" : "2018",
+      "staff" : [
+      { 
+        "name": "Arthur Santoro",
+        "role": "Designer / art editor"
+      },
+      { 
+        "name": "Evan Economos",
+        "role": "Designer"
+      },
+      { 
+        "name": "Nola Thompson",
+        "role": "Project Manager"
+      },
+      { 
+        "name": "Patrick Steppan",
+        "role": "Designer"
+      },
+      { 
+        "name": "Sidath Wanigasinghe",
+        "role": "Designer / photographer"
+      },
+      { 
+        "name": "Tim Stedman",
+        "role": "Faculty advisor / mentor"
+      }
+      ]
+    },
+    "2019" : {
+      "year" : "2019",
+      "staff" : [
+        { 
+          "name": "Braeden Westfall",
+          "role": "Designer"
+        },
+        { 
+          "name": "Evan Economos",
+          "role": "Design Director"
+        },
+        { 
+          "name": "Kyle Yang",
+          "role": "Designer"
+        },
+        { 
+          "name": "Odessa Sagli",
+          "role": "Designer / photographer"
+        },
+        { 
+          "name": "Patrick Steppan",
+          "role": "Designer / developer"
+        },
+        { 
+          "name": "Tim Stedman",
+          "role": "Faculty advisor / mentor"
+        }
+      ]
+    }
   }
 }
