@@ -1039,6 +1039,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
+.sticky { position: sticky; }
 /*
 
     OPACITY

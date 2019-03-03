@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav id="nav" class="mt1">
+    <nav id="nav" class="pb1 sticky top-0 bg-white">
       <router-link class="hover-red black-80 link f5 f4-m f4-l serif" exact-active-class="red i" to="/"><span class="red">x</span> journal</router-link>
       <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/about">about</router-link>
       <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/issue/1">issue 1</router-link>
@@ -80,15 +80,15 @@ img {
   /* font-family: georgia, 'Happy Times', 'Happy Times Italic', Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: grid;
   grid-template-rows: 1.5rem 1fr;
   grid-row-gap: 1.5rem;
 }
 #nav {
-  position: relative;
-  z-index: 12;
+  /* position: relative; */
+  z-index: 20;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

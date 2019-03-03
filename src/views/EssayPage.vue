@@ -2,11 +2,11 @@
   <div id="essay--wrapper" class="serif pa3 pa0-ns mt0 ma0-ns">
     <div class="fl-ns w-25-ns w-0 o0 ma0 pa0" style="height: 1px;">&nbsp;</div>
     <div id="essay--display-wrapper" class="fl-ns w-50-ns pb0-ns">
-      <h1 id="title" class="f4 red f2-ns lh-display">Beholder, or Beholden?
+      <h1 id="title" class="f3 red f2-ns lh-display pb1 mb0">Beholder, or Beholden?
 What We Bring to Art and What We
 Come Away With</h1>
-      <span class="author i f7 f6-ns"><span class="ttl small-caps">Nicholas Nurre,</span> ’18</span>
-      <div id="essay--body-wrapper" class="w-100-ns lh-copy sans-serif f5 f4-ns">
+      <span class="db author i f7 f6-ns pt0 mt0 mb4"><span class="ttl small-caps">Nicholas Nurre,</span> ’18</span>
+      <div id="essay--body-wrapper" class="w-100-ns lh-copy sans-serif f4 f3-ns pb3 near-black">
         <p
           class="measure pb4"
         >What are we doing when we look at a piece of art? This question might appear pointless at first glance. Haven’t I already said it? Art is for looking at. But aren’t there different ways of looking at images? Do different people look in different ways? For most of us, vision forms our most basic attachment to the world, something that we can’t turn off without a conscious effort. But that doesn’t mean that the things in your visual field are reducible to your automatic recognition of them. There’s no such thing as a “neutral” way of looking at an image. Sure, visual phenomena are more or less the same for all of us in their likeness, but there’s more to the equation than that. Wherever there’s a looking-at, there’s also a looking-for. Our expectations and assumptions about what we’re seeing have as much to do with the experience viewers come away with as the art itself. And I’m not just talking about the difference between someone who knows how the chiaroscuro in a painting was done and someone who doesn’t. Certainly, there’s a lot of art out there that’s aimed at what we might call an educated audience, but, when it comes down to the basic experience of checking out something you’ve never seen before, there’s a lot that stands to color what we take away from it: our background, our tastes, our moods, visual acuity, and, yes, prior experience with visual arts. Our relation to visual perception is conditional to all of these things. And that’s just what it does in the context of art.</p>
@@ -26,8 +26,7 @@ Come Away With</h1>
           class="measure pb4"
         >As a closing thought, I’d like to consider the images enclosed in this journal and the types of looks we might bring to bear as readers. As members of the Knox community, we might look through the book with a special affection, relishing the talent of our classmates. At the same time, holding the book physically in hand might turn the thing into a “page-turner,” as we feverishly rifle through the pages with a greedy desire to run our eyes over the entire collection in an instant. I would propose, however, a different kind of look. Instead of simply searching for your friends, try looking at these pieces slowly, letting them suggest a way of looking through their visual form. Rather than recognizing a name, look to understand the visual inspirations that drew the artist to create. Our contributing artists have given us a profound collection of works, but they cannot be actualized without our loving scrutiny. And so, I invite you to examine these artworks with an attitude of patience and curiosity. Much like our eponymous “X,” they might contain more than you expect.</p>
       </div>
-    <hr/>
-    <a class="f6 link dim ph3 pv2 mb2 dib white bg-black serif fr" href="#0" v-on:click="resetScrollToTop">top</a>
+    <!-- <a class="f6 link dim ph3 pv2 mb2 dib white bg-red serif fr w-100" href="#0" v-on:click="resetScrollToTop">top</a> -->
     </div>
   </div>
 </template>
@@ -46,8 +45,8 @@ export default {
 <style>
 .author {
   color: #14a5cc;
-  display: block;
-  margin: 1rem 0 2rem 0;
+  /* display: block; */
+  /* margin: 1rem 0 2rem 0; */
 }
 h1,
 p {
