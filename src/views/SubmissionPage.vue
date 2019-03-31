@@ -4,8 +4,11 @@
     <h1 class="serif lh-display f3 near-black">
       submit
     </h1>
+    <p class="sans-serif measure-narrow wide lh-copy mb3 white bg-red f6 pl1">
+      deadline: april 8
+    </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      please submit portable work in person. the submission table is in <span class="small-caps">wac</span> on the second floor near the open studios.
+      please submit physical work in person. the submission table is in <span class="small-caps">wac</span> on the second floor near the open studios.
     </p>
     <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       request a photographer <a class="link red dim" href="https://goo.gl/forms/W5aYHklrM8o0HkHk2">here.</a>
