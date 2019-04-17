@@ -2,19 +2,10 @@
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center">
     <h1 class="serif lh-display f3 near-black">
-      submit
+      submissions closed
     </h1>
-    <p class="sans-serif measure-narrow wide lh-copy mb3 white bg-red f6 pl1">
-      deadline: april 15
-    </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      please submit physical work in person. the submission table is in <span class="small-caps">wac</span> on the second floor near the open studios.
-    </p>
-    <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      request a photographer <a class="link red dim" href="https://goo.gl/forms/W5aYHklrM8o0HkHk2">here.</a>
-    </p> -->
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      submit digital files <a class="link red dim" href="https://goo.gl/forms/3mLAWzYeLOPi4wBo2">here</a>.
+      submissions will be decided on and returned once they're documented.
     </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       please send questions to <a class="link red" href = "mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
