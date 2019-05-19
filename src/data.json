@@ -1323,10 +1323,6 @@
       "year" : "2019",
       "staff" : [
         { 
-          "name": "Braeden Westfall",
-          "role": "Designer"
-        },
-        { 
           "name": "Evan Economos",
           "role": "Lead Designer"
         },
