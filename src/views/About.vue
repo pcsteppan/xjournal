@@ -1,5 +1,5 @@
 <template>
-  <section id="about--container" class="sans-serif ma0-ns w-100 h-100">
+  <section id="about--container" class="sans-serif ma0-ns w-100 h-100 flex flex-column justify-center">
     <div id="about--information" class="">
       <h1 class="serif f3 f3-ns pl1">information</h1>
       <p class="exdent measure-narrow lh-copy f6 pl1">

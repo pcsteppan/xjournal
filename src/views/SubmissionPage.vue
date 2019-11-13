@@ -1,7 +1,7 @@
 <template>
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center">
-    <h1 class="serif lh-display f3 near-black">
+    <h1 class="serif lh-display f3 near-black mb3">
       submissions for <span class="red">issue 3</span> are open.
     </h1>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">

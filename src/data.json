@@ -1343,6 +1343,23 @@
           "role": "Faculty advisor / mentor"
         }
       ]
+    },
+    "2020" : {
+      "year" : "2020",
+      "staff" : [
+        { 
+          "name": "Patrick Steppan",
+          "role": "Designer"
+        },
+        {
+          "name": "Odessa Sagli",
+          "role": "Designer"
+        },
+        {
+          "name" :"Tim Stedman",
+          "role" : "Faculty advisor / mentor"
+        }
+      ]
     }
   }
 }

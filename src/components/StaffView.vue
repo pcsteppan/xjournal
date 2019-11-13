@@ -5,6 +5,7 @@
       <div class="flex items-center justify-start w-50 dib">
         <button class="f7 dim hover-red link dib bg-white bw0 pa0 ma0 pr2 pointer" style="z-index: 2;" v-on:click="year=2018" v-bind:class="{ red: year===2018 }">2018</button>
         <button class="f7 dim hover-red link dib bg-white bw0 pa0 ma0 pr2 pointer" style="z-index: 2;" v-on:click="year=2019" v-bind:class="{ red: year===2019 }">2019</button>
+        <button class="f7 dim hover-red link dib bg-white bw0 pa0 ma0 pr2 pointer" style="z-index: 2;" v-on:click="year=2020" v-bind:class="{ red: year===2020 }">2020</button>
       </div>
     </div>
     <ul class="pb4 lh-copy list relative w-100">
