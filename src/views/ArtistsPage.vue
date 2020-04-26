@@ -1,25 +1,29 @@
 <template>
   <section class=" flex-ns justify-center-ns">
-    <ul class="fr mt3 mt4-ns w-100 w-50-ns sans-serif pa0 red">
+    <ul :class="spotColor" class="fr mt0 mt4-ns w-100 w-50-ns sans-serif pa0">
       <li
-        v-for="artistId in artistIds"
-        v-bind:key="artistId"
+        v-for="artistId in issueArtistIds"
+        :key="artistId"
         :id=artistBookmark(artistId)
-        class="fl lh-copy cb w-100 mb4 bt-m bt-l bw2 artist-wrapper"
+        :class="bSpotColor"
+        class="fl lh-copy cb w-100 mb4 bt-m bt-l bw1 b--solid br-0 bl-0 bb-0 artist-wrapper"
       >
-        <p class="f7 f4-ns fl tl w-40 pr3 b ttl tr tl-ns"><span class="fr fn-ns">{{artistName(artistId)}}</span></p>
+        <p class="f6 f4-ns fl tl w-50 pr2 pt1 b ttl tr tl-ns">
+          <span class="fr fn-ns">{{artistName(artistId)}}</span>
+        </p>
         <ul>
           <router-link
-            class="fr cr w-50-ns w-60 pl1 bt bt-0-m bt-0-l mt2 mt1-ns"
-            v-for="artwork_id in artistsWorks(artistId)"
-            v-bind:key="artwork_id"
-            :to="{path:`${artworkPageNumber(artwork_id)}`}"
+            class="link fr cr w-50 pl1 f6 f5-ns black-80 b--solid artwork-listing pointer"
+            :class="[bSpotColor, hoverSpotColor]"
+            v-for="artworkId in artistsWorks(artistId)"
+            :key="artworkId"
+            :to="{path:`${artworkPageNumber(artworkId)}`}"
             tag="li"
           >
-            <a class="f7 f6-ns black-70 hover-red link">
-              <span class="fl w-30 db">{{artworkYear(artwork_id)}}</span>
-              <span class="fl w-70 db">{{artworkTitle(artwork_id)}}</span>
-            </a>
+            <!-- <span class="fl w-30 db">{{artworkYear(artworkId)}}</span> -->
+            <span class="fl w-70 db pl2 mb2">
+              {{artworkTitle(artworkId)}}
+            </span>
           </router-link>
         </ul>
       </li>
@@ -31,12 +35,33 @@
 import sourceData from '@/data'
 
 export default {
+  props: {
+    'issueIndex': {
+      require: true,
+      type: String
+    }
+  },
   computed: {
     artistIds () {
       return Object.keys(sourceData.artists)
     },
-    artworks () {
+    issueArtistIds () {
+      return this.artistIds.filter(x => sourceData.artists[x].issueIds.includes(this.issueIndex))
+    },
+    artworkIds () {
       return Object.keys(sourceData.artworks)
+    },
+    issueArtworkIds () {
+      return this.artworkIds.filter(x => sourceData.artworks[x].issueId === this.issueIndex)
+    },
+    spotColor () {
+      return sourceData.issues[this.issueIndex].spotColor
+    },
+    hoverSpotColor () {
+      return 'hover-' + this.spotColor
+    },
+    bSpotColor () {
+      return 'b--' + this.spotColor
     }
   },
   methods: {
@@ -56,7 +81,7 @@ export default {
       return sourceData.artworks[id].title
     },
     artistsWorks (id) {
-      return this.artworks.filter(x => sourceData.artworks[x].artistIds[id] === id) // new Set(Object.values(x.artistIds)).has(id))
+      return this.issueArtworkIds.filter(x => sourceData.artworks[x].artistId === id) // new Set(Object.values(x.artistIds)).has(id))
     },
     artistBookmark (id) {
       return this.artistName(id).split(' ').join('_')
@@ -64,3 +89,18 @@ export default {
   }
 }
 </script>
+
+<style>
+ul > .artwork-listing{
+  border-width: 0.1rem;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+ul > .artwork-listing:first-child{
+  border-width: 0.1rem;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+</style>

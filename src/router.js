@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import CoverPage from './views/CoverPage.vue'
+import IssuesPage from './views/IssuesPage.vue'
 import IssuePage from './views/IssuePage.vue'
 import ArtistsPage from './views/ArtistsPage.vue'
 import SubmissionPage from './views/SubmissionPage.vue'
@@ -13,7 +13,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/issue/1'
+      redirect: '/issues'
       // name: 'Cover',
       // component: CoverPage
     },
@@ -25,6 +25,7 @@ export default new Router({
     {
       path: '/issue/:issueIndex/essay',
       name: 'EssayPage',
+      props: true,
       component: () => import('@/views/EssayPage.vue')
     },
     {
@@ -33,6 +34,12 @@ export default new Router({
       props: true,
       component: ArtistsPage
     }, // note that essay and artists must stay above the :issueIndex to preserve routing
+    {
+      path: '/issues/',
+      name: 'IssuesPage',
+      props: true,
+      component: IssuesPage
+    },
     {
       path: '/issue/:issueIndex',
       name: 'IssuePage',

@@ -1,1292 +1,2030 @@
 {
   "issues" : {
     "1" : {
-      
+      "essayId" : "beholder",
+      "spotColor" : "riso-red"
+    },
+    "2" : {
+      "essayId" : "distortion",
+      "spotColor" : "riso-fedblue"
     }
   },
-  "artworks" : {
-    "PvRjH1oiEU" : {
-      "title" : "Summer Daze",
-      "yearMade" : "2018",
-      "description" : "Acrylic",
-      "size" : {
-        "width" : "23\"",
-        "height" : "17 1/2\""
-      },
-      "artistIds" : {
-        "fA0OOtlNRB" : "fA0OOtlNRB"
-      },
-      "images" : {
-        "SummerDaze.jpg" : {
-          "url" : "SummerDaze.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "1"
+  "artworks": {
+    "PvRjH1oiEU": {
+      "title": "Summer Daze",
+      "yearMade": "2018",
+      "size": "17 1/2\"x23\"",
+      "description": "Acrylic",
+      "artistId": "fA0OOtlNRB",
+      "imageNames": [
+        "SummerDaze.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "1"
     },
-    "GqIGeVsFi1" : {
-      "title" : "Freedom",
-      "yearMade" : "2017",
-      "description" : "Screen print",
-      "size" : {
-        "width" : "24\"",
-        "height" : "38\""
-      },
-      "artistIds" : {
-        "BUw4qqrEkX" : "BUw4qqrEkX"
-      },
-      "images" : {
-        "Freedom.jpg" : {
-          "url" : "Freedom.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "2"
+    "GqIGeVsFi1": {
+      "title": "Freedom",
+      "yearMade": "2017",
+      "size": "38\"x24\"",
+      "description": "Screen print",
+      "artistId": "BUw4qqrEkX",
+      "imageNames": [
+        "Freedom.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "2"
     },
-    "tH2ekoy8dP" : {
-      "title" : "Anhedonia",
-      "yearMade" : "2017",
-      "description" : "Fabric, fishnets, harness, wood, stretcher bars, canvas, paint, gesso, cotton batting, and thread",
-      "size" : {
-        "width" : "40\"",
-        "height" : "40\""
-      },
-      "artistIds" : {
-        "8CUW9uboqH" : "8CUW9uboqH"
-      },
-      "images" : {
-        "Anhedonia.jpg" : {
-          "url" : "Anhedonia.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "3"
+    "tH2ekoy8dP": {
+      "title": "Anhedonia",
+      "yearMade": "2017",
+      "size": "40\"x40\"",
+      "description": "Fabric, fishnets, harness, wood, stretcher bars, canvas, paint, gesso, cotton batting, and thread",
+      "artistId": "8CUW9uboqH",
+      "imageNames": [
+        "Anhedonia.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "3"
     },
-    "9pq4LtfMaO" : {
-      "title" : "Buoy",
-      "yearMade" : "2017",
-      "description" : "Fabric, fringe, canvas, paint, wood, cotton batting, staples",
-      "size" : {
-        "width" : "74\"",
-        "height" : "35\""
-      },
-      "artistIds" : {
-        "8CUW9uboqH" : "8CUW9uboqH"
-      },
-      "images" : {
-        "Buoy.jpg" : {
-          "url" : "Buoy.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "4"
+    "9pq4LtfMaO": {
+      "title": "Buoy",
+      "yearMade": "2017",
+      "size": "74\"x35\"",
+      "description": "Fabric, fringe, canvas, paint, wood, cotton batting, staples",
+      "artistId": "8CUW9uboqH",
+      "imageNames": [
+        "Buoy.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "4"
     },
-    "UUfMkCJRvT" : {
-      "title" : "Burst Obstruction 1",
-      "yearMade" : "2017",
-      "description" : "Acrylic, foam, glue, yarn",
-      "size" : {
-        "width" : "36\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "9gW8S7G00r" : "9gW8S7G00r"
-      },
-      "images" : {
-        "BurstObstruction1.jpg" : {
-          "url" : "BurstObstruction1.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "5"
+    "UUfMkCJRvT": {
+      "title": "Burst Obstruction 1",
+      "yearMade": "2017",
+      "size": "36\"x36\"",
+      "description": "Acrylic, foam, glue, yarn",
+      "artistId": "9gW8S7G00r",
+      "imageNames": [
+        "BurstObstruction1.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "5"
     },
-    "PqII3FdA6y" : {
-      "title" : "Heart and Vines",
-      "yearMade" : "2017",
-      "description" : "Charcoal",
-      "size" : {
-        "width" : "24\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "HGQXNL66i7" : "HGQXNL66i7"
-      },
-      "images" : {
-        "HeartsAndVines.jpg" : {
-          "url" : "HeartsAndVines.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "6"
+    "PqII3FdA6y": {
+      "title": "Heart and Vines",
+      "yearMade": "2017",
+      "size": "24\"x36\"",
+      "description": "Charcoal",
+      "artistId": "HGQXNL66i7",
+      "imageNames": [
+        "HeartsAndVines.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "6"
     },
-    "ghz72CQwZP" : {
-      "title" : "Bauhaus book cover",
-      "yearMade" : "2017",
-      "description" : "Graphic design",
-      "size" : {
-        "width" : "10\"",
-        "height" : "10\""
-      },
-      "artistIds" : {
-        "kJPaoGdO6c" : "kJPaoGdO6c"
-      },
-      "images" : {
-        "BauhausBookCover.jpg" : {
-          "url" : "BauhausBookCover.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "7"
+    "ghz72CQwZP": {
+      "title": "Bauhaus book cover",
+      "yearMade": "2017",
+      "size": "10\"x10\"",
+      "description": "Graphic design",
+      "artistId": "kJPaoGdO6c",
+      "imageNames": [
+        "BauhausBookCover.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "7"
     },
-    "P6JG9pBvvV" : {
-      "title" : "Run to the 606",
-      "yearMade" : "2018",
-      "description" : "Oil and collage",
-      "size" : {
-        "width" : "20 1/2\"",
-        "height" : "19 1/2\""
-      },
-      "artistIds" : {
-        "5AbeqXu50S" : "5AbeqXu50S"
-      },
-      "images" : {
-        "RunToThe606.jpg" : {
-          "url" : "RunToThe606.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "8"
+    "P6JG9pBvvV": {
+      "title": "Run to the 606",
+      "yearMade": "2018",
+      "size": "19 1/2\"x20 1/2\"",
+      "description": "Oil and collage",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "RunToThe606.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "8"
     },
-    "NqmJXim7J2" : {
-      "title" : "Mt. Kailash",
-      "yearMade" : "2018",
-      "description" : "Acrylic, charcoal, chalk",
-      "size" : {
-        "width" : "56 1/2\"",
-        "height" : "56 1/2\""
-      },
-      "artistIds" : {
-        "jrLfN78muX" : "jrLfN78muX"
-      },
-      "images" : {
-        "MtKailash.jpg" : {
-          "url" : "MtKailash.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "9"
+    "NqmJXim7J2": {
+      "title": "Mt. Kailash",
+      "yearMade": "2018",
+      "size": "56 1/2\"x56 1/2\"",
+      "description": "Acrylic, charcoal, chalk",
+      "artistId": "jrLfN78muX",
+      "imageNames": [
+        "MtKailash.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "9"
     },
-    "CXqnhmOJ5R" : {
-      "title" : "Abstract",
-      "yearMade" : "2017",
-      "description" : "Oil",
-      "size" : {
-        "width" : "48\"",
-        "height" : "60\""
-      },
-      "artistIds" : {
-        "eESoUpjgF7" : "eESoUpjgF7"
-      },
-      "images" : {
-        "Abstract.jpg" : {
-          "url" : "Abstract.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "10"
+    "CXqnhmOJ5R": {
+      "title": "Abstract",
+      "yearMade": "2017",
+      "size": "60\"x48\"",
+      "description": "Oil",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "Abstract.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "10"
     },
-    "CN1hbIsVC9" : {
-      "title" : "Blonde",
-      "yearMade" : "2017",
-      "description" : "Album design",
-      "size" : {
-        "width" : "12\"",
-        "height" : "12\""
-      },
-      "artistIds" : {
-        "mKOsPKWBSV" : "mKOsPKWBSV"
-      },
-      "images" : {
-        "Blonde1.jpg" : {
-          "url" : "Blonde1.jpg",
-          "type" : "Primary"
-        },
-        "Blonde2.jpg" : {
-          "url" : "Blonde2.jpg",
-          "type" : "Primary"
-        },
-        "Blonde3.jpg" : {
-          "url" : "Blonde3.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "11"
+    "CN1hbIsVC9": {
+      "title": "Blonde",
+      "yearMade": "2017",
+      "size": "12\"x12\"",
+      "description": "Album design",
+      "artistId": "mKOsPKWBSV",
+      "imageNames": [
+        "Blonde1.jpg",
+        "Blonde2.jpg",
+        "Blonde3.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "11"
     },
-    "1PISwhZCje" : {
-      "title" : "Entwined",
-      "yearMade" : "2017",
-      "description" : "Oil on watercolor paper",
-      "size" : {
-        "width" : "24\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "eESoUpjgF7" : "eESoUpjgF7"
-      },
-      "images" : {
-        "Entwined.jpg" : {
-          "url" : "Entwined.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "12"
+    "1PISwhZCje": {
+      "title": "Entwined",
+      "yearMade": "2017",
+      "size": "36\"x24\"",
+      "description": "Oil on watercolor paper",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "Entwined.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "12"
     },
-    "vxcPqySzOG" : {
-      "title" : "Sneaker Guys website",
-      "yearMade" : "2017",
-      "description" : "Design, photography",
-      "size" : {
-        "width" : "none",
-        "height" : "none"
-      },
-      "artistIds" : {
-        "kJPaoGdO6c" : "kJPaoGdO6c"
-      },
-      "images" : {
-        "SneakerGuysWebsite1.jpg" : {
-          "url" : "SneakerGuysWebsite1.jpg",
-          "type" : "Primary"
-        },
-        "SneakerGuysWebsite2.jpg" : {
-          "url" : "SneakerGuysWebsite2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "13"
+    "vxcPqySzOG": {
+      "title": "Sneaker Guys website",
+      "yearMade": "2017",
+      "size": "none",
+      "description": "Design, photography",
+      "artistId": "kJPaoGdO6c",
+      "imageNames": [
+        "SneakerGuysWebsite1.jpg",
+        "SneakerGuysWebsite2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "13"
     },
-    "QosgtOeWNE" : {
-      "title" : "The Catepillar's Escape",
-      "yearMade" : "2018",
-      "description" : "Linocut",
-      "size" : {
-        "width" : "36\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "N7VqeDJR1A" : "N7VqeDJR1A"
-      },
-      "images" : {
-        "TheCaterpillarsEscape1.jpg" : { 
-          "url" : "TheCaterpillarsEscape1.jpg",
-          "type" : "Primary"
-        },
-        "TheCaterpillarsEscape2.jpg" : { 
-          "url" : "TheCaterpillarsEscape2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "14"
+    "QosgtOeWNE": {
+      "title": "The Catepillar's Escape",
+      "yearMade": "2018",
+      "size": "36\"x36\"",
+      "description": "Linocut",
+      "artistId": "N7VqeDJR1A",
+      "imageNames": [
+        "TheCaterpillarsEscape1.jpg",
+        "TheCaterpillarsEscape2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "14"
     },
-    "XmtFgQ7q6p" : {
-      "title" : "Grandmother",
-      "yearMade" : "2018",
-      "description" : "Linocut",
-      "size" : {
-        "width" : "24\"",
-        "height" : "26\""
-      },
-      "artistIds" : {
-        "WpxPpYxpkU" : "WpxPpYxpkU"
-      },
-      "images" : {
-        "Grandmother.jpg" : {
-          "url" : "Grandmother.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "15"
+    "XmtFgQ7q6p": {
+      "title": "Grandmother",
+      "yearMade": "2018",
+      "size": "26\"x24\"",
+      "description": "Linocut",
+      "artistId": "WpxPpYxpkU",
+      "imageNames": [
+        "Grandmother.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "15"
     },
-    "Jx6WLxGIga" : {
-      "title" : "Tear the Rock",
-      "yearMade" : "2018",
-      "description" : "Oil, wood, plaster",
-      "size" : {
-        "width" : "13 1/2\"",
-        "height" : "14\""
-      },
-      "artistIds" : {
-        "bYV8rjw1du" : "bYV8rjw1du"
-      },
-      "images" : {
-        "TearTheRock.jpg" : {
-          "url" : "TearTheRock.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "16"
+    "Jx6WLxGIga": {
+      "title": "Tear the Rock",
+      "yearMade": "2018",
+      "size": "14\"x13 1/2\"",
+      "description": "Oil, wood, plaster",
+      "artistId": "bYV8rjw1du",
+      "imageNames": [
+        "TearTheRock.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "16"
     },
-    "E9UWjRmE2F" : {
-      "title" : "Loose",
-      "yearMade" : "2018",
-      "description" : "Oil, wood, plaster, fabric",
-      "size" : {
-        "width" : "16 1/2\"",
-        "height" : "12 1/2\""
-      },
-      "artistIds" : {
-        "bYV8rjw1du" : "bYV8rjw1du"
-      },
-      "images" : {
-        "Loose.jpg" : {
-          "url" : "Loose.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "17"
+    "E9UWjRmE2F": {
+      "title": "Loose",
+      "yearMade": "2018",
+      "size": "16 1/2\"x12 1/2\"",
+      "description": "Oil, wood, plaster, fabric",
+      "artistId": "bYV8rjw1du",
+      "imageNames": [
+        "Loose.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "17"
     },
-    "ewikKVFPvy" : {
-      "title" : "On My Back Porch",
-      "yearMade" : "2017",
-      "description" : "Oil and collage",
-      "size" : {
-        "width" : "9\"",
-        "height" : "12\""
-      },
-      "artistIds" : {
-        "5AbeqXu50S" : "5AbeqXu50S"
-      },
-      "images" : {
-        "OnMyBackPorch.jpg" : {
-          "url" : "OnMyBackPorch.jpg",
-          "type" : "Primary" 
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "18"
+    "ewikKVFPvy": {
+      "title": "On My Back Porch",
+      "yearMade": "2017",
+      "size": "12\"x9\"",
+      "description": "Oil and collage",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "OnMyBackPorch.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "18"
     },
-    "4mwM1KYyja" : {
-      "title" : "Reflected Lace",
-      "yearMade" : "2018",
-      "description" : "Photography",
-      "size" : {
-        "width" : "none",
-        "height" : "none"
-      },
-      "artistIds" : {
-        "gQYeXuB2KH" : "gQYeXuB2KH"
-      },
-      "images" : {
-        "ReflectedLace.jpg" : {
-          "url" : "ReflectedLace.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "19"
+    "4mwM1KYyja": {
+      "title": "Reflected Lace",
+      "yearMade": "2018",
+      "size": "none",
+      "description": "Photography",
+      "artistId": "gQYeXuB2KH",
+      "imageNames": [
+        "ReflectedLace.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "19"
     },
-    "7hxCWUXIYu" : {
-      "title" : "Die Schwarze Sonne",
-      "yearMade" : "2018",
-      "description" : "Acrylic, charcoal, chalk",
-      "size" : {
-        "width" : "29 1/2\"",
-        "height" : "31\""
-      },
-      "artistIds" : {
-        "jrLfN78muX" : "jrLfN78muX"
-      },
-      "images" : {
-        "DieSchwarzeSonne.jpg" : {
-          "url" : "DieSchwarzeSonne.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "20"
+    "7hxCWUXIYu": {
+      "title": "Die Schwarze Sonne",
+      "yearMade": "2018",
+      "size": "12\"x29 1/2\"",
+      "description": "Acrylic, charcoal, chalk",
+      "artistId": "jrLfN78muX",
+      "imageNames": [
+        "DieSchwarzeSonne.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "20"
     },
-    "2vZPNrY5Bo" : {
-      "title" : "Grandmother's Tale",
-      "yearMade" : "2017",
-      "description" : "Book design",
-      "size" : {
-        "width" : "6\"",
-        "height" : "6\""
-      },
-      "artistIds" : {
-        "9gW8S7G00r" : "9gW8S7G00r"
-      },
-      "images" : {
-        "GrandmothersTale1.jpg" : {
-          "url" : "GrandmothersTale1.jpg",
-          "type" : "Primary"
-        },
-        "GrandmothersTale2.jpg" : {
-          "url" : "GrandmothersTale2.jpg",
-          "type" : "Primary"
-        },
-        "GrandmothersTale3.jpg" : {
-          "url" : "GrandmothersTale3.jpg",
-          "type" : "Primary"
-        },
-        "GrandmothersTale4.jpg" : {
-          "url" : "GrandmothersTale4.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "21"
+    "2vZPNrY5Bo": {
+      "title": "Grandmother's Tale",
+      "yearMade": "2017",
+      "size": "6\"x6\"",
+      "description": "Book design",
+      "artistId": "9gW8S7G00r",
+      "imageNames": [
+        "GrandmothersTale1.jpg",
+        "GrandmothersTale2.jpg",
+        "GrandmothersTale3.jpg",
+        "GrandmothersTale4.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "21"
     },
-    "wmiFf8hVcN" : {
-      "title" : "Sunsaan",
-      "yearMade" : "2018",
-      "description" : "Mixed media",
-      "size" : {
-        "width" : "48\"",
-        "height" : "48\""
-      },
-      "artistIds" : {
-        "dDtqNisB12" : "dDtqNisB12"
-      },
-      "images" : {
-        "Sunsaan1.jpg" : {
-          "url" : "Sunsaan1.jpg",
-          "type" : "Primary"
-        },
-        "Sunsaan2.jpg" : {
-          "url" : "Sunsaan2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "22"
+    "wmiFf8hVcN": {
+      "title": "Sunsaan",
+      "yearMade": "2018",
+      "size": "48\"x48\"",
+      "description": "Mixed media",
+      "artistId": "dDtqNisB12",
+      "imageNames": [
+        "Sunsaan1.jpg",
+        "Sunsaan2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "22"
     },
-    "daZpsESSuN" : {
-      "title" : "Therapy 1",
-      "yearMade" : "2018",
-      "description" : "Oil on watercolor paper",
-      "size" : {
-        "width" : "24\"",
-        "height" : "35\""
-      },
-      "artistIds" : {
-        "eESoUpjgF7" : "eESoUpjgF7"
-      },
-      "images" : {
-        "Therapy1.jpg" : {
-          "url" : "Therapy1.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "23"
+    "daZpsESSuN": {
+      "title": "Therapy 1",
+      "yearMade": "2018",
+      "size": "35\"x24\"",
+      "description": "Oil on watercolor paper",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "Therapy1.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "23"
     },
-    "ghrodEtZ73" : {
-      "title" : "Therapy 2",
-      "yearMade" : "2018",
-      "description" : "Oil on watercolor paper",
-      "size" : {
-        "width" : "24\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "eESoUpjgF7" : "eESoUpjgF7"
-      },
-      "images" : {
-        "Therapy2.jpg" : {
-          "url" : "Therapy2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "24"
+    "ghrodEtZ73": {
+      "title": "Therapy 2",
+      "yearMade": "2018",
+      "size": "36\"x24\"",
+      "description": "Oil on watercolor paper",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "Therapy2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "24"
     },
-    "2C38GCWD6k" : {
-      "title" : "Avolition",
-      "yearMade" : "2017",
-      "description" : "Fabric, wood, fencing, dog collar, canvas, gauze, gesso, cotton batting, thread, and oil",
-      "size" : {
-        "width" : "35\"",
-        "height" : "85\""
-      },
-      "artistIds" : {
-        "8CUW9uboqH" : "8CUW9uboqH"
-      },
-      "images" : {
-        "Avolition.jpg" : {
-          "url" : "Avolition.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "25"
+    "2C38GCWD6k": {
+      "title": "Avolition",
+      "yearMade": "2017",
+      "size": "85\"x35\"",
+      "description": "Fabric, wood, fencing, dog collar, canvas, gauze, gesso, cotton batting, thread, and oil",
+      "artistId": "8CUW9uboqH",
+      "imageNames": [
+        "Avolition.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "25"
     },
-    "FKIei8YLxr" : {
-      "title" : "Collaged Perspective",
-      "yearMade" : "2018",
-      "description" : "Ink and collage",
-      "size" : {
-        "width" : "24\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "EDTpduDalL" : "EDTpduDalL"
-      },
-      "images" : {
-        "CollagedPerspective.jpg" : {
-          "url" : "CollagedPerspective.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "26"
+    "FKIei8YLxr": {
+      "title": "Collaged Perspective",
+      "yearMade": "2018",
+      "size": "36\"x24\"",
+      "description": "Ink and collage",
+      "artistId": "EDTpduDalL",
+      "imageNames": [
+        "CollagedPerspective.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "26"
     },
-    "H3sidBGlHy" : {
-      "title" : "Untitled",
-      "yearMade" : "2018",
-      "description" : "Charcoal, ink, and collage",
-      "size" : {
-        "width" : "23 1/2\"",
-        "height" : "32\""
-      },
-      "artistIds" : {
-        "LX5KhFpFge" : "LX5KhFpFge"
-      },
-      "images" : {
-        "Untitled.jpg" : {
-          "url" : "Untitled.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "27"
+    "H3sidBGlHy": {
+      "title": "Untitled",
+      "yearMade": "2018",
+      "size": "23 1/2\"x32\"",
+      "description": "Charcoal, ink, and collage",
+      "artistId": "LX5KhFpFge",
+      "imageNames": [
+        "Untitled.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "27"
     },
-    "xX8VijsRPA" : {
-      "title" : "Untitled",
-      "yearMade" : "2017",
-      "description" : "Wood, plaster, paint, and cardboard",
-      "size" : {
-        "width" : "30\"",
-        "depth" : "30\"",
-        "height" : "104\""
-      },
-      "artistIds" : {
-        "fNtawUW02I" : "fNtawUW02I"
-      },
-      "images" : {
-        "Untitled1.jpg" : {
-          "url" : "Untitled1.jpg",
-          "type" : "Primary"
-        },
-        "Untitled2.jpg" : {
-          "url" : "Untitled2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "28"
+    "xX8VijsRPA": {
+      "title": "Untitled",
+      "yearMade": "2017",
+      "size": "30\"x30\"x104\"",
+      "description": "Wood, plaster, paint, and cardboard",
+      "artistId": "fNtawUW02I",
+      "imageNames": [
+        "Untitled1.jpg",
+        "Untitled2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "28"
     },
-    "9t6z3CSEeD" : {
-      "title" : "Neon Loop",
-      "yearMade" : "2018",
-      "description" : "Acrylic, charcoal, chalk",
-      "size" : {
-        "width" : "48\"",
-        "height" : "30\""
-      },
-      "artistIds" : {
-        "jrLfN78muX" : "jrLfN78muX"
-      },
-      "images" : {
-        "NeonLoop.jpg" : {
-          "url" : "NeonLoop.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "29"
+    "9t6z3CSEeD": {
+      "title": "Neon Loop",
+      "yearMade": "2018",
+      "size": "30\"x48\"",
+      "description": "Acrylic, charcoal, chalk",
+      "artistId": "jrLfN78muX",
+      "imageNames": [
+        "NeonLoop.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "29"
     },
-    "kfk3xg3U1W" : {
-      "title" : "\"Mom I don't WANT to be at IKEA\"",
-      "yearMade" : "2018",
-      "description" : "Photography",
-      "size" : {
-        "width" : "none",
-        "height" : "none"
-      },
-      "artistIds" : {
-        "Mo2Wr2LzT1" : "Mo2Wr2LzT1"
-      },
-      "images" : {
-        "IKEA.jpg" : {
-          "url" : "MomIDontWANTToBeAtIKEA.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "30"
+    "kfk3xg3U1W": {
+      "title": "\"Mom I don't WANT to be at IKEA\"",
+      "yearMade": "2018",
+      "size": "none",
+      "description": "Photography",
+      "artistId": "Mo2Wr2LzT1",
+      "imageNames": [
+        "MomIDontWANTToBeAtIKEA.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "30"
     },
-    "ehRebD5fyD" : {
-      "title" : "Charlie and Effie",
-      "yearMade" : "2018",
-      "description" : "Etching",
-      "size" : {
-        "width" : "6\"",
-        "height" : "7 1/2\""
-      },
-      "artistIds" : {
-        "befWs1GQsf" : "befWs1GQsf"
-      },
-      "images" : {
-        "CharlieAndEffie.jpg" : {
-          "url" : "CharlieAndEffie.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "31"
+    "ehRebD5fyD": {
+      "title": "Charlie and Effie",
+      "yearMade": "2018",
+      "size": "7 1/2\"x6\"",
+      "description": "Etching",
+      "artistId": "befWs1GQsf",
+      "imageNames": [
+        "CharlieAndEffie.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "31"
     },
-    "6duzzezcQr" : {
-      "title" : "Excuse Me",
-      "yearMade" : "2018",
-      "description" : "Charcoal, pastel, collage",
-      "size" : {
-        "width" : "24\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "vezLEEm8w3" : "vezLEEm8w3"
-      },
-      "images" : {
-        "ExcuseMe.jpg" : {
-          "url" : "ExcuseMe.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "32"
+    "6duzzezcQr": {
+      "title": "Excuse Me",
+      "yearMade": "2018",
+      "size": "5'x2'",
+      "description": "Charcoal, pastel, collage",
+      "artistId": "vezLEEm8w3",
+      "imageNames": [
+        "ExcuseMe.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "32"
     },
-    "AhUU3hc2xl" : {
-      "title" : "Backwaters of Kerala",
-      "yearMade" : "2017",
-      "description" : "Oil",
-      "size" : {
-        "width" : "24\"",
-        "height" : "36\""
-      },
-      "artistIds" : {
-        "WpxPpYxpkU" : "WpxPpYxpkU"
-      },
-      "images" : {
-        "BackwatersOfKerala.jpg" : {
-          "url" : "BackwatersOfKerala.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "33"
+    "AhUU3hc2xl": {
+      "title": "Backwaters of Kerala",
+      "yearMade": "2017",
+      "size": "3'x2'",
+      "description": "Oil",
+      "artistId": "WpxPpYxpkU",
+      "imageNames": [
+        "BackwatersOfKerala.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "33"
     },
-    "uJPJmm8QDB" : {
-      "title" : "Character movements from Save the Forest",
-      "yearMade" : "2018",
-      "description" : "Digital animation",
-      "size" : {
-        "width" : "none",
-        "height" : "none"
-      },
-      "artistIds" : {
-        "imo7wqF6pk" : "imo7wqF6pk"
-      },
-      "images" : {
-        "CharacterMovementsFromSaveTheForest.jpg" : {
-          "url" : "CharacterMovementsFromSaveTheForest.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "34"
+    "uJPJmm8QDB": {
+      "title": "Character movements from Save the Forest",
+      "yearMade": "2018",
+      "size": "none",
+      "description": "Digital animation",
+      "artistId": "imo7wqF6pk",
+      "imageNames": [
+        "CharacterMovementsFromSaveTheForest.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "34"
     },
-    "dlu2MjAfWO" : {
-      "title" : "Border Wall 2",
-      "yearMade" : "2017",
-      "description" : "Etching",
-      "size" : {
-        "width" : "36\"",
-        "height" : "24\""
-      },
-      "artistIds" : {
-        "WUdSdgPpE6" : "WUdSdgPpE6"
-      },
-      "images" : {
-        "BorderWall2.jpg" : {
-          "url" : "BorderWall2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "35"
+    "dlu2MjAfWO": {
+      "title": "Border Wall 2",
+      "yearMade": "2017",
+      "size": "2'x3'",
+      "description": "Etching",
+      "artistId": "WUdSdgPpE6",
+      "imageNames": [
+        "BorderWall2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "35"
     },
-    "EgUJhwECIq" : {
-      "title" : "Three plants",
-      "yearMade" : "2018",
-      "description" : "Screen print",
-      "size" : {
-        "width" : "14\"",
-        "height" : "14\""
-      },
-      "artistIds" : {
-        "lH3dv6oRiE" : "lH3dv6oRiE"
-      },
-      "images" : {
-        "ThreePlants.jpg" : {
-          "url" : "ThreePlants.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "36"
+    "EgUJhwECIq": {
+      "title": "Three plants",
+      "yearMade": "2018",
+      "size": "14\"x14\"",
+      "description": "Screen print",
+      "artistId": "lH3dv6oRiE",
+      "imageNames": [
+        "ThreePlants.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "36"
     },
-    "K3OwKN1XI2" : {
-      "title" : "Reflection II",
-      "yearMade" : "2017",
-      "description" : "Charcoal and chalk",
-      "size" : {
-        "width" : "48\"",
-        "height" : "60\""
-      },
-      "artistIds" : {
-        "9gW8S7G00r" : "9gW8S7G00r"
-      },
-      "images" : {
-        "Reflection2.jpg" : {
-          "url" : "Reflection2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "37"
+    "K3OwKN1XI2": {
+      "title": "Reflection II",
+      "yearMade": "2017",
+      "size": "60\"x48\"",
+      "description": "Charcoal and chalk",
+      "artistId": "9gW8S7G00r",
+      "imageNames": [
+        "Reflection2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "37"
     },
-    "jY8CvRUsxf" : {
-      "title" : "Small Payne's Gray Drawing #1",
-      "yearMade" : "2018",
-      "description" : "Acrylic, charcoal, chalk",
-      "size" : {
-        "width" : "29 1/2\"",
-        "height" : "32 1/2\""
-      },
-      "artistIds" : {
-        "jrLfN78muX" : "jrLfN78muX"
-      },
-      "images" : {
-        "SmallPaynesGrayDrawing.jpg" : {
-          "url" : "SmallPaynesGrayDrawing1.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "38"
+    "jY8CvRUsxf": {
+      "title": "Small Payne's Gray Drawing #1",
+      "yearMade": "2018",
+      "size": "32 1/2\"x29 1/2\"",
+      "description": "Acrylic, charcoal, chalk",
+      "artistId": "jrLfN78muX",
+      "imageNames": [
+        "SmallPaynesGrayDrawing1.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "38"
     },
-    "CBjM1gBykR" : {
-      "title" : "The 15th floor of St. Mary's",
-      "yearMade" : "2018",
-      "description" : "Oil and collage",
-      "size" : {
-        "width" : "60\"",
-        "height" : "42\""
-      },
-      "artistIds" : {
-        "5AbeqXu50S" : "5AbeqXu50S"
-      },
-      "images" : {
-        "15thFloorOfStMarys.jpg" : {
-          "url" : "15thFloorOfStMarys.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "39"
+    "CBjM1gBykR": {
+      "title": "The 15th floor of St. Mary's",
+      "yearMade": "2018",
+      "size": "42\"x60\"",
+      "description": "Oil and collage",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "15thFloorOfStMarys.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "39"
     },
-    "aqJ6vRJip5" : {
-      "title" : "Border Wall 1",
-      "yearMade" : "2017",
-      "description" : "Linocut",
-      "size" : {
-        "width" : "18\"",
-        "height" : "12\""
-      },
-      "artistIds" : {
-        "WUdSdgPpE6" : "WUdSdgPpE6"
-      },
-      "images" : {
-        "BorderWall1.jpg" : {
-          "url" : "BorderWall1.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "40"
+    "aqJ6vRJip5": {
+      "title": "Border Wall 1",
+      "yearMade": "2017",
+      "size": "12\"x18\"",
+      "description": "Linocut",
+      "artistId": "WUdSdgPpE6",
+      "imageNames": [
+        "BorderWall1.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "40"
     },
-    "dR6CC4MWQK" : {
-      "title" : "We Live in This Field",
-      "yearMade" : "2018",
-      "description" : "Oil and collage",
-      "size" : {
-        "width" : "12\"",
-        "height" : "9\""
-      },
-      "artistIds" : {
-        "5AbeqXu50S" : "5AbeqXu50S"
-      },
-      "images" : {
-        "WeLiveInThisField.jpg" : {
-          "url" : "WeLiveInThisField.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "41"
+    "dR6CC4MWQK": {
+      "title": "We Live in This Field",
+      "yearMade": "2018",
+      "size": "9\"x12\"",
+      "description": "Oil and collage",
+      "artistId": "WUdSdgPpE6",
+      "imageNames": [
+        "WeLiveInThisField.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "41"
     },
-    "wSMys5HWeI" : {
-      "title" : "Silent Chaos",
-      "yearMade" : "2018",
-      "description" : "Etching",
-      "size" : {
-        "width" : "18\"",
-        "height" : "12\""
-      },
-      "artistIds" : {
-        "xWbyyJUkhx" : "xWbyyJUkhx"
-      },
-      "images" : {
-        "SilentChaos.jpg" : {
-          "url" : "SilentChaos.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "42"
+    "wSMys5HWeI": {
+      "title": "Silent Chaos",
+      "yearMade": "2018",
+      "size": "12\"x18\"",
+      "description": "Etching",
+      "artistId": "xWbyyJUkhx",
+      "imageNames": [
+        "SilentChaos.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "42"
     },
-    "1vvHM7vVr6" : {
-      "title" : "The Scream",
-      "yearMade" : "2018",
-      "description" : "Oil",
-      "size" : {
-        "width" : "36\"",
-        "height" : "72\""
-      },
-      "artistIds" : {
-        "9NWCtZ6CqB" : "9NWCtZ6CqB"
-      },
-      "images" : {
-        "TheScream.jpg" : {
-          "url" : "TheScream.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "43"
+    "1vvHM7vVr6": {
+      "title": "The Scream",
+      "yearMade": "2018",
+      "size": "6'x3'",
+      "description": "Oil",
+      "artistId": "9NWCtZ6CqB",
+      "imageNames": [
+        "TheScream.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "43"
     },
-    "WAZ7Zy9dfB" : {
-      "title" : "Organic Linear 1",
-      "yearMade" : "2017",
-      "description" : "Wood, corrugated plastic",
-      "size" : {
-        "width" : "60\"",
-        "depth" : "30\"",
-        "height" : "90\""
-      },
-      "artistIds" : {
-        "eWRCo5EBek" : "eWRCo5EBek"
-      },
-      "images" : {
-        "OrganicLinear1.jpg" : {
-          "url" : "OrganicLinear1.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "44"
+    "WAZ7Zy9dfB": {
+      "title": "Organic Linear 1",
+      "yearMade": "2017",
+      "size": "60\"x30\"x90\"",
+      "description": "Wood, corrugated plastic",
+      "artistId": "eWRCo5EBek",
+      "imageNames": [
+        "OrganicLinear1.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "44"
     },
-    "lU8K8eBl98" : {
-      "title" : "Drown",
-      "yearMade" : "2017",
-      "description" : "Linocut",
-      "size" : {
-        "width" : "12\"",
-        "height" : "18\""
-      },
-      "artistIds" : {
-        "JrgCdZBT4k" : "JrgCdZBT4k"
-      },
-      "images" : {
-        "Drown1.jpg" : {
-          "url" : "Drown1.jpg",
-          "type" : "Primary"
-        },
-        "Drown2.jpg" : {
-          "url" : "Drown2.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "45"
+    "lU8K8eBl98": {
+      "title": "Drown",
+      "yearMade": "2017",
+      "size": "18\"x12\"",
+      "description": "Linocut",
+      "artistId": "JrgCdZBT4k",
+      "imageNames": [
+        "Drown1.jpg",
+        "Drown2.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "45"
     },
-    "wI3xvO0NHP" : {
-      "title" : "Smudged",
-      "yearMade" : "2018",
-      "description" : "Photography",
-      "size" : {
-        "width" : "none",
-        "height" : "none"
-      },
-      "artistIds" : {
-        "gQYeXuB2KH" : "gQYeXuB2KH"
-      },
-      "images" : {
-        "Smudged.jpg" : {
-          "url" : "Smudged.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "46"
+    "wI3xvO0NHP": {
+      "title": "Smudged",
+      "yearMade": "2018",
+      "size": "none",
+      "description": "Photography",
+      "artistId": "gQYeXuB2KH",
+      "imageNames": [
+        "Smudged.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "46"
     },
-    "Tc0mxjVZug" : {
-      "title" : "Brambles",
-      "yearMade" : "2018",
-      "description" : "Photography",
-      "size" : {
-        "width" : "none",
-        "height" : "none"
-      },
-      "artistIds" : {
-        "gQYeXuB2KH" : "gQYeXuB2KH"
-      },
-      "images" : {
-        "Brambles.jpg" : {
-          "url" : "Brambles.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "47"
+    "Tc0mxjVZug": {
+      "title": "Brambles",
+      "yearMade": "2018",
+      "size": "none",
+      "description": "Photography",
+      "artistId": "gQYeXuB2KH",
+      "imageNames": [
+        "Brambles.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "47"
     },
-    "htkErj7UDX" : {
-      "title" : "Escape",
-      "yearMade" : "2017",
-      "description" : "Book design",
-      "size" : {
-        "width" : "6 1/2\"",
-        "height" : "9\""
-      },
-      "artistIds" : {
-        "Qo54vuwMVd" : "Qo54vuwMVd"
-      },
-      "images" : {
-        "Escape1.jpg" : {
-          "url" : "Escape1.jpg",
-          "type" : "Primary"
-        },
-        "Escape2.jpg" : {
-          "url" : "Escape2.jpg",
-          "type" : "Secondary"
-        },
-        "Escape3.jpg" : {
-          "url" : "Escape3.jpg",
-          "type" : "Secondary"
-        },
-        "Escape4.jpg" : {
-          "url" : "Escape4.jpg",
-          "type" : "Secondary"
-        },
-        "Escape5.jpg" : {
-          "url" : "Escape5.jpg",
-          "type" : "Secondary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "48"
+    "htkErj7UDX": {
+      "title": "Escape",
+      "yearMade": "2017",
+      "size": "9\"x6 1/2\"",
+      "description": "Book design",
+      "artistId": "Qo54vuwMVd",
+      "imageNames": [
+        "Escape1.jpg",
+        "Escape2.jpg",
+        "Escape3.jpg",
+        "Escape4.jpg",
+        "Escape5.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "48"
     },
-    "U7K2kGh5pc" : {
-      "title" : "Rosenrot",
-      "yearMade" : "2018",
-      "description" : "Acrylic, charcoal, chalk",
-      "size" : {
-        "width" : "23 1/2\"",
-        "height" : "19\""
-      },
-      "artistIds" : {
-        "jrLfN78muX" : "jrLfN78muX"
-      },
-      "images" : {
-        "Rosenrot.jpg" : {
-          "url" : "Rosenrot.jpg",
-          "type" : "Primary"
-        }
-      },
-      "issueIds" : {
-        "1" : "1"
-      },
-      "pageNumber" : "49"
+    "U7K2kGh5pc": {
+      "title": "Rosenrot",
+      "yearMade": "2018",
+      "size": "19\"x23 1/2\"",
+      "description": "Acrylic, charcoal, chalk",
+      "artistId": "jrLfN78muX",
+      "imageNames": [
+        "Rosenrot.jpg"
+      ],
+      "issueId": "1",
+      "pageNumber": "49"
+    },
+    "QnF0flnrZx": {
+      "title": "Bump (In the Night)",
+      "yearMade": "2019",
+      "size": "20\"x10\"",
+      "description": "Acrylic, oil paint and pastel",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "DSC01525.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "1"
+    },
+    "Z4GjnM4eO3": {
+      "title": "Morning with Dogs",
+      "yearMade": "2019",
+      "size": "16\"x23\"",
+      "description": "Relief",
+      "artistId": "wbZQhhktWn",
+      "imageNames": [
+        "DSC01119.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "2"
+    },
+    "JO7I00YpCV": {
+      "title": "Donuts at Sunrise",
+      "yearMade": "2019",
+      "size": "20\"x36\"",
+      "description": "Relief",
+      "artistId": "wbZQhhktWn",
+      "imageNames": [
+        "DSC01124.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "3"
+    },
+    "3T20eqbeyp": {
+      "title": "Ricky Lee Jones",
+      "yearMade": "2019",
+      "size": "6\"x8\"",
+      "description": "Book design",
+      "artistId": "bPjHRkWrcD",
+      "imageNames": [
+        "DSC01482.jpg",
+        "DSC01465.jpg",
+        "DSC01460.jpg",
+        "DSC01474.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "4"
+    },
+    "iv2D2fEGXq": {
+      "title": "Midwestern Illinois",
+      "yearMade": "2018",
+      "size": "20\"x16\"",
+      "description": "Oil paint and pastel",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "DSC00535.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "5"
+    },
+    "5re7hLdTPG": {
+      "title": "A Place to Sit",
+      "yearMade": "2019",
+      "size": "60\"x50\"",
+      "description": "Oil",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "DSC00584.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "6"
+    },
+    "ljBeDcJUH1": {
+      "title": "Cyclical Being #2 (Minotaurus)",
+      "yearMade": "2019",
+      "size": "101\"x72\"x92\"",
+      "description": "Used bicycle parts",
+      "artistId": "Fdvy7YqSlf",
+      "imageNames": [
+        "DSC01317.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "7"
+    },
+    "tMipV25H3e": {
+      "title": "Junk",
+      "yearMade": "2019",
+      "size": "24\"x30\"",
+      "description": "Oil",
+      "artistId": "QpmI9gvqYL",
+      "imageNames": [
+        "DSC00517.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "8"
+    },
+    "MvQ03lbkoS": {
+      "title": "Still Life with Shark",
+      "yearMade": "2019",
+      "size": "3'x5'",
+      "description": "Charcoal",
+      "artistId": "9NWCtZ6CqB",
+      "imageNames": [
+        "DSC00637.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "9"
+    },
+    "MutoIQffoS": {
+      "title": "Canis Major",
+      "yearMade": "2019",
+      "size": "23\"x15\"",
+      "description": "Relief",
+      "artistId": "lNkty9s2mU",
+      "imageNames": [
+        "Scan5.jpg",
+        "Scan6.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "10"
+    },
+    "9cNZno1Fhd": {
+      "title": "Saturday Morning",
+      "yearMade": "2018",
+      "size": "45\"x35\"x24\"",
+      "description": "Foamcore and acrylic",
+      "artistId": "fQnmeyxJ7V",
+      "imageNames": [
+        "DSC01286.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "11"
+    },
+    "GtecGZHFGR": {
+      "title": "Bloom",
+      "yearMade": "2019",
+      "size": "7\"x10\"",
+      "description": "Red clay",
+      "artistId": "Ujq3CF3XTL",
+      "imageNames": [
+        "DSC00707.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "12"
+    },
+    "YP0ysf3vGY": {
+      "title": "Spirit Dance",
+      "yearMade": "2019",
+      "size": "67\"x98\"",
+      "description": "Oil",
+      "artistId": "9NWCtZ6CqB",
+      "imageNames": [
+        "DSC00661.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "13"
+    },
+    "BspDS9pUbS": {
+      "title": "Planar Space",
+      "yearMade": "2019",
+      "size": "7\"x5\"",
+      "description": "Acrylic and color pencil",
+      "artistId": "BDNCGWtQSz",
+      "imageNames": [
+        "DSC00563.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "14"
+    },
+    "zrY5euLU23": {
+      "title": "2 More Minutes",
+      "yearMade": "2019",
+      "size": "7\"x5\"",
+      "description": "Acrylic",
+      "artistId": "BDNCGWtQSz",
+      "imageNames": [
+        "DSC00567.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "15"
+    },
+    "eqbeyp3T20": {
+      "title": "Typographic Abstractions",
+      "yearMade": "2019",
+      "size": null,
+      "description": "Graphic design",
+      "artistId": "bPjHRkWrcD",
+      "imageNames": [
+        "digital17_1.jpg",
+        "digital17_2.jpg",
+        "digital17_3.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "16"
+    },
+    "hVKbKd4TDZ": {
+      "title": "The Conspiracy Against the Human Race",
+      "yearMade": "2019",
+      "size": "6\"x4\"",
+      "description": "Book design",
+      "artistId": "mKOsPKWBSV",
+      "imageNames": [
+        "DSC01484.jpg",
+        "DSC01487.jpg",
+        "DSC01502.jpg",
+        "DSC01490.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "17"
+    },
+    "aqOV76tpmO": {
+      "title": "Quilt 2",
+      "yearMade": "2019",
+      "size": "18\"x12\"",
+      "description": "Monotype",
+      "artistId": "fA0OOtlNRB",
+      "imageNames": [
+        "DSC01115.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "18"
+    },
+    "gsFnd3yXO8": {
+      "title": "Dining Room",
+      "yearMade": "2019",
+      "size": "2'x3'",
+      "description": "Oil and collage",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "DSC00652.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "19"
+    },
+    "2VrBgUgnb5": {
+      "title": "First date",
+      "yearMade": "2018",
+      "size": "3\"x6\"",
+      "description": "Comic",
+      "artistId": "N7VqeDJR1A",
+      "imageNames": [
+        "digital2.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "20"
+    },
+    "Px2ccdL6h2": {
+      "title": "Ochre Chair",
+      "yearMade": "2019",
+      "size": "16\"x23\"",
+      "description": "Collage",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "DSC00617.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "21"
+    },
+    "aKG3kSHa0p": {
+      "title": "Cousins",
+      "yearMade": "2019",
+      "size": "58\"x41\"",
+      "description": "Watercolor, charcoal, chalk",
+      "artistId": "aK3zsMbI0o",
+      "imageNames": [
+        "DSC00608.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "22"
+    },
+    "Tqczyv3TCp": {
+      "title": "It's Only Sex",
+      "yearMade": "2019",
+      "size": "14\"x11\"",
+      "description": "Mixed media",
+      "artistId": "BDNCGWtQSz",
+      "imageNames": [
+        "Scan17.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "23"
+    },
+    "fcMC25RtDl": {
+      "title": "Same Day Shipping",
+      "yearMade": "2019",
+      "size": "64\"x40\"x21.5\"",
+      "description": "Cardboard, ductape, stool",
+      "artistId": "Fdvy7YqSlf",
+      "imageNames": [
+        "DSC01257.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "24"
+    },
+    "dLYqUfrr9C": {
+      "title": "Composition 9",
+      "yearMade": "2019",
+      "size": "10\"x8\"",
+      "description": "Oil",
+      "artistId": "KYT6wvLmT5",
+      "imageNames": [
+        "DSC00464.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "25"
+    },
+    "bwGl2gO4us": {
+      "title": "Shadow",
+      "yearMade": "2019",
+      "size": "68\"x94\"",
+      "description": "Charcoal, acrylic, ink",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC00926.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "26"
+    },
+    "0yDQybtHv8": {
+      "title": "Blueberry Bowl",
+      "yearMade": "2019",
+      "size": "12\"x12\"",
+      "description": "Red clay",
+      "artistId": "vYN5k3bVgs",
+      "imageNames": [
+        "DSC01037.jpg",
+        "DSC01069.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "27"
+    },
+    "4rmzQLekPC": {
+      "title": "Pick Me Up",
+      "yearMade": "2019",
+      "size": "15\"x9\"",
+      "description": "Interactive soft sculpture",
+      "artistId": "CSvgJuQZqU",
+      "imageNames": [
+        "DSC01534.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "28"
+    },
+    "auV501LsfU": {
+      "title": "Sy-energies",
+      "yearMade": "2018",
+      "size": "8'x4'",
+      "description": "Oil",
+      "artistId": "9NWCtZ6CqB",
+      "imageNames": [
+        "DSC00658.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "29"
+    },
+    "sHPJk9zVhS": {
+      "title": "Miniature Green Cardigan",
+      "yearMade": "2019",
+      "size": "2\"x3\"",
+      "description": "Hand-knit cotton thread; wooden buttons",
+      "artistId": "SNNTSYo6Er",
+      "imageNames": [
+        "DSC01519.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "30"
+    },
+    "9L6U4GZ8du": {
+      "title": "Hands Fiddled",
+      "yearMade": "2018",
+      "size": null,
+      "description": "New media installation",
+      "artistId": "JrgCdZBT4k",
+      "imageNames": [
+        "digital4.jpg",
+        "digital5.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "31"
+    },
+    "q34y1hOICF": {
+      "title": "Spotlight",
+      "yearMade": "2019",
+      "size": "49\"x49\"",
+      "description": "Oil and collage",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "DSC00588.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "32"
+    },
+    "gZNtUr8yiB": {
+      "title": "T/113",
+      "yearMade": "2019",
+      "size": "48\"x73\"x85\"",
+      "description": "Mixed media",
+      "artistId": "Fdvy7YqSlf",
+      "imageNames": [
+        "DSC01272.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "33"
+    },
+    "97UcBirffS": {
+      "title": "Tender Kitchen (Medea after Delecroix)",
+      "yearMade": "2019",
+      "size": "4'x6'",
+      "description": "Mixed media",
+      "artistId": "G8PPLMNuR5",
+      "imageNames": [
+        "IMG_3372.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "34"
+    },
+    "vJWj9ln0uX": {
+      "title": "The Curious Incident",
+      "yearMade": "2019",
+      "size": "5\"x5\"",
+      "description": "Book design",
+      "artistId": "zfYa1soyoz",
+      "imageNames": [
+        "DSC01446.jpg",
+        "DSC01455.jpg",
+        "DSC01448.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "35"
+    },
+    "TVxwqWkdFm": {
+      "title": "Plant Sitting",
+      "yearMade": "2019",
+      "size": "14\"x10\"",
+      "description": "Oil and collage",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "DSC00626.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "36"
+    },
+    "f4ax5DHoaj": {
+      "title": "Virtual",
+      "yearMade": "2018",
+      "size": "10\"x34\"x24\"",
+      "description": "Foamcore and acrylic",
+      "artistId": "fQnmeyxJ7V",
+      "imageNames": [
+        "DSC01383.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "37"
+    },
+    "9v0dD0jnbQ": {
+      "title": "Cyclical Being #1",
+      "yearMade": "2018",
+      "size": "175\"x137\"x126\"",
+      "description": "Bicycle frames, handle bars, forks, wheels",
+      "artistId": "Fdvy7YqSlf",
+      "imageNames": [
+        "DSC01341.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "38"
+    },
+    "1HgAlrs4pq": {
+      "title": "You May Have Spirit But I'll Never Hear It",
+      "yearMade": "2019",
+      "size": "6'x4'",
+      "description": "Oil paint and pastel",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "DSC00445.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "39"
+    },
+    "fwWcIJCa52": {
+      "title": "Sinner, I",
+      "yearMade": "2019",
+      "size": "6'x4'",
+      "description": "Oil paint and pastel",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "DSC00435.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "40"
+    },
+    "56jn7negXS": {
+      "title": "The Way",
+      "yearMade": "2019",
+      "size": "19\"x14\"",
+      "description": "Monotype",
+      "artistId": "wuYaDrUYt2",
+      "imageNames": [
+        "DSC01128.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "41"
+    },
+    "Kn7atrfcQH": {
+      "title": "Ruptured",
+      "yearMade": "2019",
+      "size": "19\"x14\"",
+      "description": "Foamcore and oil",
+      "artistId": "fA0OOtlNRB",
+      "imageNames": [
+        "DSC00602.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "42"
+    },
+    "u7Iro304DS": {
+      "title": "Reapers",
+      "yearMade": "2019",
+      "size": null,
+      "description": "Logo design",
+      "artistId": "mKOsPKWBSV",
+      "imageNames": [
+        "digital9.jpg",
+        "digital20.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "43"
+    },
+    "V1bjK4MZ8d": {
+      "title": "Inside of A Tree",
+      "yearMade": "2019",
+      "size": "23\"x8\"x3\"",
+      "description": "Found object",
+      "artistId": "QRmyBT2Wqo",
+      "imageNames": [
+        "DSC00613.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "44"
+    },
+    "btKXpgNiCV": {
+      "title": "Return to the Womb",
+      "yearMade": "2018",
+      "size": "1899-12-30T17:03:00.000Z",
+      "description": "Video",
+      "artistId": "G8PPLMNuR5",
+      "imageNames": [
+        "digital11.jpg",
+        "video3.jpg",
+        "video5.jpg",
+        "video1.jpg",
+        "video4.jpg",
+        "video2.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "45"
+    },
+    "LUavMUkCez": {
+      "title": "Flooded in Light ",
+      "yearMade": "2019",
+      "size": "15\"x12\"",
+      "description": "Multistage relief",
+      "artistId": "wuYaDrUYt2",
+      "imageNames": [
+        "Scan15.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "46"
+    },
+    "sfGziXFXSi": {
+      "title": "This Is My Self Portrait",
+      "yearMade": "2019",
+      "size": "48\"x60\"",
+      "description": "Oil",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC00589.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "47"
+    },
+    "pm7699xlSr": {
+      "title": "Sovok",
+      "yearMade": "2019",
+      "size": "12\"x18\"",
+      "description": "Collage",
+      "artistId": "3Hzg8VbhBy",
+      "imageNames": [
+        "Scan18.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "48"
+    },
+    "BGfw1E8lZP": {
+      "title": "Beige Cloud",
+      "yearMade": "2019",
+      "size": "10\"x8\"",
+      "description": "Acrylic and marker",
+      "artistId": "BDNCGWtQSz",
+      "imageNames": [
+        "DSC00569.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "49"
+    },
+    "oTuTWUQoYO": {
+      "title": "Self-portrait; fetus memory",
+      "yearMade": "2019",
+      "size": "4'x4'",
+      "description": "Mixed media",
+      "artistId": "G8PPLMNuR5",
+      "imageNames": [
+        "IMG_3477.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "50"
+    },
+    "NQbUc8Kur3": {
+      "title": "Perseveration",
+      "yearMade": "2018",
+      "size": null,
+      "description": "Comic",
+      "artistId": "N7VqeDJR1A",
+      "imageNames": [
+        "digital3.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "51"
+    },
+    "cJzjR6A8J5": {
+      "title": "Ivy Still Life",
+      "yearMade": "2019",
+      "size": "17\"x24\"",
+      "description": "Acrylic",
+      "artistId": "fA0OOtlNRB",
+      "imageNames": [
+        "DSC00549.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "52"
+    },
+    "wliW3WTygn": {
+      "title": "Iridescence",
+      "yearMade": "2019",
+      "size": "36\"x24\"",
+      "description": "Oil, canvas, collage",
+      "artistId": "fA0OOtlNRB",
+      "imageNames": [
+        "DSC00328.JPG"
+      ],
+      "issueId": "2",
+      "pageNumber": "53"
+    },
+    "nZ7uc0UTnp": {
+      "title": "Untitled",
+      "yearMade": "2019",
+      "size": "13.5\"x13\"x16.5\"",
+      "description": "Foam, plaster, expired condoms",
+      "artistId": "CSvgJuQZqU",
+      "imageNames": [
+        "CAT026473.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "54"
+    },
+    "2AsqMwvBsD": {
+      "title": "A Cyborg Manifesto",
+      "yearMade": "2019",
+      "size": "10\"x5 3/4\"",
+      "description": "Book design",
+      "artistId": "JrgCdZBT4k",
+      "imageNames": [
+        "DSC01005.jpg",
+        "DSC01008.jpg",
+        "DSC01013.jpg",
+        "DSC01021.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "55"
+    },
+    "lcVtybbPsx": {
+      "title": "Jerry",
+      "yearMade": "2019",
+      "size": "21\"x44\"x42\"",
+      "description": "Wood, metal, fabric, pool noodle",
+      "artistId": "Fdvy7YqSlf",
+      "imageNames": [
+        "DSC00359.JPG"
+      ],
+      "issueId": "2",
+      "pageNumber": "56"
+    },
+    "zcdVeu2pAX": {
+      "title": "Bound",
+      "yearMade": "2018",
+      "size": "6'x4'",
+      "description": "Mixed media",
+      "artistId": "G8PPLMNuR5",
+      "imageNames": [
+        "IMG_3417.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "57"
+    },
+    "bLu35xMgTa": {
+      "title": "Taking Shape",
+      "yearMade": "2019",
+      "size": "25\"x20 1/2\"",
+      "description": "Collage",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "DSC00620.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "58"
+    },
+    "1coYdMOnD6": {
+      "title": "Under the Chair",
+      "yearMade": "2019",
+      "size": "49\"x36\"",
+      "description": "Oil",
+      "artistId": "5AbeqXu50S",
+      "imageNames": [
+        "DSC00647.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "59"
+    },
+    "Ol9wY7LAI1": {
+      "title": "Mistletoe",
+      "yearMade": "2019",
+      "size": "30\"x30\"",
+      "description": "Oil",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "DSC00449.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "60"
+    },
+    "rCpLjb9qau": {
+      "title": "Space Dog",
+      "yearMade": "2019",
+      "size": "17\"x16\"x10.5\"",
+      "description": "Red Clay",
+      "artistId": "IFL8EhUQdg",
+      "imageNames": [
+        "DSC00735.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "61"
+    },
+    "2sQpXVg2F4": {
+      "title": "Aotearoa",
+      "yearMade": "2019",
+      "size": "11\"x8\"",
+      "description": "Relief",
+      "artistId": "lNkty9s2mU",
+      "imageNames": [
+        "Scan4.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "62"
+    },
+    "SctvoxKEpU": {
+      "title": "Gloria",
+      "yearMade": "2019",
+      "size": "4'x3'",
+      "description": "Oil",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC00580.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "63"
+    },
+    "FPQbJtaIpA": {
+      "title": "Tasteful Trash",
+      "yearMade": "2019",
+      "size": "20\"x12\"",
+      "description": "Found object",
+      "artistId": "QRmyBT2Wqo",
+      "imageNames": [
+        "DSC00482.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "64"
+    },
+    "Xd6e8IV5bg": {
+      "title": "Bauhaus Book Cover",
+      "yearMade": "2018",
+      "size": "10\"x10\"",
+      "description": "Graphic design",
+      "artistId": "HdnEYMhfSH",
+      "imageNames": [
+        "bauhaus.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "65"
+    },
+    "UZiDUrUtvj": {
+      "title": "Fine China",
+      "yearMade": "2019",
+      "size": "11 3/4\"x14\"",
+      "description": "Multistage relief",
+      "artistId": "mtuT9ZyXaX",
+      "imageNames": [
+        "Scan14.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "66"
+    },
+    "HLYX3H8Ks6": {
+      "title": "Dynamic Womxn",
+      "yearMade": "2019",
+      "size": "3'x2'",
+      "description": "Multistage relief",
+      "artistId": "CNcc0T05De",
+      "imageNames": [
+        "DSC01151.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "67"
+    },
+    "F0yZuukaPy": {
+      "title": "The Storm",
+      "yearMade": "2019",
+      "size": "9\"x10\"",
+      "description": "Book design",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC00794.jpg",
+        "DSC01397.jpg",
+        "DSC01400.jpg",
+        "DSC00795.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "68"
+    },
+    "QDct96K8Cw": {
+      "title": "This is America",
+      "yearMade": "2018",
+      "size": "3'x2'",
+      "description": "Multistage relief",
+      "artistId": "ze2PExNicZ",
+      "imageNames": [
+        "DSC00929.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "69"
+    },
+    "skmNoTZqF1": {
+      "title": "A Tale of Two Cities",
+      "yearMade": "2018",
+      "size": "3'x2'",
+      "description": "Multistage relief",
+      "artistId": "ze2PExNicZ",
+      "imageNames": [
+        "DSC00932.jpg"
+      ],
+      "issueId": "2",
+      "pageNumber": "70"
     }
   },
   "artists" : {
-    "vezLEEm8w3" : {
-      "name" : "Danay Barrera",
-      "artworks" : "",
-      "graduationYear" : "2021"
+    "KYT6wvLmT5": {
+      "artistID": "KYT6wvLmT5",
+      "name": "Akshya Prasai",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "befWs1GQsf" : {
-      "name" : "Alexandra Bird",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "Fdvy7YqSlf": {
+      "artistID": "Fdvy7YqSlf",
+      "name": "Alexander Davis",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "LX5KhFpFge" : {
-      "name" : "Shifa Dandia",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "befWs1GQsf": {
+      "artistID": "befWs1GQsf",
+      "name": "Alexandra Bird",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "Qo54vuwMVd" : {
-      "name" : "Jinglun Ding",
-      "artworks" : "",
-      "graduationYear" : "2017"
+    "Ujq3CF3XTL": {
+      "artistID": "Ujq3CF3XTL",
+      "name": "Alyx Farris",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "mKOsPKWBSV" : {
-      "name" : "Evan Economos",
-      "artworks" : "",
-      "graduationYear" : "2019"
+    "wbZQhhktWn": {
+      "artistID": "wbZQhhktWn",
+      "name": "Amanda Espinosa",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "eWRCo5EBek" : {
-      "name" : "Ryan Foxall",
-      "artworks" : "",
-      "graduationYear" : "2017"
+    "fA0OOtlNRB": {
+      "artistID": "fA0OOtlNRB",
+      "name": "Anabelen Zuniga",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
     },
-    "9NWCtZ6CqB" : {
-      "name" : "Sachika Goel",
-      "artworks" : "",
-      "graduationYear" : "2020"
+    "jrLfN78muX": {
+      "artistID": "jrLfN78muX",
+      "name": "Andre Volpe",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "gQYeXuB2KH" : {
-      "name" : "Ben Hosto",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "imo7wqF6pk": {
+      "artistID": "imo7wqF6pk",
+      "name": "Arthur Santoro",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "WpxPpYxpkU" : {
-      "name" : "Jini John",
-      "artworks" : "",
-      "graduationYear" : "2020"
+    "gQYeXuB2KH": {
+      "artistID": "gQYeXuB2KH",
+      "name": "Ben Hosto",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "EDTpduDalL" : {
-      "name" : "Minnie Kang",
-      "artworks" : "",
-      "graduationYear" : "2021"
+    "xWbyyJUkhx": {
+      "artistID": "xWbyyJUkhx",
+      "name": "Billy Nguyen",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "BUw4qqrEkX" : {
-      "name" : "Haider Khan",
-      "artworks" : "",
-      "graduationYear" : "2020"
+    "mtuT9ZyXaX": {
+      "artistID": "mtuT9ZyXaX",
+      "name": "Braeden Westfall",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "WUdSdgPpE6" : {
-      "name" : "Mara Lane",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "wuYaDrUYt2": {
+      "artistID": "wuYaDrUYt2",
+      "name": "Chi Le",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "N7VqeDJR1A" : {
-      "name" : "Sam Lisec",
-      "artworks" : "",
-      "graduationYear" : "2021"
+    "vezLEEm8w3": {
+      "artistID": "vezLEEm8w3",
+      "name": "Danay Barrera",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "fNtawUW02I" : {
-      "name" : "Emma Lister",
-      "artworks" : "",
-      "graduationYear" : "2017"
+    "eESoUpjgF7": {
+      "artistID": "eESoUpjgF7",
+      "name": "David Petrak",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
     },
-    "lH3dv6oRiE" : {
-      "name" : "Kristen Marvin",
-      "artworks" : "",
-      "graduationYear" : "2017"
+    "vYN5k3bVgs": {
+      "artistID": "vYN5k3bVgs",
+      "name": "Eleanor Baird",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "8CUW9uboqH" : {
-      "name" : "Kristina Mengis",
-      "artworks" : "",
-      "graduationYear" : "2017"
+    "CSvgJuQZqU": {
+      "artistID": "CSvgJuQZqU",
+      "name": "Eli Adams",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "xWbyyJUkhx" : {
-      "name" : "Billy Nguyen",
-      "artworks" : "",
-      "graduationYear" : "2020"
+    "fNtawUW02I": {
+      "artistID": "fNtawUW02I",
+      "name": "Emma Lister",
+      "artworks": null,
+      "graduationYear": "2017",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "dDtqNisB12" : {
-      "name" : "Utsah Pandey",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "mKOsPKWBSV": {
+      "artistID": "mKOsPKWBSV",
+      "name": "Evan Economos",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
     },
-    "5AbeqXu50S" : {
-      "name" : "Olivia Peterson",
-      "artworks" : "",
-      "graduationYear" : "2019"
+    "ze2PExNicZ": {
+      "artistID": "ze2PExNicZ",
+      "name": "Gloria Ponce",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "eESoUpjgF7" : {
-      "name" : "David Petrak",
-      "artworks" : "",
-      "graduationYear" : "2019"
+    "BUw4qqrEkX": {
+      "artistID": "BUw4qqrEkX",
+      "name": "Haider Khan",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "imo7wqF6pk" : {
-      "name" : "Arthur Santoro",
-      "artworks" : "",
-      "graduationYear" : "2021"
+    "aK3zsMbI0o": {
+      "artistID": "aK3zsMbI0o",
+      "name": "Hannah King",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "bYV8rjw1du" : {
-      "name" : "Madeline Simms",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "Qo54vuwMVd": {
+      "artistID": "Qo54vuwMVd",
+      "name": "Jinglun Ding",
+      "artworks": null,
+      "graduationYear": "2017",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "HGQXNL66i7" : {
-      "name" : "Salvador Solis",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "WpxPpYxpkU": {
+      "artistID": "WpxPpYxpkU",
+      "name": "Jini John",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "JrgCdZBT4k" : {
-      "name" : "Patrick Steppan",
-      "artworks" : "",
-      "graduationYear" : "2020"
+    "QpmI9gvqYL": {
+      "artistID": "QpmI9gvqYL",
+      "name": "Jocelyn Rodriguez",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "9gW8S7G00r" : {
-      "name" : "Nola Thompson",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "BDNCGWtQSz": {
+      "artistID": "BDNCGWtQSz",
+      "name": "Kaelie Seatter",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "Mo2Wr2LzT1" : {
-      "name" : "Teddy Turner",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "bPjHRkWrcD": {
+      "artistID": "bPjHRkWrcD",
+      "name": "Kelly Fisk",
+      "artworks": null,
+      "graduationYear": "2023",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "jrLfN78muX" : {
-      "name" : "Andrea Volpe",
-      "artworks" : "",
-      "graduationYear" : "2018"
+    "zfYa1soyoz": {
+      "artistID": "zfYa1soyoz",
+      "name": "Kelly Hayes",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
     },
-    "kJPaoGdO6c" : {
-      "name" : "Sidath Wanigasinghe",
-      "artworks" : "",
-      "graduationYear" : "2017"
+    "lH3dv6oRiE": {
+      "artistID": "lH3dv6oRiE",
+      "name": "Kristen Marvin",
+      "artworks": null,
+      "graduationYear": "2017",
+      "issueIds": [
+        "1",
+        ""
+      ]
     },
-    "fA0OOtlNRB" : {
-      "name" : "Anabelen Zuniga",
-      "artworks" : "",
-      "graduationYear" : "2019"
+    "8CUW9uboqH": {
+      "artistID": "8CUW9uboqH",
+      "name": "Kristina Mengis",
+      "artworks": null,
+      "graduationYear": "2017",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "HdnEYMhfSH": {
+      "artistID": "HdnEYMhfSH",
+      "name": "Kyle Yang",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "SNNTSYo6Er": {
+      "artistID": "SNNTSYo6Er",
+      "name": "Lily Lauver",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "tkTAIIgLRW": {
+      "artistID": "tkTAIIgLRW",
+      "name": "Louise Rossiter",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "3Hzg8VbhBy": {
+      "artistID": "3Hzg8VbhBy",
+      "name": "Luba Liubvina",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "bYV8rjw1du": {
+      "artistID": "bYV8rjw1du",
+      "name": "Madeline Simms",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "WUdSdgPpE6": {
+      "artistID": "WUdSdgPpE6",
+      "name": "Mara Lane",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "QRmyBT2Wqo": {
+      "artistID": "QRmyBT2Wqo",
+      "name": "Mikayla Santorelli",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "EDTpduDalL": {
+      "artistID": "EDTpduDalL",
+      "name": "Minnie Kang",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "9gW8S7G00r": {
+      "artistID": "9gW8S7G00r",
+      "name": "Nola Thompson",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "TUTGUyAKWJ": {
+      "artistID": "TUTGUyAKWJ",
+      "name": "Odessa Sagli",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "5AbeqXu50S": {
+      "artistID": "5AbeqXu50S",
+      "name": "Olivia Peterson",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
+    },
+    "JrgCdZBT4k": {
+      "artistID": "JrgCdZBT4k",
+      "name": "Patrick Steppan",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
+    },
+    "fQnmeyxJ7V": {
+      "artistID": "fQnmeyxJ7V",
+      "name": "Paula Pierce",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "lNkty9s2mU": {
+      "artistID": "lNkty9s2mU",
+      "name": "Rocky Myers",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "CNcc0T05De": {
+      "artistID": "CNcc0T05De",
+      "name": "Rose Martines",
+      "artworks": null,
+      "graduationYear": "2022",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "G8PPLMNuR5": {
+      "artistID": "G8PPLMNuR5",
+      "name": "Ruth Holmes",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "eWRCo5EBek": {
+      "artistID": "eWRCo5EBek",
+      "name": "Ryan Foxall",
+      "artworks": null,
+      "graduationYear": "2017",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "9NWCtZ6CqB": {
+      "artistID": "9NWCtZ6CqB",
+      "name": "Sachika Goel",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
+    },
+    "HGQXNL66i7": {
+      "artistID": "HGQXNL66i7",
+      "name": "Salvador Solis",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "N7VqeDJR1A": {
+      "artistID": "N7VqeDJR1A",
+      "name": "Samuel Lisec",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "1",
+        "2",
+        ""
+      ]
+    },
+    "LX5KhFpFge": {
+      "artistID": "LX5KhFpFge",
+      "name": "Shifa Dandia",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "kJPaoGdO6c": {
+      "artistID": "kJPaoGdO6c",
+      "name": "Sidath Wanigasinghe",
+      "artworks": null,
+      "graduationYear": "2017",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "IFL8EhUQdg": {
+      "artistID": "IFL8EhUQdg",
+      "name": "Sierra Longoria",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "2",
+        ""
+      ]
+    },
+    "Mo2Wr2LzT1": {
+      "artistID": "Mo2Wr2LzT1",
+      "name": "Teddy Turner",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
+    },
+    "dDtqNisB12": {
+      "artistID": "dDtqNisB12",
+      "name": "Utsah Pandey",
+      "artworks": null,
+      "graduationYear": "2018",
+      "issueIds": [
+        "1",
+        ""
+      ]
     }
   },
   "staff" : {
@@ -1359,6 +2097,38 @@
           "name" :"Tim Stedman",
           "role" : "Faculty advisor / mentor"
         }
+      ]
+    }
+  },
+  "essays" : {
+    "beholder" : {
+      "issueId": 1,
+      "title" : "Beholder or Beholden: What We Bring to Art and What We Come Away With",
+      "author" : "Nicholas Nurre",
+      "graduationYear": "18",
+      "paragraphs": [
+        "What are we doing when we look at a piece of art? This question might appear pointless at first glance. Haven’t I already said it? Art is for looking at. But aren’t there different ways of looking at images? Do different people look in different ways? For most of us, vision forms our most basic attachment to the world, something that we can’t turn off without a conscious effort. But that doesn’t mean that the things in your visual field are reducible to your automatic recognition of them. There’s no such thing as a “neutral” way of looking at an image. Sure, visual phenomena are more or less the same for all of us in their likeness, but there’s more to the equation than that. Wherever there’s a looking-at, there’s also a looking-for. Our expectations and assumptions about what we’re seeing have as much to do with the experience viewers come away with as the art itself. And I’m not just talking about the difference between someone who knows how the chiaroscuro in a painting was done and someone who doesn’t. Certainly, there’s a lot of art out there that’s aimed at what we might call an educated audience, but, when it comes down to the basic experience of checking out something you’ve never seen before, there’s a lot that stands to color what we take away from it: our background, our tastes, our moods, visual acuity, and, yes, prior experience with visual arts. Our relation to visual perception is conditional to all of these things. And that’s just what it does in the context of art.",
+        "First and foremost, vision acts as a tool to help us function. It always has. Science itself, after all, is based on observation. For this reason, vision is intimately tied up with the way we construct and verify knowledge. “I’ll believe it when I see it.” Implicit in this phrase is a particular kind of looking: a looking-for truth, if you will. When we use this expression, we’re lending vision a certain authority to determine the reality of the things in front of us. In this way, science has established a longstanding visual legacy that remains embedded in popular conceptions of vision. However, this is not all that vision can be for us, but merely one of its modes. If science puts vision toward the purposes of knowledge or truth, art asks of us an appreciation of what we perceive. But even here, there are tnuances and complications. Our collective ways of seeing have, to some extent, a shared history that can’t be easily separated into visions of science and art. There was a time, for instance, that the most revered works of art were those that mapped themselves on to a mathematical grid, even if this would give way, a few centuries later, to a period in which vibrant color usurped linear precision as an important element of compelling art. Regardless of the specific values of today’s art crowd, we navigate these conditioned modes of perception every time a new sight catches our eye.",
+        "But let’s get back to talking about works of art and our firsthand encounters with them. Consider your experience perusing the different pieces on display in a gallery. There’s a sense in which everything there simply waits for our consumption as viewers. Most of us don’t hit the museums every day, so when we get the chance, we tend to march through each exhibit with a rare gusto. The experience of walking through the museum, hungrily ogling works of art, is all too common, but perhaps we should also consider that artworks can present a challenge to their viewers rather than waiting passively for our gawking looks. To be sure, works of art are often deeply personal for their creators, but, at the same time, the creative decisions artists make are also intended to engage certain visual possibilities for an audience, to bring out a certain kind of looking that unearths the full potential of an artwork. When we say that artists have a “vision” they need to share with us, we can take that idea literally; the artist, being struck by a particular point of view or a novel sort of looking, creates something that allows others to adopt a similar vantage point. An artist’s first inspiration is bound to be a wondrous sight unknowingly stumbled upon, be it a polished artwork or a natural spectacle, and so we can say of art that it, if nothing else, offers an earnest tribute to the incomparable character of human visuality.",
+        "This brings me, finally, to the name of the journal you’re currently holding: X. Why would a visual arts journal name itself after a letter, an object of language arts, which sit at a far remove from the visual creations we’ve been concerned with thus far? The figure “X” grounds itself, however, in a variety of different types of communication. “X” can be taken an allusion to written language, but it also functions as iconography, a pictorial emblem that bears an independent importance. Although “X,” as an alphabetical character, relies upon accompanying signs and related ideas to convey meaning, as an icon it can be a meaningful symbol on its own, denoting completion or rejection without a grammatical system. In this way, “X” is bilingual. It straddles two unique methods of expression. These languages are similar, however, in their reliance upon the viewer. All languages, symbolic or pictorial, lie in wait for a viewing subject to animate them. Without our look, the meaning within symbols remains unrealized and dormant. Moreover, the dual nature of “X” urges us to look for visual intrigue where we least expect it, transitioning seamlessly from a senseless cog in a linguistic system to an icon with an independent meaning. In the same way that the “X” is defined by a point of intersection, its malleability as a symbol illustrates the pivotal importance of the viewer’s encounter with the work of art.",
+        "In this sense, “X” can be taken as a call for us to seek out new forms of expression that shirk the conventional forms of visual arts. We talk a lot about the celebration of “low art” as a new area of visual exploration. The dissolution of the high/ low distinction, as a cultural event, gave us license to apply an appreciative look to objects that don’t normally attract more than a banal glance. Naturally, we approach urinals like the one used in Duchamp’s exposition with certain expectations, but aesthetic fascination usually isn’t one of them. That changed with the readymade, and we should note that the principle change wasn’t in the works of art presented, but in the way in which we collectively approach visual objects. The types of looks we deploy in different moments depend on cultural ways of looking that can change with new artistic experiments. As the readymade attests, the true goal of a work of art often consists not just in the awe it elicits with its first impression, but with the new visual outlook it imparts to the viewer after they’ve left the gallery.",
+        "As a closing thought, I’d like to consider the images enclosed in this journal and the types of looks we might bring to bear as readers. As members of the Knox community, we might look through the book with a special affection, relishing the talent of our classmates. At the same time, holding the book physically in hand might turn the thing into a “page-turner,” as we feverishly rifle through the pages with a greedy desire to run our eyes over the entire collection in an instant. I would propose, however, a different kind of look. Instead of simply searching for your friends, try looking at these pieces slowly, letting them suggest a way of looking through their visual form. Rather than recognizing a name, look to understand the visual inspirations that drew the artist to create. Our contributing artists have given us a profound collection of works, but they cannot be actualized without our loving scrutiny. And so, I invite you to examine these artworks with an attitude of patience and curiosity. Much like our eponymous “X,” they might contain more than you expect."
+      ]
+    },
+    "distortion" : {
+      "issueId": 2,
+      "title" : "Distortion and Reality",
+      "author" : "Zuri Peterson",
+      "graduationYear": "20",
+      "paragraphs": [
+        "Distortion is the altering of recognizable form for greater emphasis or intensity. Although often seen as a hallmark of modernity when artists decided to move away from “stifling” naturalism, distortion can be seen in artworks throughout history as artists grapple with the impossibility of fully depicting the experienced world. Whether done for informative, aesthetic, or emotional reasons, distortion persisted throughout the history of artistic expression because it offers an experience beyond our everyday physical reality. As distortion becomes more apparent in traditions of modern and contemporary art and in mass visual culture, we are more aware of the presence of distortion, but we must also become more discerning about the function of distortion within our diverse and dynamic modern visual landscapes.",
+        "Even beginning with some of the earliest art discovered, humans were distorting their reproductions of the visual world with intent. The carved stone figurine of a woman with exaggerated breasts and hips and a simplified geometric pubic triangle called the Venus of Willendorf dates from approximately 28,000 BCE. This tiny ancient figure establishes a basis for two main means of distortion throughout history: exaggeration and simplification. Exaggeration magnifies an aspect of the subject matter, while simplification reduces details or embellishments of a feature to a more basic form. Although seemingly opposite, both of these forms of distortion depict the subject differently than it appears in reality in order to draw attention to the distorted area and create a new experience of the body, object, environment, or feeling.  Venus of Willendorf’s distortions are purposeful choices to emphasize the body parts important for fertility, leading scholars to speculate that she was used a fertility totem. The distortions of the fertile female body would have been similarly informative for the users and viewers in the past, perhaps prompting contemplation or rituals related to fertility.",
+        "The same distortion can be seen in the works of the ancient Greeks and Romans. While celebrated for its naturalism, the distortion lies in the exaggerated perfection of the bodies depicted. Like the original Photoshop, the idealized bodies of gods and goddesses are ideally proportioned, muscled, and symmetric in order to reveal the divinity of the subject and reflect the fantasy of the ideal. Early Christian and medieval art distort for increased narrative clarity. Hierarchy of scale (enlarging the most important figures in an artwork) was used frequently to signify the dominating power of God.  The medieval depictions of baby Jesus with a receding hairline and forehead wrinkles establish Jesus’s identity not only as the Son of God, but as God himself, ancient and wise. In a time when the vast majority of citizens were not literate, religious art functioned as a visual Bible and had to be accessible and understandable to the masses at first glance. The informative distortion of figures clarifies meaning and tells the story without the need for reading.",
+        "Artists after the Renaissance and during the Counter-Reformation often elongate and distort figures or dramatize a setting in order to express and ignite spiritual ecstasy. This dramatic distortion was used to create more expressive artworks to try to win back people to the Catholic Church after the Protestant Reformation. Later, Romanticism distorts through the expressive breaking of the Classical form as a rejection of the Enlightenment era concepts of empirical rationality. Romantic artists disparage the rationality that gave rise to chaos and disjunction of society evidenced by the rise of revolutions in politics and industry as working-class citizens demanded greater rights and representation. Artists continue to grapple with rapid changes to society seen as works become more obviously disjointed in the 20th century. The cubists radically distort through the breaking of the figure and space as they encounter new shifts in artistic and scientific thought. Building off of previous artists who attempted to depict the world as it was seen by the human eye, and taking in Einstein’s theories on spacetime and relativity that describe the relative fluidity of time and perception, the cubists challenge the traditional artistic paradigm of one-point perspective perfected during the Renaissance and instead use distortion and fragmentation of the subject to depict multiple perspectives and moments in time simultaneously. Artists working around WWI and WWII confront the physical and psychological destruction of the war through distortion in art, such as the eerily impossible imagined spaces and bodies of figurative surrealists who reflect on the irrationality of the unconscious mind. Dada and Surrealist collages cut and tear materials in order to be synthesized either by the hand of the artist or by chance, often in a way which emphasizes the violence of its creation. For artists of the early 20th century, distortion and destruction become a paradoxical visual language which can describe artistic and scientific innovation as well as critique the rationality and “progress” which only caused senseless violence and societal disintegration.",
+        "In contemporary art, there is a trend of increasingly nonfigurative works which engages with artistic trends of distortion through exaggeration and simplification. By distancing art from the natural world, there is greater expressive freedom to focus purely on formal aspects of art.  This causes the question of distortion to become more challenging; when does an artwork stop being distorted and when does it just become nonfigurative abstraction? Can art exist as an aesthetic object without the connotations of recognizable subject matter? As aesthetic traits, distortion engages and excites the viewer by challenging us to grapple with an artwork without an immediately clear subject matter. Rather than identifying and responding to iconography using previous knowledge of the physical world, nonfigurative art relies on the formal power of color and form to evoke a response. This extreme form of distortion expands the realm of the artwork beyond our experienced physical reality so that distortion is no longer a tool for emphasizing an aspect of a depicted subject, but the distortion becomes itself the subject. ",
+        "This challenges the idea of distortion itself. Distortion assumes a singular normative reality which is socially defined and static. When something is distorted, it means that it is abnormal, for the original subject is somehow twisted or altered. Without the expectation of normal, we couldn’t recognize the abnormal. It is no coincidence that more extreme distortion in art coincides with increasing awareness of diversity in society. Increasingly, limiting concepts of “normalcy” are identified and pushed back against through exposure to different people and societies via globalized media. Distortion engages the “abnormal” in order to draw attention to the inadequacy of a singular model to represent the diversity of our modern world. The act of recognizing distortion in art can question the assumption of normalcy and push the boundaries of represented reality. Like a mask, the normative narrative presents only one unchanging face and conceals the more dynamic and diverse reality underneath. Distortion can change the mask presented in order to catch our attention and get us to stop and question what is hidden beneath. When we peek at the less shiny but truer reality underneath we can recognize and relate to the abnormal, the messy, and the anomalous within ourselves and grapple with the intricacies of a more diverse world.",
+        "Because of the urbanized, consumerist, globalized, and diverse reality we inhabit, we are experts at unifying disparate bits of information. Every day, we take in huge sums of information via social and traditional media which connect people and events around the world, creating an inevitable disjunction between conflicting and changing narratives. As consumers of global media, we have learned our own unique ways for synthesizing our dynamic world into a coherent understanding of reality. When approaching distortion, the first step is stopping long enough to recognize what is distorted. Sometimes this is easier said than done. Subtle distortion like advertising and social media may appear to reflect reality, but the distorted narrative often conceals the truth. Advertisements and social media distort in order to attract our attention and appeal to our consumerist desires through the exploitation of a singular idealized reality which can only be attained through the purchase of goods.  As more and more of our mental landscape is filtered through screens deploying these subtly distorted normative narratives, it can become more challenging to distinguish between what is “real” and “fake,” a dichotomy which is often manipulated or ignored. Rather than passively absorbing, we must ask what do I see and why? Distortion can challenge us to question the original idea of a unified whole. If what we see now is different, how? And more importantly, why? By not depicting the naturalistic whole, what is being said about the subject?",
+        "The current generation of artists highlighted in this journal share this dynamic world and continue to engage with humanity’s relationship to reality, just as artists have done throughout the history of human expression. Rather than the defined and regulated methods of distortion common in earlier artistic periods, contemporary artists encounter and respond with greater personal liberty to a diverse and fluid global reality. Distortion confronts the myth of a normative reality by depicting reality filtered through the minds of the artist as well as the viewer. Art invites the viewer into a dialogue with the artist, the artwork, and the subject. You only need to take a walk through WAC to see this in action. While an entire painting class might be looking at the same still life, everyone’s works will vary greatly – bright or muted color, geometric or organic shapes, thick or thin paint, it is clear that the “real” subject matter of the still life is being distorted through the dialogue between the subject and the artist who brings their unique experience of “abnormalities” into their work. As viewers, when we enter into this dialogue, we bring with us our own unique background and perception of reality. Distortion’s shifting relationship with reality facilitates contemplation of the dynamic conversation between art, artists, history, society, and ourselves. In this disjunction of perspectives, we can connect and create in a new way, bringing in our diverse backgrounds and experiences to foster a novel discussion of art and the world around us."
       ]
     }
   }

@@ -335,6 +335,12 @@ img { max-width: 100%; }
    --color-name = each color variable name is also a border color name
 
 */
+.b--riso-red         { border-color: #ff4c65}
+.b--riso-sunflower   { border-color: #ffb511}
+.b--riso-kellygreen  { border-color: #67b346}
+.b--riso-fedblue     { border-color: #235ba8}
+.b--riso-burgundy    { border-color: #914e72}
+
 .b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
@@ -482,7 +488,7 @@ img { max-width: 100%; }
 
 */
 .bw0 { border-width: 0; }
-.bw1 { border-width: .125rem; }
+.bw1 { border-width: .1rem; }
 .bw2 { border-width: .16rem; }
 .bw3 { border-width: .5rem; }
 .bw4 { border-width: 1rem; }
@@ -709,6 +715,11 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+.display{
+  font-family: meno-banner-condensed, meno-display, meno-display-extra-condensed;
+  font-variant-numeric: oldstyle-nums;
+  font-weight: 100;
+}
 
 .sans-serif, .serif{
   font-variant-numeric: oldstyle-nums diagonal-fractions;
@@ -718,7 +729,7 @@ img { max-width: 100%; }
 }
 
 .sans-serif { font-family: neue-haas-grotesk-text, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
-.serif { font-family: plantin, "Times New Roman", times, serif;}
+.serif { font-family: meno-text, plantin, "Times New Roman", times, serif;}
 
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
@@ -859,6 +870,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .tracked { letter-spacing: .1em; }
 .tracked-tight { letter-spacing: -.05em; }
+.tracked-right { letter-spacing: -.03em; }
 .tracked-mega { letter-spacing: .25em; }
 /*
 
@@ -871,6 +883,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -l  = large
 
 */
+.lh-none {line-height: 0;}
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.25; }
 .lh-copy { line-height: 1.5; }
@@ -1082,6 +1095,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Text colors */
+.riso-red         { color: var(--riso-red)}
+.riso-sunflower   { color: var(--riso-sunflower)}
+.riso-kellygreen  { color: var(--riso-kellygreen)}
+.riso-fedblue     { color: var(--riso-fedblue)}
+.riso-burgundy    { color: var(--riso-burgundy)}
 .black-90 { color: rgba( 0, 0, 0, .9 ); }
 .black-80 { color: rgba( 0, 0, 0, .8 ); }
 .black-70 { color: rgba( 0, 0, 0, .7 ); }
@@ -1158,6 +1176,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
 /* Background colors */
+.bg-riso-red         { background-color: var(--riso-red)}
+.bg-riso-sunflower   { background-color: var(--riso-sunflower)}
+.bg-riso-kellygreen  { background-color: var(--riso-kellygreen)}
+.bg-riso-fedblue     { background-color: var(--riso-fedblue)}
+.bg-riso-burgundy    { background-color: var(--riso-burgundy)}
+
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
@@ -1204,6 +1228,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
    it is focused or hovered over.
  
  */
+.hover-riso-red:hover         { color: var(--riso-red)}
+.hover-riso-sunflower:hover   { color: var(--riso-sunflower)}
+.hover-riso-kellygreen:hover  { color: var(--riso-kellygreen)}
+.hover-riso-fedblue:hover     { color: var(--riso-fedblue)}
+.hover-riso-burgundy:hover    { color: var(--riso-burgundy)}
+.hover-riso-red:focus         { color: var(--riso-red)}
+.hover-riso-sunflower:focus   { color: var(--riso-sunflower)}
+.hover-riso-kellygreen:focus  { color: var(--riso-kellygreen)}
+.hover-riso-fedblue:focus     { color: var(--riso-fedblue)}
+.hover-riso-burgundy:focus    { color: var(--riso-burgundy)}
+
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
 .hover-near-black:hover { color: #111; }
@@ -1741,6 +1776,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
+.f0 { font-size: 7rem; }
+.fessay-ns {font-size: 5rem; }
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }
@@ -2440,6 +2477,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttn-ns { text-transform: none; }
  .f-6-ns, .f-headline-ns { font-size: 6rem; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
+ .f0-ns { font-size: 18rem; }
+ .fessay-ns {font-size: 8rem; }
  .f1-ns { font-size: 3rem; }
  .f2-ns { font-size: 2.25rem; }
  .f3-ns { font-size: 1.5rem; }

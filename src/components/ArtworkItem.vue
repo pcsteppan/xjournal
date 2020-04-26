@@ -1,14 +1,35 @@
 <template>
-  <section class="artwork-container w-100">
+  <section class="artwork-container w-100 pt2-ns">
     <div class="w-100 pr3-l">
-      <div style="z-index: 12;" class="relative artwork-info sans-serif fr w-100 w-60-l f7 f6-l lh-copy bt bt-0-l b--red mb3 black-80">
-        <div class="fl w-45 w-100-l">
-          <router-link class="bt-l b--red w-100 dib pl1 bw2 hover-red di link black-80" :to=artistPageBookmark>{{artistName}}, {{yearMade}}</router-link>
-          <span class="bt-l b--red w-100 dib pl1 i">{{artworkTitle}}</span>
+      <div
+        style="z-index: 12;"
+        :class="bSpotColor"
+        class="relative artwork-info sans-serif fr w-100 w-60-l f7 f6-l lh-copy bt bt-0-l mb3 black-80 bw3 pt1 pt0-ns bw1-ns">
+        <div class="fl w-50 pr2 pl2 pl0-ns w-100-l">
+          <router-link
+            :class="[hoverSpotColor,bSpotColor]"
+            class="bt-l w-100 dib pl1 bw2 di link black-80"
+            :to=artistPageBookmark>
+            {{artistName}}, {{yearMade}}
+          </router-link>
+          <span
+            :class="bSpotColor"
+            class="bt-l w-100 dib pl1 i">
+            {{artworkTitle}}
+          </span>
         </div>
-        <div class="fl w-40 ml3 ml0-l w-100-l">
-          <span v-if="artworkMeasurements" v-html="artworkMeasurements" class="bt-l b--red w-100 dib pl1"></span>
-          <span class="bt-l b--red w-100 dib pl1 truncate ws-normal-ns visible-ns">{{artworkDescription}}</span>
+        <div class="fl w-50 pr2 ml0-l w-100-l">
+          <span
+            v-if="artworkMeasurements"
+            v-html="artworkMeasurements"
+            :class="bSpotColor"
+            class="bt-l w-100 pl1-ns dib">
+          </span>
+          <span
+            :class="bSpotColor"
+            class="bt-l w-100 pl1-ns dib truncate ws-normal-ns visible-ns">
+            {{artworkDescription}}
+          </span>
         </div>
       </div>
     </div>
@@ -33,6 +54,10 @@ export default {
       required: true,
       type: Object
     },
+    issueIndex: {
+      require: true,
+      type: String
+    },
     pageNumber: {
       require: true,
       type: Number
@@ -47,17 +72,16 @@ export default {
 
   computed: {
     images () {
-      return Object.values(this.artwork.images)
+      return this.artwork.imageNames
     },
     imagesrcsandsrcsets () {
       return this.images
-        .filter(image => image.type === 'Primary' || true)
         .map(image => {
           return {
-            'srcset': `${this.baseUrl}images/compressed/400/${image.url} 400w,
-              ${this.baseUrl}images/compressed/768/${image.url} 768w,
-              ${this.baseUrl}images/compressed/1200/${image.url} 1200w`,
-            'sizes': `(min-width: 400px) ${this.intendedImageWidth / 2}vw,
+            'srcset': `${this.baseUrl}images/compressed/400/${image} 400w,
+              ${this.baseUrl}images/compressed/768/${image} 768w,
+              ${this.baseUrl}images/compressed/1200/${image} 1200w`,
+            'sizes': `(min-width: 600px) ${this.intendedImageWidth / 2}vw,
               (min-width: 768px) ${this.intendedImageWidth}vw,
               ${this.intendedImageWidth}vw`
           }
@@ -70,17 +94,22 @@ export default {
       return this.artwork.description
     },
     artworkMeasurements () {
-      return [this.artwork.size.width, this.artwork.size.depth, this.artwork.size.height]
-        .filter(x => typeof x !== 'undefined' && x !== 'none')
+      return this.artwork.size && this.artwork.size !== 'none' ? this.artwork.size
+        .split('x')
         .join(
-          '<span class="red"> &times; </span>'
-        )
+          '<span class="' + this.spotColor + '"> &times; </span>'
+        ) : ''
+      // return [this.artwork.size.width, this.artwork.size.depth, this.artwork.size.height]
+      //   .filter(x => typeof x !== 'undefined' && x !== 'none')
+      //   .join(
+      //     '<span class="red"> &times; </span>'
+      //   )
     },
     artistPageBookmark () {
       return `artists#${this.artistName.split(' ').join('_')}`
     },
     artistName () {
-      return sourceData.artists[Object.values(this.artwork.artistIds)[0]].name
+      return sourceData.artists[this.artwork.artistId].name
     },
     artworkTitle () {
       return this.artwork.title
@@ -97,6 +126,15 @@ export default {
         default:
           return 'collection'
       }
+    },
+    spotColor () {
+      return this.issueIndex ? sourceData.issues[this.issueIndex].spotColor : 'riso-red'
+    },
+    hoverSpotColor () {
+      return 'hover-' + this.spotColor
+    },
+    bSpotColor () {
+      return 'b--' + this.spotColor
     }
   }
 }

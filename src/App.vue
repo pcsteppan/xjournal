@@ -1,18 +1,16 @@
 <template>
-  <div id="app">
-    <nav id="nav" class="pb1 sticky top-0 bg-white">
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" exact-active-class="red i" to="/"><span class="red">x</span> journal</router-link>
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/about">about</router-link>
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/issue/1">issue 1</router-link>
-      <router-link class="hover-red black-80 link f5 f4-m f4-l serif" active-class="red i" to="/submit">submit</router-link>
+  <div id="app" class="bg-light-gray">
+    <nav id="nav" class="sticky top-0 bg-light-gray">
+      <router-link id="nav--btn_issues" class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch pl2 pl0-ns" active-class="b" to="/issues/">issues</router-link>
+      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch b--solid bw1 bl-0 bb-0 br-0 b--none-ns pl2 pl0-ns" active-class="b" to="/about">about</router-link>
+      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch b--solid bw1 br-0 bb-0 b--none-ns pl2 pl0-ns" active-class="b" to="/submit">submit</router-link>
+      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch pr1 tr b--solid bw1 b--none-ns dn db-ns pl2 pl0-ns" exact-active-class="b" to="/">x</router-link>
     </nav>
     <router-view/>
   </div>
 </template>
 
 <script>
-// import tachyons from 'tachyons'
-
 export default {
   data () {
     return {
@@ -43,6 +41,14 @@ export default {
   @media (min-width: 1200px) {
     html{font-size: 16px;}
   } */
+:root{
+  --riso-red:        #ff4c65;
+  --riso-sunflower:  #ffb511;
+  --riso-kellygreen: #67b346;
+  --riso-fedblue:    #235ba8;
+  --riso-burgundy:   #914e72;
+  --main-bg-color:   #eee;
+}
 
 *{
   box-sizing: border-box;
@@ -67,7 +73,7 @@ html, body, div, span, object, iframe, h1, h2, h3, .splash, .error, h4, h5, h6, 
 
 ::selection {
   color: white;
-  background-color: #ff4136;
+  background-color: blue;
 }
 
 img {
@@ -83,19 +89,37 @@ img {
   min-height: 100vh;
   position: relative;
   display: grid;
-  grid-template-rows: 1.5rem 1fr;
-  grid-row-gap: 1.5rem;
+  grid-template-rows: 5rem 1fr;
+  /* grid-row-gap: 1.5rem; */
 }
+
 #nav {
   /* position: relative; */
   z-index: 20;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
-#nav a.router-link-active{
-  font-style: italic;
+
+#nav--btn_issues{
+  grid-column: 1/3;
 }
-div#app nav#nav a:first-child{
+
+/* div#app nav#nav a:first-child{
   font-style: normal !important;
+} */
+
+@media screen and (min-width: 30em){
+  #app{
+    grid-template-rows: 2.5rem 1fr;
+    /* grid-row-gap: 0.5rem; */
+  }
+  #nav{
+    grid-template-columns: repeat(4, 1fr);
+    box-shadow:  0px 1px 6px #ffffff;
+  }
+  #nav--btn_issues{
+    grid-column: inherit;
+  }
 }
 </style>

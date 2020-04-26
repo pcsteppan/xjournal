@@ -2,13 +2,13 @@
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center">
     <h1 class="serif lh-display f3 near-black mb3">
-      submissions for <span class="red">issue 3</span> are open.
+      submissions for <span class="riso-kellygreen">issue 3</span> are open.
     </h1>
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
+    <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       physical work can be submitted in WAC, on the second floor, near the open studios.
-    </p>
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      if your work is digital in nature, then please submit online here &#10230; <a class="link red" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">form</a>
+    </p> -->
+    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6 f5-ns">
+      please submit your work here &#10230; <a class="link riso-kellygreen" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">form</a>
     </p>
     <!-- <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p> -->
     <!-- <ul style="list-style: outside circle; column-count: 2;" class="sans-serif measure-narrow lh-solid mb3 near-black f6">
@@ -32,11 +32,11 @@
       <li>video</li>
     </ul>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">does your work not fit any of that? if your work is visual, we'd like to see it.</p> -->
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      issue 3 will be printed and released in the spring.
+    <p class="sans-serif lh-copy mb3 near-black f6 f5-ns">
+      issue 3 will be released online later this term.
     </p>
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
-      please send questions to <a class="link red" href = "mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
+    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6 f5-ns">
+      please send questions to <a class="link riso-kellygreen" href = "mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
     </p>
   </div>
   </section>
@@ -49,5 +49,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.hlc{
+  color: green;
+}
 </style>
