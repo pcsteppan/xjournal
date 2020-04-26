@@ -1445,10 +1445,10 @@
       "description": "Book design",
       "artistId": "TUTGUyAKWJ",
       "imageNames": [
-        "DSC00794.jpg",
         "DSC01397.jpg",
         "DSC01400.jpg",
-        "DSC00795.jpg"
+        "DSC00795.jpg",
+        "DSC00794.jpg"
       ],
       "issueId": "2",
       "pageNumber": "68"
