@@ -10,7 +10,7 @@
         artists
       </router-link>
       <div id="link-wrapper-1" class="flex items-center h-100">
-        <p class="tc link f0 f0-ns display lh-none riso-red h-100 v-mid w-auto">
+        <p class="tc link f-banner f-banner-l f-banner-m display lh-none riso-red h-100 v-mid w-auto">
           issue 1
         </p>
       </div>
@@ -24,7 +24,7 @@
         artists
       </router-link>
       <div id="link-wrapper-2" class="flex items-center h-100">
-        <p class="tc link f0 f0-ns display lh-none riso-fedblue h-100 v-mid w-auto">
+        <p class="tc link f-banner f-banner-l f-banner-m display lh-none riso-fedblue h-100 v-mid w-auto">
           issue 2
         </p>
       </div>
@@ -76,7 +76,6 @@
       "iss2 e2"
       "iss2 work2"
       "iss2 ppl2";
-    z-index: 99;
   }
   @media screen and (min-width: 60rem){
     #link-wrapper-1{
@@ -128,7 +127,6 @@
       "e1     iss1  e2    iss2"
       "work1  iss1  work2 iss2"
       "ppl1   iss1  ppl2  iss2";
-      z-index: 99;
     }
   }
 </style>

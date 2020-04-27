@@ -1,10 +1,10 @@
 <template>
   <div id="app" class="bg-light-gray">
     <nav id="nav" class="sticky top-0 bg-light-gray">
-      <router-link id="nav--btn_issues" class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch pl2 pl0-ns" active-class="b" to="/issues/">issues</router-link>
-      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch b--solid bw1 bl-0 bb-0 br-0 b--none-ns pl2 pl0-ns" active-class="b" to="/about">about</router-link>
-      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch b--solid bw1 br-0 bb-0 b--none-ns pl2 pl0-ns" active-class="b" to="/submit">submit</router-link>
-      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid self-stretch pr1 tr b--solid bw1 b--none-ns dn db-ns pl2 pl0-ns" exact-active-class="b" to="/">x</router-link>
+      <router-link id="nav--btn_issues" class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid pl2 pl0-ns" active-class="b" to="/issues/">issues</router-link>
+      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid b--solid bw1 bl-0 bb-0 br-0 b--none-ns pl2 pl0-ns" active-class="b" to="/about">about</router-link>
+      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid b--solid bw1 br-0 bb-0 b--none-ns pl2 pl0-ns" active-class="b" to="/submit">submit</router-link>
+      <router-link class="ttu pt1 link f4 f3-m f3-l black-80 serif lh-solid pr1 tr b--solid bw1 b--none-ns dn db-ns pl2 pl0-ns" exact-active-class="b" to="/">x</router-link>
     </nav>
     <router-view/>
   </div>
@@ -116,6 +116,7 @@ img {
   }
   #nav{
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     box-shadow:  0px 1px 6px #ffffff;
   }
   #nav--btn_issues{
