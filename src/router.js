@@ -4,6 +4,7 @@ import IssuesPage from './views/IssuesPage.vue'
 import IssuePage from './views/IssuePage.vue'
 import ArtistsPage from './views/ArtistsPage.vue'
 import SubmissionPage from './views/SubmissionPage.vue'
+import DocumentationGuidePage from './views/DocumentationGuidePage.vue'
 
 Vue.use(Router)
 
@@ -57,6 +58,12 @@ export default new Router({
       name: 'SubmissionPage',
       props: true,
       component: SubmissionPage
+    },
+    {
+      path: '/submit/guide',
+      name: 'DocumentationGuidePage',
+      props: true,
+      component: DocumentationGuidePage
     }
   ]
 })

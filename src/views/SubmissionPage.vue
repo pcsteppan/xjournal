@@ -7,8 +7,11 @@
     <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       physical work can be submitted in WAC, on the second floor, near the open studios.
     </p> -->
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f6 f4-ns">
-      please submit your work here &#10230; <a class="link riso-kellygreen" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">form</a>
+    <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
+      please review our <router-link class=" riso-kellygreen" to="./submit/guide">guide for documenting your work at home</router-link>
+    </p>
+    <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
+      then submit your work here &#10230; <a class=" riso-kellygreen" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">form</a>
     </p>
     <!-- <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p> -->
     <!-- <ul style="list-style: outside circle; column-count: 2;" class="sans-serif measure-narrow lh-solid mb3 near-black f6">
