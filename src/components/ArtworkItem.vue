@@ -81,8 +81,7 @@ export default {
             'srcset': `${this.baseUrl}images/compressed/400/${image} 400w,
               ${this.baseUrl}images/compressed/768/${image} 768w,
               ${this.baseUrl}images/compressed/1200/${image} 1200w`,
-            'sizes': `(min-width: 600px) ${this.intendedImageWidth / 2}vw,
-              (min-width: 768px) ${this.intendedImageWidth}vw,
+            'sizes': `(min-width: 30em) ${this.intendedImageWidth / 2}vw,
               ${this.intendedImageWidth}vw`
           }
         })

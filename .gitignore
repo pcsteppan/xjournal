@@ -2,6 +2,7 @@
 node_modules
 /dist
 /old_images
+/public/images
 
 # local env files
 .env.local
