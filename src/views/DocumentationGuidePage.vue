@@ -1,7 +1,7 @@
 <template>
   <section class="pt4-ns">
-    <div class="fl-ns w-25-ns w-0 ma0 pa0" style="height: 1px;">&nbsp;</div>
-    <div class="fl-ns pa3 pa4-ns soft-frame">
+    <div class="fl-l w-25-l w-0 ma0 pa0" style="height: 1px;">&nbsp;</div>
+    <div class="fl-ns pa3 pa4-ns soft-frame w-100 w-auto-l">
     <h1 class="serif lh-display f2 near-black mb3 mb4-ns">Guide to Documenting Your Artwork At Home</h1>
     <h2 class="sans-serif f4 f3-ns b riso-kellygreen">lighting</h2>
     <ul class="pb3">
@@ -66,7 +66,7 @@
         If you have a scanner, make sure to scan at the highest quality and resolution.
       </li>
     </ul>
-    <a class="f4 link dim tc ba ph3 pv2 mb2 dib sans-serif bg-riso-kellygreen b--riso-kellygreen near-white b w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">submit</a>
+    <a class="f4 link dim tc ba ph3 pv2 mb2 dib sans-serif bg-gray b--riso-kellygreen near-white b w-100" href="#">submissions are closed</a>
     <span class="w-100 b--solid b--riso-kellygreen bw1 dib"/>
     <p style="text-indent: -0.7em" class="ttl w-100-ns lh-copy sans-serif f4 f5-ns pb0 near-black">
       <span class="riso-kellygreen b">&#8225;</span> Images with poor lighting will not be considered.<br/>
