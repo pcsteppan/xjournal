@@ -2,17 +2,17 @@
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center">
     <h1 class="serif lh-display f2 near-black mb3">
-      submissions for <span class="riso-kellygreen">issue 3</span> are closed.
+      submissions for <span class="riso-kellygreen">issue 3</span> are open.
     </h1>
     <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">
       physical work can be submitted in WAC, on the second floor, near the open studios.
     </p> -->
-    <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
+    <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
       please review our <router-link class=" riso-kellygreen" to="./submit/guide">guide for documenting your work at home</router-link>
     </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
-      then submit your work here &#10230; <a class=" riso-kellygreen" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">form</a>
-    </p> -->
+      then submit your work &#10230; <a class=" riso-kellygreen" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7aHCky1GelY_HCh0Rn11Id8mLB0T5-9oWqXEWIt2YBcvMA/viewform?usp=sf_link">here</a>
+    </p>
     <!-- <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p> -->
     <!-- <ul style="list-style: outside circle; column-count: 2;" class="sans-serif measure-narrow lh-solid mb3 near-black f6">
       <li>animation</li>
@@ -36,8 +36,11 @@
     </ul>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">does your work not fit any of that? if your work is visual, we'd like to see it.</p> -->
     <p class="sans-serif lh-copy mb3 near-black f5 f4-ns">
-      issue 3 will be released online on the 28th.
+      submissions will close on the 28th, 12AM CDT
     </p>
+    <!-- <p class="sans-serif lh-copy mb3 near-black f5 f4-ns">
+      issue 3 will be released online on the 29th.
+    </p> -->
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
       please send questions to <a class="link riso-kellygreen" href = "mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
     </p>
