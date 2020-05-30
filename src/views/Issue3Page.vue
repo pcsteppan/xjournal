@@ -4,7 +4,7 @@
       <p class="sans-serif f5 f4-l lh-copy pt3 pl2 measure-narrow" style="min-height: 25vh;">
         welcome to the third issue of x!<br/>
         this is our first online issue! and also the first time we've accepted work from everyone who submitted.<br/><br/>
-        thank you to all 24 artists who contributed,
+        thank you to all 30 artists who contributed,
         and special thanks to lily lauver for her poem.<br/><br/>
         <span class="i black-60 f5">odessa and patrick &#10086;<br/>&nbsp;</span>
       </p>
