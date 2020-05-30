@@ -45,7 +45,7 @@
     <div class="issue3--image-container h-auto db dib-ns w-100" v-if="isExpanded" :class="layout">
       <img
         v-for="(data, key) in imagesrcsandsrcsets"
-        class="db di-ns"
+        class="db di-ns w-100 w-auto-ns"
         :srcset="data.srcset"
         :sizes="data.sizes"
         :key="key"
