@@ -84,7 +84,13 @@ export default {
       return 'https://xjournal.work/images/compressed/1200/' + sourceData.artworks[id].imageNames[0]
     },
     artistsWorks (id) {
-      return this.issueArtworkIds.filter(x => sourceData.artworks[x].artistId === id) // new Set(Object.values(x.artistIds)).has(id))
+      return this.issueArtworkIds.filter((x) => {
+        if (Array.isArray(sourceData.artworks[x].artistId)) {
+          return sourceData.artworks[x].artistId.includes(id)
+        } else {
+          return sourceData.artworks[x].artistId === id
+        }
+      }) // new Set(Object.values(x.artistIds)).has(id))
     },
     artistBookmark (id) {
       return this.artistName(id).split(' ').join('_')

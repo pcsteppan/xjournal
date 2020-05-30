@@ -9,7 +9,7 @@
       <div class="w-50 fl w-33-ns">
         <span
           :class="bSpotColor"
-          class="w-100 dib pl1 pr2 i f6 f4-ns mb2">
+          class="w-100 dib pl1 pr2 i f6 f4-ns mb2 dib">
           {{artworkTitle}}
         </span>
         <!-- <router-link
@@ -19,7 +19,7 @@
           {{artistName}}
         </router-link> -->
         <span
-          class="w-100 pl1 f6 f4-ns">
+          class="w-100 pl1 f6 f4-ns dib">
           {{artistName}}
         </span>
       </div>
@@ -33,7 +33,7 @@
         </span> -->
         <span
           :class="bSpotColor"
-          class="w-60 dib  f6 f4-ns">
+          class="w-60 dib f6 f4-ns">
           {{artworkDescription}}
         </span>
         <svg class="absolute right-1" style="top: 1em" :class="{'rotate-180' : isExpanded}" width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,6 +129,13 @@ export default {
       return `artists#${this.artistName.split(' ').join('_')}`
     },
     artistName () {
+      // fix for gabi's team
+      if (Array.isArray(this.artwork.artistId)) {
+        const names = this.artwork.artistId.map(function (x) {
+          return sourceData.artists[x].name
+        })
+        return names.join(', ').trim()
+      }
       return sourceData.artists[this.artwork.artistId].name
     },
     artworkTitle () {

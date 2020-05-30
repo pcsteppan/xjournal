@@ -2131,7 +2131,7 @@
         "DSC01948.jpg"
       ],
       "issueId": "3",
-      "pageNumber": "54"
+      "pageNumber": "55"
     },
     "gdUOS4Ki7y": {
       "title": "Ungrounded ",
@@ -2143,7 +2143,55 @@
         "DSC01909.jpg"
       ],
       "issueId": "3",
-      "pageNumber": "55"
+      "pageNumber": "54"
+    },
+    "qHKi5uQ7VB": {
+      "title": "Fished",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Animation",
+      "artistId": "ze2PExNicZ",
+      "imageNames": [
+        "qHKi5uQ7VB.gif"
+      ],
+      "issueId": "3",
+      "pageNumber": "56"
+    },
+    "iCi1LskKl1": {
+      "title": "Wake up, America",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Animation",
+      "artistId": "ze2PExNicZ",
+      "imageNames": [
+        "iCi1LskKl1.gif"
+      ],
+      "issueId": "3",
+      "pageNumber": "57"
+    },
+    "a1YBd7XfZY": {
+      "title": "Out of Time",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Interactive Visual Novel",
+      "artistId": [
+        "uh9xLKDyfv",
+        "zk7LhzKc6H",
+        "1Wv6fG9s25",
+        "MZlXBheHKb"
+      ],
+      "imageNames": [
+        "4ljqNHE6k5.png",
+        "hyyCEwJEXv.png",
+        "YbwO6UxOWa.png",
+        "091jQXE1js.png",
+        "1tL0ElmoI8.png",
+        "OqLZsgbVEU.png",
+        "lAFvh6MXIt.png",
+        "SW8q5wFfWw.png"
+      ],
+      "issueId": "3",
+      "pageNumber": "58"
     }
   },
   "artists" : {
@@ -2350,13 +2398,32 @@
         "3"
       ]
     },
+    "uh9xLKDyfv": {
+      "artistID": "uh9xLKDyfv",
+      "name": "Gabi Harris",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
+      ]
+    },
+    "MZlXBheHKb": {
+      "artistID": "MZlXBheHKb",
+      "name": "Gaeth Alalou",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "3"
+      ]
+    },
     "ze2PExNicZ": {
       "artistID": "ze2PExNicZ",
       "name": "Gloria Ponce",
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2"
+        "2",
+        "3"
       ]
     },
     "BUw4qqrEkX": {
@@ -2529,6 +2596,15 @@
       "graduationYear": "2020",
       "issueIds": [
         "2",
+        "3"
+      ]
+    },
+    "zk7LhzKc6H": {
+      "artistID": "zk7LhzKc6H",
+      "name": "Maddie Franklin",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
         "3"
       ]
     },
@@ -2716,6 +2792,15 @@
       "issueIds": [
         "1",
         "2"
+      ]
+    },
+    "1Wv6fG9s25": {
+      "artistID": "1Wv6fG9s25",
+      "name": "Shebaz Chowdhury",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
       ]
     },
     "LX5KhFpFge": {
