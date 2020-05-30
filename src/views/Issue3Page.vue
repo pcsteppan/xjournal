@@ -30,7 +30,7 @@
         :pageNumber="artworkIndexN">
       </Issue3ArtworkItem>
     </section>
-    <section id="issue3--artworks-container" class="w-100 fr-ns w-75-ns bg-white" v-else-if="view=='poem'">
+    <section id="issue3--artworks-container" class="w-100 fr-ns w-75-ns bg-light-gray" v-else-if="view=='poem'">
       <Issue3Poem />
       <p class="db red f6 f5-ns pt0 mt0 mb4 serif w-100 tc pt5-ns"><span class="ttl small-caps">LILY LAUVER,</span> &#39;21</p>
       <p class="sans-serif f5 pb7 black-60 w-100 tc">Source text from <span class="i">Tike &amp; Tiny in the Tetons</span> by Frances Joyce Farnsworth (University of New Mexico Press, 1954)</p>
