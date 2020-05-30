@@ -37,13 +37,15 @@
         v-if="(artworkIndexN-1 > 0)"
         :artwork="previousArtwork"
         :pageNumber="(artworkIndexN-1)"
-        :issueIndex="issueIndex">
+        :issueIndex="issueIndex"
+        :preload=true>
       </ArtworkItem>
       <ArtworkItem
         v-if="(artworkIndexN+1 < artworks.length)"
         :artwork="nextArtwork"
         :pageNumber="(artworkIndexN+1)"
-        :issueIndex="issueIndex">
+        :issueIndex="issueIndex"
+        :preload=true>
       </ArtworkItem>
     </div>
     <p v-if="isArtwork" style="z-index:10;" class="f7 pageNumber fixed bottom-0 mb1 w-100 tc sans-serif b near-black v-mid dib h2">{{artworkIndexN}}</p>

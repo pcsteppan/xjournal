@@ -61,6 +61,9 @@ export default {
     pageNumber: {
       require: true,
       type: Number
+    },
+    preload: {
+      type: Boolean
     }
   },
 
@@ -86,6 +89,19 @@ export default {
           }
         })
     },
+    // alternative for loading lower res first, does not work
+    // imagesrcsandsrcsets () {
+    //   return this.images
+    //     .map(image => {
+    //       return {
+    //         'srcset': `${this.baseUrl}images/compressed/400/${image} 400w,
+    //           ${this.baseUrl}images/compressed/768/${image} 768w` +
+    //           (this.preload ? '' : `,${this.baseUrl}images/compressed/1200/${image} 1200w`),
+    //         'sizes': `(min-width: 30em) ${this.intendedImageWidth / 2}vw,
+    //           ${this.intendedImageWidth}vw`
+    //       }
+    //     })
+    // },
     intendedImageWidth () {
       return 100
     },
@@ -171,18 +187,19 @@ export default {
 
     section.image-container img {
       max-height: calc(100vh - 8rem);
+      z-index: 20;
     }
 
     section.image-container.dyptych img {
       grid-column: 3 / span 2;
       justify-self: start;
-      z-index: 2;
+      /* z-index: 2; */
     }
 
     section.image-container.collection img {
       grid-column: 4 / span 1;
       justify-self: start;
-      z-index: 2;
+      /* z-index: 2; */
     }
 
     section.image-container.dyptych img:first-child,

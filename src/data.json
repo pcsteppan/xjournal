@@ -7,6 +7,9 @@
     "2" : {
       "essayId" : "distortion",
       "spotColor" : "riso-fedblue"
+    },
+    "3" : {
+      "spotColor" : "riso-kellygreen"
     }
   },
   "artworks": {
@@ -990,7 +993,10 @@
       "artistId": "JrgCdZBT4k",
       "imageNames": [
         "digital4.jpg",
-        "digital5.jpg"
+        "digital5.jpg",
+        "hand2.jpg",
+        "hand3.jpg",
+        "hand1.jpg"
       ],
       "issueId": "2",
       "pageNumber": "31"
@@ -1157,7 +1163,7 @@
     "btKXpgNiCV": {
       "title": "Return to the Womb",
       "yearMade": "2018",
-      "size": "11:03",
+      "size": "1899-12-30T17:03:00.000Z",
       "description": "Video",
       "artistId": "G8PPLMNuR5",
       "imageNames": [
@@ -1445,10 +1451,10 @@
       "description": "Book design",
       "artistId": "TUTGUyAKWJ",
       "imageNames": [
+        "DSC00794.jpg",
         "DSC01397.jpg",
         "DSC01400.jpg",
-        "DSC00795.jpg",
-        "DSC00794.jpg"
+        "DSC00795.jpg"
       ],
       "issueId": "2",
       "pageNumber": "68"
@@ -1476,9 +1482,689 @@
       ],
       "issueId": "2",
       "pageNumber": "70"
+    },
+    "lSpLE0sPbB": {
+      "title": "Look away, Francis!",
+      "yearMade": "2019",
+      "size": "4' x 5' ",
+      "description": "Painting ",
+      "artistId": "pL3ZQsSh3O",
+      "imageNames": [
+        "DSC01841.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "1"
+    },
+    "mcxMQ9dnZM": {
+      "title": "Worms",
+      "yearMade": "2020",
+      "size": "9\" x 12\"",
+      "description": "Drawing",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "5A4LMXQI9M.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "2"
+    },
+    "HMKUDsawIy": {
+      "title": "Figure in Charcoal ",
+      "yearMade": "2019",
+      "size": "36 x 29",
+      "description": "Drawing",
+      "artistId": "qlkkKnql7B",
+      "imageNames": [
+        "DSC01924.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "3"
+    },
+    "dyDs3xutzQ": {
+      "title": "crush",
+      "yearMade": "2019",
+      "size": "6.417\" x 10.5\"",
+      "description": "Digital Photography",
+      "artistId": "ApZFV9YFyE",
+      "imageNames": [
+        "QBYG64U4TP.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "4"
+    },
+    "xo0oo34xjQ": {
+      "title": "Red Field I ",
+      "yearMade": "2019",
+      "size": "12 x 9",
+      "description": "Drawing ",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC01953.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "5"
+    },
+    "RikmqbWiCo": {
+      "title": "Outside the Medicine Cabinet ",
+      "yearMade": "2019",
+      "size": "24 x 36",
+      "description": "Drawing ",
+      "artistId": "cEB43zyrx9",
+      "imageNames": [
+        "DSC01909.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "6"
+    },
+    "r4YlHmy7Xv": {
+      "title": "Nest No. 3",
+      "yearMade": "2019",
+      "size": "9 x 12",
+      "description": "Collage",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "DSC01875.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "7"
+    },
+    "OleumK9BBg": {
+      "title": "Betty",
+      "yearMade": "2019",
+      "size": "566 x 366 x (?)",
+      "description": "Sculpture ",
+      "artistId": "X5xLVR3vjm",
+      "imageNames": [
+        "DSC01868.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "8"
+    },
+    "YkEEyQX6gW": {
+      "title": "Painting Mask 2",
+      "yearMade": "2020",
+      "size": "12''x26''",
+      "description": "Painting",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "VX72TE5KQ2.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "9"
+    },
+    "zDYpGRvk3u": {
+      "title": "my window, at nine",
+      "yearMade": "2019",
+      "size": "6.2\" x 10.5\"",
+      "description": "Digital Photography",
+      "artistId": "oto0PBTMmt",
+      "imageNames": [
+        "XNPIGQHJ1J.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "10"
+    },
+    "FSf6srvT66": {
+      "title": "Strawberry Milk",
+      "yearMade": "2019",
+      "size": "16 x 19.5",
+      "description": "Painting",
+      "artistId": "QRmyBT2Wqo",
+      "imageNames": [
+        "DSC01907.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "11"
+    },
+    "QuhbuNYGfq": {
+      "title": "Mask Drawing",
+      "yearMade": "2020",
+      "size": "30''x30''",
+      "description": "Drawing",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "40NPCMZRU9.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "12"
+    },
+    "Rr3CPUGqy5": {
+      "title": "Untitled Tangerine",
+      "yearMade": "2019",
+      "size": "12 x 9.75",
+      "description": "Painting ",
+      "artistId": "QRmyBT2Wqo",
+      "imageNames": [
+        "DSC01898.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "13"
+    },
+    "qlLYZsRU3V": {
+      "title": "The Whaaale",
+      "yearMade": "2019",
+      "size": "48 x 36",
+      "description": "Painting ",
+      "artistId": "GmpnOPnDHl",
+      "imageNames": [
+        "DSC01847.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "14"
+    },
+    "ZcH4MONWmv": {
+      "title": "Untitled",
+      "yearMade": "2020",
+      "size": "12''x20''",
+      "description": "Drawing",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "GUZIQFIW57.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "15"
+    },
+    "LIAzu8RCc5": {
+      "title": "Untitled ",
+      "yearMade": "2019",
+      "size": "24 x 36",
+      "description": "Drawing ",
+      "artistId": "jgLbOZtFG1",
+      "imageNames": [
+        "DSC01927.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "16"
+    },
+    "ApIrNb0YlQ": {
+      "title": "Dusk",
+      "yearMade": "2019",
+      "size": "7.4\" x 10.5\"",
+      "description": "Digital Photography",
+      "artistId": "oto0PBTMmt",
+      "imageNames": [
+        "4LI3QB6OBK.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "17"
+    },
+    "HkztKR6zvJ": {
+      "title": "Invested Tush",
+      "yearMade": "2019",
+      "size": "14 x .5 x 11",
+      "description": "Relief ",
+      "artistId": "lTImLzH10d",
+      "imageNames": [
+        "DSC01889.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "18"
+    },
+    "mXmiWcLXR0": {
+      "title": "Tree, Water, Sky",
+      "yearMade": "2020",
+      "size": "13\" x 13.5\"",
+      "description": "Collage",
+      "artistId": "5SKCaMssKR",
+      "imageNames": [
+        "IGGB6VPBA2.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "19"
+    },
+    "YySGIjMkcM": {
+      "title": "Glass Jar",
+      "yearMade": "2019",
+      "size": null,
+      "description": "Digital Drawing",
+      "artistId": "08q79gmNEM",
+      "imageNames": [
+        "22F8JE3PHW.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "20"
+    },
+    "ja4Zsw6l94": {
+      "title": "that heavy particle",
+      "yearMade": "2020",
+      "size": "4'x3'",
+      "description": "Painting",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "55WSXQ1TM3.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "21"
+    },
+    "LlgV4lXD4t": {
+      "title": "Triangles in Triangles",
+      "yearMade": "2020",
+      "size": "3'x2'",
+      "description": "Acrylic on plywood",
+      "artistId": "WdvV2uk59j",
+      "imageNames": [
+        "DSC02475.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "22"
+    },
+    "Q55pZNnCfT": {
+      "title": "Self Portrait (In Lace)",
+      "yearMade": "2019",
+      "size": "6 x 2.25 x 6",
+      "description": "Relief ",
+      "artistId": "lTImLzH10d",
+      "imageNames": [
+        "DSC01886.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "23"
+    },
+    "kB3D3B5UcE": {
+      "title": "Blockhead",
+      "yearMade": "2019",
+      "size": "24 x 36",
+      "description": "Drawing",
+      "artistId": "cEB43zyrx9",
+      "imageNames": [
+        "DSC01916.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "24"
+    },
+    "pIBVLNL2AF": {
+      "title": "Supported ",
+      "yearMade": "2019",
+      "size": "14 x 1.5 x 11",
+      "description": "Relief ",
+      "artistId": "lTImLzH10d",
+      "imageNames": [
+        "DSC01893.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "25"
+    },
+    "KYE31Dd060": {
+      "title": "Who am I?",
+      "yearMade": "2019",
+      "size": "60 x 72",
+      "description": "Painting",
+      "artistId": "MKViyvMBJ9",
+      "imageNames": [
+        "DSC01830.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "26"
+    },
+    "Le1ZByGQPY": {
+      "title": "24 November",
+      "yearMade": "2019",
+      "size": "37.5 x 39.5",
+      "description": "Painting",
+      "artistId": "GmpnOPnDHl",
+      "imageNames": [
+        "DSC01842.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "27"
+    },
+    "cpXD6FS3Yt": {
+      "title": "Ben",
+      "yearMade": "2019",
+      "size": "9 x 12",
+      "description": "Painting",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "DSC01880.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "28"
+    },
+    "OMzprbDj0m": {
+      "title": "Nightmares",
+      "yearMade": "2019",
+      "size": "32 x 72",
+      "description": "Mixed media",
+      "artistId": "MKViyvMBJ9",
+      "imageNames": [
+        "DSC01832.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "29"
+    },
+    "VdmCN0YFHp": {
+      "title": "Devil in the Light ",
+      "yearMade": "2019",
+      "size": "30 x 22",
+      "description": "Drawing",
+      "artistId": "cEB43zyrx9",
+      "imageNames": [
+        "DSC01920.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "30"
+    },
+    "ZxfmBRg18K": {
+      "title": "Field",
+      "yearMade": "2019",
+      "size": "54 x 56",
+      "description": "Painting ",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC01941.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "31"
+    },
+    "vPhv7No0ix": {
+      "title": "twice",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Mixed Media",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "KQU8EX7JSZ.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "32"
+    },
+    "tIbOxLFeum": {
+      "title": "Cave I ",
+      "yearMade": "2019",
+      "size": "5 3/4 x 8 1/4",
+      "description": "Drawing ",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC01944.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "33"
+    },
+    "TdHcsngeip": {
+      "title": "Spreading",
+      "yearMade": "2020",
+      "size": "- ",
+      "description": "Photography",
+      "artistId": "3Hzg8VbhBy",
+      "imageNames": [
+        "8MHG0MRSA0.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "34"
+    },
+    "yocLrmrzww": {
+      "title": "It's Just a Crack ",
+      "yearMade": "2019",
+      "size": "52.5 x 56",
+      "description": "Painting ",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC01937.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "35"
+    },
+    "pVAoNec9qU": {
+      "title": "The Mask Maker",
+      "yearMade": "2020",
+      "size": "6'x4'",
+      "description": "Painting",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "8H8MV2V6LD.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "36"
+    },
+    "tI8ZoPn9YK": {
+      "title": "Obfuscate ",
+      "yearMade": "2019",
+      "size": "16 x 12",
+      "description": "Painting",
+      "artistId": "pL3ZQsSh3O",
+      "imageNames": [
+        "DSC01897.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "37"
+    },
+    "HPvmwAZwOY": {
+      "title": "Smart Phone Photography",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Photography",
+      "artistId": "Hmxz3EIHaX",
+      "imageNames": [
+        "9BK8JWD76F.jpg",
+        "P5WDJAEWQ9.jpg",
+        "RX0641W1RF.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "38"
+    },
+    "PZgWmsaxEE": {
+      "title": "Composition 21",
+      "yearMade": "2019",
+      "size": "8 x 10",
+      "description": "Painting ",
+      "artistId": "KYT6wvLmT5",
+      "imageNames": [
+        "DSC01881.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "39"
+    },
+    "6tu4uehOeg": {
+      "title": "Maddie is Tired ",
+      "yearMade": "2019",
+      "size": "41 x 32.5",
+      "description": "Drawing",
+      "artistId": "BZAwTseEUY",
+      "imageNames": [
+        "DSC01921.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "40"
+    },
+    "JDRSnvjRA8": {
+      "title": "Sands of Alumni",
+      "yearMade": "2020",
+      "size": "9\"x12\"",
+      "description": "Photography",
+      "artistId": "chLSbRZvaL",
+      "imageNames": [
+        "CGRNPIHTNT.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "41"
+    },
+    "pnLLDCgRNc": {
+      "title": "thumbnails",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Drawing",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "QCZC5YV7YF.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "42"
+    },
+    "AHS87qUT4K": {
+      "title": "Blue Night",
+      "yearMade": "2019",
+      "size": "13 x 11.5",
+      "description": "Painting",
+      "artistId": "QRmyBT2Wqo",
+      "imageNames": [
+        "DSC01902.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "43"
+    },
+    "SLcWS1jilU": {
+      "title": "Ripple",
+      "yearMade": "2019",
+      "size": "10.5\" x 7.8\"",
+      "description": "Digital Photography",
+      "artistId": "oto0PBTMmt",
+      "imageNames": [
+        "3Z6DJI9MKO.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "44"
+    },
+    "oyR3m5PzLH": {
+      "title": "Beige Angel",
+      "yearMade": "2020",
+      "size": "5'x4'",
+      "description": "Painting",
+      "artistId": "eESoUpjgF7",
+      "imageNames": [
+        "X8GKVTHJIV.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "45"
+    },
+    "cYn1c6jLpo": {
+      "title": "Dreaming",
+      "yearMade": "2019",
+      "size": "10.5\" x 7.8\"",
+      "description": "Digital Photography",
+      "artistId": "oto0PBTMmt",
+      "imageNames": [
+        "TYE3B0IXO7.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "46"
+    },
+    "BKdkQnbWSF": {
+      "title": "Jamais Vu",
+      "yearMade": "2019",
+      "size": "4' x 5'",
+      "description": "Painting",
+      "artistId": "pL3ZQsSh3O",
+      "imageNames": [
+        "DSC01836.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "47"
+    },
+    "Esv6Dss3Wt": {
+      "title": "The Storminess of Home",
+      "yearMade": "2020",
+      "size": "9\" x 12\"",
+      "description": "Painting",
+      "artistId": "6HKvJiunyq",
+      "imageNames": [
+        "ZZHWJI8AVY.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "48"
+    },
+    "ZWP1W0aZCu": {
+      "title": "Clenched and Blue",
+      "yearMade": "2019",
+      "size": "8 x 11",
+      "description": "Painting",
+      "artistId": "lTImLzH10d",
+      "imageNames": [
+        "DSC01888.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "49"
+    },
+    "eWP2zXhmul": {
+      "title": "In the Woods",
+      "yearMade": "2020",
+      "size": "13\" x 13.5\"",
+      "description": "Collage",
+      "artistId": "5SKCaMssKR",
+      "imageNames": [
+        "9YN546JTXU.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "50"
+    },
+    "AzdwkbP4e3": {
+      "title": "Escape",
+      "yearMade": "2020",
+      "size": null,
+      "description": "Animation",
+      "artistId": "08q79gmNEM",
+      "imageNames": [
+        "E3YB9ENM4T.gif"
+      ],
+      "issueId": "3",
+      "pageNumber": "51"
+    },
+    "bDu6zIemUT": {
+      "title": "Untitled ",
+      "yearMade": "2019",
+      "size": "31 x 23",
+      "description": "Drawing ",
+      "artistId": "jgLbOZtFG1",
+      "imageNames": [
+        "DSC01930.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "52"
+    },
+    "MYQLMXwSr0": {
+      "title": "Feelings No. 4",
+      "yearMade": "2020",
+      "size": "9\" x 12\"",
+      "description": "Drawing",
+      "artistId": "tkTAIIgLRW",
+      "imageNames": [
+        "HUIMGME2R6.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "53"
+    },
+    "KDbRI2aGrN": {
+      "title": "Cave II",
+      "yearMade": "2019",
+      "size": "12 x 9",
+      "description": "Drawing ",
+      "artistId": "TUTGUyAKWJ",
+      "imageNames": [
+        "DSC01948.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "54"
+    },
+    "gdUOS4Ki7y": {
+      "title": "Ungrounded ",
+      "yearMade": "2019",
+      "size": null,
+      "description": "Drawing",
+      "artistId": "cEB43zyrx9",
+      "imageNames": [
+        "DSC01909.jpg"
+      ],
+      "issueId": "3",
+      "pageNumber": "55"
     }
   },
   "artists" : {
+    "chLSbRZvaL": {
+      "artistID": "chLSbRZvaL",
+      "name": "Abbi Harb",
+      "artworks": null,
+      "graduationYear": "2023",
+      "issueIds": [
+        "3"
+      ]
+    },
+    "6HKvJiunyq": {
+      "artistID": "6HKvJiunyq",
+      "name": "Acacia Berg",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "3"
+      ]
+    },
     "KYT6wvLmT5": {
       "artistID": "KYT6wvLmT5",
       "name": "Akshya Prasai",
@@ -1486,7 +2172,7 @@
       "graduationYear": "2020",
       "issueIds": [
         "2",
-        ""
+        "3"
       ]
     },
     "Fdvy7YqSlf": {
@@ -1495,8 +2181,7 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "befWs1GQsf": {
@@ -1505,8 +2190,16 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
+      ]
+    },
+    "lTImLzH10d": {
+      "artistID": "lTImLzH10d",
+      "name": "Allison Garcia",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
       ]
     },
     "Ujq3CF3XTL": {
@@ -1515,8 +2208,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "wbZQhhktWn": {
@@ -1525,8 +2217,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "fA0OOtlNRB": {
@@ -1536,18 +2227,16 @@
       "graduationYear": "2019",
       "issueIds": [
         "1",
-        "2",
-        ""
+        "2"
       ]
     },
     "jrLfN78muX": {
       "artistID": "jrLfN78muX",
-      "name": "Andrea Volpe",
+      "name": "Andre Volpe",
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "imo7wqF6pk": {
@@ -1556,8 +2245,7 @@
       "artworks": null,
       "graduationYear": "2021",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "gQYeXuB2KH": {
@@ -1566,8 +2254,7 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "xWbyyJUkhx": {
@@ -1576,8 +2263,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "mtuT9ZyXaX": {
@@ -1586,8 +2272,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "wuYaDrUYt2": {
@@ -1596,8 +2281,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "vezLEEm8w3": {
@@ -1606,8 +2290,7 @@
       "artworks": null,
       "graduationYear": "2021",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "eESoUpjgF7": {
@@ -1618,7 +2301,7 @@
       "issueIds": [
         "1",
         "2",
-        ""
+        "3"
       ]
     },
     "vYN5k3bVgs": {
@@ -1627,8 +2310,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "CSvgJuQZqU": {
@@ -1637,8 +2319,7 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "fNtawUW02I": {
@@ -1647,8 +2328,7 @@
       "artworks": null,
       "graduationYear": "2017",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "mKOsPKWBSV": {
@@ -1658,8 +2338,16 @@
       "graduationYear": "2019",
       "issueIds": [
         "1",
-        "2",
-        ""
+        "2"
+      ]
+    },
+    "BZAwTseEUY": {
+      "artistID": "BZAwTseEUY",
+      "name": "Gabi Avilles",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
       ]
     },
     "ze2PExNicZ": {
@@ -1668,8 +2356,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "BUw4qqrEkX": {
@@ -1678,8 +2365,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "aK3zsMbI0o": {
@@ -1688,8 +2374,34 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
+      ]
+    },
+    "pL3ZQsSh3O": {
+      "artistID": "pL3ZQsSh3O",
+      "name": "Ingrid Wasmer",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "3"
+      ]
+    },
+    "qlkkKnql7B": {
+      "artistID": "qlkkKnql7B",
+      "name": "Isabella Brennan",
+      "artworks": null,
+      "graduationYear": "2023",
+      "issueIds": [
+        "3"
+      ]
+    },
+    "5SKCaMssKR": {
+      "artistID": "5SKCaMssKR",
+      "name": "Jessica Hickey",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
       ]
     },
     "Qo54vuwMVd": {
@@ -1698,8 +2410,7 @@
       "artworks": null,
       "graduationYear": "2017",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "WpxPpYxpkU": {
@@ -1708,8 +2419,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "QpmI9gvqYL": {
@@ -1718,8 +2428,16 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
+      ]
+    },
+    "cEB43zyrx9": {
+      "artistID": "cEB43zyrx9",
+      "name": "Jori Pilcher ",
+      "artworks": null,
+      "graduationYear": "2023",
+      "issueIds": [
+        "3"
       ]
     },
     "BDNCGWtQSz": {
@@ -1728,8 +2446,7 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "bPjHRkWrcD": {
@@ -1738,8 +2455,7 @@
       "artworks": null,
       "graduationYear": "2023",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "zfYa1soyoz": {
@@ -1748,8 +2464,16 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
+      ]
+    },
+    "GmpnOPnDHl": {
+      "artistID": "GmpnOPnDHl",
+      "name": "Kevin Dera Cox",
+      "artworks": null,
+      "graduationYear": "2023",
+      "issueIds": [
+        "3"
       ]
     },
     "lH3dv6oRiE": {
@@ -1758,8 +2482,7 @@
       "artworks": null,
       "graduationYear": "2017",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "8CUW9uboqH": {
@@ -1768,8 +2491,7 @@
       "artworks": null,
       "graduationYear": "2017",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "HdnEYMhfSH": {
@@ -1778,8 +2500,7 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "SNNTSYo6Er": {
@@ -1788,18 +2509,17 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "tkTAIIgLRW": {
       "artistID": "tkTAIIgLRW",
       "name": "Louise Rossiter",
       "artworks": null,
-      "graduationYear": "2019",
+      "graduationYear": "2020",
       "issueIds": [
         "2",
-        ""
+        "3"
       ]
     },
     "3Hzg8VbhBy": {
@@ -1809,7 +2529,7 @@
       "graduationYear": "2020",
       "issueIds": [
         "2",
-        ""
+        "3"
       ]
     },
     "bYV8rjw1du": {
@@ -1818,8 +2538,16 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
+      ]
+    },
+    "MKViyvMBJ9": {
+      "artistID": "MKViyvMBJ9",
+      "name": "Madelyn Turner",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "3"
       ]
     },
     "WUdSdgPpE6": {
@@ -1828,8 +2556,16 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
+      ]
+    },
+    "08q79gmNEM": {
+      "artistID": "08q79gmNEM",
+      "name": "Marisol Murillo",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
       ]
     },
     "QRmyBT2Wqo": {
@@ -1839,7 +2575,7 @@
       "graduationYear": "2020",
       "issueIds": [
         "2",
-        ""
+        "3"
       ]
     },
     "EDTpduDalL": {
@@ -1848,8 +2584,7 @@
       "artworks": null,
       "graduationYear": "2021",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "9gW8S7G00r": {
@@ -1858,8 +2593,7 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "TUTGUyAKWJ": {
@@ -1869,7 +2603,7 @@
       "graduationYear": "2020",
       "issueIds": [
         "2",
-        ""
+        "3"
       ]
     },
     "5AbeqXu50S": {
@@ -1879,8 +2613,7 @@
       "graduationYear": "2018",
       "issueIds": [
         "1",
-        "2",
-        ""
+        "2"
       ]
     },
     "JrgCdZBT4k": {
@@ -1890,8 +2623,7 @@
       "graduationYear": "2020",
       "issueIds": [
         "1",
-        "2",
-        ""
+        "2"
       ]
     },
     "fQnmeyxJ7V": {
@@ -1900,8 +2632,25 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
+      ]
+    },
+    "X5xLVR3vjm": {
+      "artistID": "X5xLVR3vjm",
+      "name": "Payton Shaw",
+      "artworks": null,
+      "graduationYear": "2021",
+      "issueIds": [
+        "3"
+      ]
+    },
+    "Hmxz3EIHaX": {
+      "artistID": "Hmxz3EIHaX",
+      "name": "Pratistha Regmi",
+      "artworks": null,
+      "graduationYear": "2022",
+      "issueIds": [
+        "3"
       ]
     },
     "lNkty9s2mU": {
@@ -1910,8 +2659,7 @@
       "artworks": null,
       "graduationYear": "2020",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "CNcc0T05De": {
@@ -1920,8 +2668,7 @@
       "artworks": null,
       "graduationYear": "2022",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "G8PPLMNuR5": {
@@ -1930,8 +2677,7 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "2",
-        ""
+        "2"
       ]
     },
     "eWRCo5EBek": {
@@ -1940,8 +2686,7 @@
       "artworks": null,
       "graduationYear": "2017",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "9NWCtZ6CqB": {
@@ -1951,8 +2696,7 @@
       "graduationYear": "2020",
       "issueIds": [
         "1",
-        "2",
-        ""
+        "2"
       ]
     },
     "HGQXNL66i7": {
@@ -1961,8 +2705,7 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "N7VqeDJR1A": {
@@ -1972,8 +2715,7 @@
       "graduationYear": "2021",
       "issueIds": [
         "1",
-        "2",
-        ""
+        "2"
       ]
     },
     "LX5KhFpFge": {
@@ -1982,8 +2724,25 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
+      ]
+    },
+    "oto0PBTMmt": {
+      "artistID": "oto0PBTMmt",
+      "name": "Shruti Mungi",
+      "artworks": null,
+      "graduationYear": "2019",
+      "issueIds": [
+        "3"
+      ]
+    },
+    "jgLbOZtFG1": {
+      "artistID": "jgLbOZtFG1",
+      "name": "Siang Hnin",
+      "artworks": null,
+      "graduationYear": "2022",
+      "issueIds": [
+        "3"
       ]
     },
     "kJPaoGdO6c": {
@@ -1992,8 +2751,7 @@
       "artworks": null,
       "graduationYear": "2017",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "IFL8EhUQdg": {
@@ -2002,8 +2760,16 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2",
-        ""
+        "2"
+      ]
+    },
+    "ApZFV9YFyE": {
+      "artistID": "ApZFV9YFyE",
+      "name": "Sydney Westreich",
+      "artworks": null,
+      "graduationYear": "2023",
+      "issueIds": [
+        "3"
       ]
     },
     "Mo2Wr2LzT1": {
@@ -2012,8 +2778,7 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
       ]
     },
     "dDtqNisB12": {
@@ -2022,8 +2787,16 @@
       "artworks": null,
       "graduationYear": "2018",
       "issueIds": [
-        "1",
-        ""
+        "1"
+      ]
+    },
+    "WdvV2uk59j": {
+      "artistID": "WdvV2uk59j",
+      "name": "Zuri Peterson",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "3"
       ]
     }
   },

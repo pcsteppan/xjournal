@@ -79,7 +79,7 @@ html, body, div, span, object, iframe, h1, h2, h3, .splash, .error, h4, h5, h6, 
 img {
   max-width: 100%;
   /* height: auto; */
-  cursor: zoom-in;
+  /* cursor: zoom-in; */
 }
 
 #app {

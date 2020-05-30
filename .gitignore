@@ -2,7 +2,9 @@
 node_modules
 /dist
 /old_images
-/public/images
+/public/images/400
+/public/images/768
+/public/images/1200
 
 # local env files
 .env.local
