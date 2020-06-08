@@ -4,42 +4,33 @@
     <div
       style="z-index: 12;"
       :class="bSpotColor"
-      class="black-80 sans-serif cb relative gradientHighlight h-auto h4-ns pt2">
+      class="black-80 sans-serif cb relative gradientHighlight h-auto pt2 pt3-ns pb2-ns">
       <!-- Artwork Title -->
-      <div class="w-50 fl w-33-ns">
-        <span
-          :class="bSpotColor"
-          class="w-100 dib pl1 pr2 i f6 f4-ns mb2 dib">
-          {{artworkTitle}}
-        </span>
-        <!-- <router-link
-          :class="[hoverSpotColor,bSpotColor]"
-          class="w-100 dib bw2 di pl1 link black-80 f6 f5-ns"
-          :to=artistPageBookmark>
-          {{artistName}}
-        </router-link> -->
-        <span
-          class="w-100 pl1 f6 f4-ns dib">
-          {{artistName}}
-        </span>
-      </div>
-      <!-- Artist and Media -->
-      <div class="w-50 fl w-33-ns">
-        <!-- <span
-          v-if="artworkMeasurements"
-          v-html="artworkMeasurements"
-          :class="bSpotColor"
-          class="bt-l w-100 pl1-ns dib">
-        </span> -->
-        <span
-          :class="bSpotColor"
-          class="w-60 dib f6 f4-ns">
-          {{artworkDescription}}
-        </span>
-        <svg class="absolute right-1" style="top: 1em" :class="{'rotate-180' : isExpanded}" width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M14.5114 18.7369L1.41457 0.183044L0.96875 0.814622L14.5116 20L27.6084 1.44617L27.1626 0.814589L14.5114 18.7369Z" fill="#111111"/>
-        </svg>
-      </div>
+      <span
+        :class="bSpotColor"
+        class="w-50 w-33-ns dib pl1 pl3-ns pr2 i f6 f4-l mb2 dib v-top fl">
+        {{artworkTitle}}
+      </span>
+      <!-- Artist Not Small -->
+      <span
+        class="w-33-ns pl1 pr4-ns f6 f4-l v-top cl cn-ns fl dn dib-ns">
+        {{artistName}}
+      </span>
+      <!--and Media -->
+      <span
+        :class="bSpotColor"
+        class="w-50 w-33-ns dib f6 f4-l fl pr4 pr0-ns">
+        {{artworkDescription}}
+      </span>
+      <!-- Artist Small -->
+      <span
+        class="w-50 pl1 pr4 f6 f4-l v-top cl cn-ns fl dib dn-ns">
+        {{artistName}}
+      </span>
+      <!--arrow -->
+      <svg class="absolute right-1" style="top: 1em" :class="{'rotate-180' : isExpanded}" width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.5114 18.7369L1.41457 0.183044L0.96875 0.814622L14.5116 20L27.6084 1.44617L27.1626 0.814589L14.5114 18.7369Z" fill="#111111"/>
+      </svg>
       <div class="cb">&nbsp;</div>
     </div>
     <div class="issue3--image-container h-auto db dib-ns w-100" v-if="isExpanded" :class="layout">
@@ -157,13 +148,15 @@ export default {
   methods: {
     expand: function (event) {
       this.isExpanded = !this.isExpanded
-      // event.target.scrollIntoView()
       // const delta = (this.isExpanded ? 50 : -50)
       // window.scrollBy({
       //   top: delta,
       //   left: 0,
       //   behavior: 'smooth'
       // })
+    },
+    scrollTo: function () {
+      event.target.querySelector('.issue3--image-container').scrollIntoView()
     }
   }
 }

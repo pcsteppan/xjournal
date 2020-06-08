@@ -9,13 +9,13 @@
         <span class="i black-60 f5">odessa and patrick &#10086;<br/>&nbsp;</span>
       </p>
       <router-link class="black-80 link  db b--black-80 bw1 b--solid br-0 bl-0 h3" exact-active-class="b" to="/issue/3/poem">
-        <span class="ttu pt3 db serif b f3 pl2">poem &#8594;</span>
+        <span class="ttu pt3 db serif f3 pl2">poem &#8594;</span>
       </router-link>
       <router-link class="black-80 link f3 db b--black-80 bw1 b--solid br-0 bl-0 bt-0 h3" exact-active-class="b" to="/issue/3/artwork">
-        <span class="ttu pt3 db serif b f3 pl2">artwork &#8594;</span>
+        <span class="ttu pt3 db serif f3 pl2">artwork &#8594;</span>
       </router-link>
       <router-link class="black-80 link f3 db b--black-80 h3" exact-active-class="b" to="/issue/3/artists">
-        <span class="ttu pt3 db serif b f3 pl2">artists &#8594;</span>
+        <span class="ttu pt3 db serif f3 pl2">artists &#8594;</span>
       </router-link>
       <div style="background: linear-gradient(var(--riso-kellygreen) 0%, rgba(240,240,240,0) 30%)" class="h4">
         &nbsp;
