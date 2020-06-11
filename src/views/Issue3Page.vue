@@ -22,12 +22,12 @@
       </div>
     </section>
     <!-- Add green line here -->
-    <section id="issue3--artworks-container" class="w-100 fr-ns w-75-ns" v-if="view=='artwork'">
+    <section id="issue3--artworks-container" class="w-100 fr-ns w-75-ns" v-if="view.includes('artwork')">
       <Issue3ArtworkItem
         v-for="artwork in artworks"
+        :id="artwork.pageNumber"
         :key="artwork.pageNumber"
-        :artwork="artwork"
-        :pageNumber="artworkIndexN">
+        :artwork="artwork">
       </Issue3ArtworkItem>
     </section>
     <section id="issue3--artworks-container" class="w-100 fr-ns w-75-ns bg-light-gray" v-else-if="view=='poem'">

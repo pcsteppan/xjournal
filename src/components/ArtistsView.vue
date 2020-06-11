@@ -12,7 +12,7 @@
           <span class="fr fn-ns">{{artistName(artistId)}}</span>
         </p>
         <ul>
-          <a
+          <!-- <a
             class="link fr cr w-50 pl1 f6 f5-ns black-80 b--solid artwork-listing pointer"
             :class="[bSpotColor, hoverSpotColor]"
             v-for="artworkId in artistsWorks(artistId)"
@@ -20,11 +20,21 @@
             :href="artworkLink(artworkId)"
             target="_blank"
           >
-            <!-- <span class="fl w-30 db">{{artworkYear(artworkId)}}</span> -->
             <span class="fl w-70 db pl2 mb2">
               {{artworkTitle(artworkId)}}
             </span>
-          </a>
+          </a> -->
+          <router-link
+            class="link fr cr w-50 pl1 f6 f5-ns black-80 b--solid artwork-listing pointer dib"
+            :class="[bSpotColor, hoverSpotColor]"
+            v-for="artworkId in artistsWorks(artistId)"
+            :key="artworkId"
+            :to="{ path: './artwork', hash: artworkPageNumber(artworkId)}"
+          >
+            <span class="fl w-70 db pl2 mb2">
+              {{artworkTitle(artworkId)}}
+            </span>
+          </router-link>
         </ul>
       </li>
     </ul>
@@ -94,6 +104,9 @@ export default {
     },
     artistBookmark (id) {
       return this.artistName(id).split(' ').join('_')
+    },
+    scrollFix: function (hashbang) {
+      location.href = hashbang
     }
   }
 }

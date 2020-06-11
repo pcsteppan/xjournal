@@ -24,12 +24,6 @@ export default new Router({
       component: () => import('@/views/About.vue')
     },
     {
-      path: '/issue/3/',
-      name: 'Issue3Page',
-      props: true,
-      component: () => import('@/views/Issue3Page.vue')
-    },
-    {
       path: '/issue/3/:view',
       name: 'Issue3Page',
       props: true,
@@ -77,5 +71,13 @@ export default new Router({
       props: true,
       component: DocumentationGuidePage
     }
-  ]
+  ],
+  scrollBehavior: function (to, from, savePosition) {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        offset: { x: 0, y: 0 }
+      }
+    }
+  }
 })

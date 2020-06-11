@@ -33,7 +33,7 @@
       </svg>
       <div class="cb">&nbsp;</div>
     </div>
-    <div class="issue3--image-container h-auto db dib-ns w-100" v-if="isExpanded" :class="layout">
+    <div class="issue3--image-container h-auto db dib-ns w-100" v-if="isExpanded">
       <img
         v-for="(data, key) in imagesrcsandsrcsets"
         class="db di-ns w-100 w-auto-ns"
@@ -64,6 +64,9 @@ export default {
     },
     preload: {
       type: Boolean
+    },
+    id: {
+      type: String
     }
   },
 
@@ -71,6 +74,16 @@ export default {
     return {
       baseUrl: process.env.BASE_URL,
       isExpanded: false
+    }
+  },
+
+  mounted () {
+    if ('#' + this.id === this.$route.hash) {
+      location.href = '#' + this.id
+      this.expand()
+      this.$el.scrollIntoView(true)
+      // scrollBy(0, -70)
+      // window.scrollBy(0, -70)
     }
   },
 
@@ -148,15 +161,9 @@ export default {
   methods: {
     expand: function (event) {
       this.isExpanded = !this.isExpanded
-      // const delta = (this.isExpanded ? 50 : -50)
-      // window.scrollBy({
-      //   top: delta,
-      //   left: 0,
-      //   behavior: 'smooth'
-      // })
     },
-    scrollTo: function () {
-      event.target.querySelector('.issue3--image-container').scrollIntoView()
+    scrollTo: function (el) {
+      el.scrollIntoView()
     }
   }
 }
