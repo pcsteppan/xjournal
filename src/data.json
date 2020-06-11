@@ -994,9 +994,7 @@
       "imageNames": [
         "digital4.jpg",
         "digital5.jpg",
-        "hand2.jpg",
-        "hand3.jpg",
-        "hand1.jpg"
+        "hand2.jpg"
       ],
       "issueId": "2",
       "pageNumber": "31"
@@ -1451,7 +1449,6 @@
       "description": "Book design",
       "artistId": "TUTGUyAKWJ",
       "imageNames": [
-        "DSC00794.jpg",
         "DSC01397.jpg",
         "DSC01400.jpg",
         "DSC00795.jpg"

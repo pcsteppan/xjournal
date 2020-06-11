@@ -41,6 +41,16 @@ export default {
       type: String
     }
   },
+  mounted: function () {
+    if (this.$route.hash !== '') {
+      console.log(this.$route.hash)
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(scrollBy({ left: 0, top: -60, behavior: 'smooth' }))
+        }, 1)
+      })
+    }
+  },
   computed: {
     artistIds () {
       return Object.keys(sourceData.artists)
