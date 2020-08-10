@@ -17,6 +17,8 @@ It has been a good opportunity and project to help me learn about responsive des
 I'm currently working on reducing technical debt that was accrued while working on a tight deadline.
 I'm integrating a CMS so that future staff can upload to the site with ease.
 
+## [More Information at patricksteppan.com][https://patricksteppan.com/x-journal]
+
 ## Major features ahead
 
 1. CMS integration
