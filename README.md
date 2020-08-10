@@ -1,31 +1,22 @@
 # xjournal
 
-## Project setup
-```
-yarn install
-```
+## Summary
+X Journal is a visual arts publication at Knox College.
+This repository is the journal's website, which hosts all the artwork and essays published in the journal.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Technical Information
+The site uses Vue for its structure, routing, and seamless page rendering.
+I used Tachyons for styling and CSS Grid for responsive layout.
+I had no need for a full backend. So the site and images are hosted through Netlify, and the data is generated as JSON from a spreadsheet.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## History
+I've been developing this site as a side project since 2018.
+It has been a good opportunity and project to help me learn about responsive design, UI, web-typography, all in general and in regards to accessibiliy, and VueJS.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+## Future
+I'm currently working on reducing technical debt that was accrued while working on a tight deadline.
+I'm integrating a CMS so that future staff can upload to the site with ease.
 
-## TODO
+## Major features ahead
 
-1. Add submit page detailing preffered method of submissions and a link to a google form. Also provide contact information for anyone that is trying to contact us. Such as an email to x@knox.vision
-2. Think of alternatives for showing the art.
-3. Add a search option on the artists pages
-4. Add columned sections for the about page
-5. Add an animated gif for the home page that can act as the background image.
-6. Think of the copy that should go on top of that background.
-7. Perhaps overlapping ||X gif on home page
+1. CMS integration
