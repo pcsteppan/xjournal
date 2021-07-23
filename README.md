@@ -13,12 +13,4 @@ I had no need for a full backend. So the site and images are hosted through Netl
 I've been developing this site as a side project since 2018.
 It has been a good opportunity and project to help me learn about responsive design, UI, web-typography, all in general and in regards to accessibiliy, and VueJS.
 
-## Future
-I'm currently working on reducing technical debt that was accrued while working on a tight deadline.
-I'm integrating a CMS so that future staff can upload to the site with ease.
-
-## [More Information at patricksteppan.com][https://patricksteppan.com/x-journal]
-
-## Major features ahead
-
-1. CMS integration
+## More Information at my [website](https://patricksteppan.com/x-journal)
