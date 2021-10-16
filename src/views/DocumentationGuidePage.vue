@@ -66,8 +66,11 @@
         If you have a scanner, make sure to scan at the highest quality and resolution.
       </li>
     </ul>
-    <a class="f4 link dim tc ba ph3 pv2 mb2 dib sans-serif bg-gray b--riso-kellygreen near-white b w-100" href="#">submissions are closed</a>
-    <span class="w-100 b--solid b--riso-kellygreen bw1 dib"/>
+    <a class="f4 link dim tc ba ph3 pv2 mb2 dib sans-serif bg-riso-kellygreen b--riso-kellygreen near-white b w-100"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSf63kCDd6cZJ_FBJHrBcz46tYQdSIg7NnSLkf8VuGUe1swllA/viewform?usp=sf_link">
+       submissions are open
+    </a>
+    <span class="w-100 b--solid b--riso-kellygreen bw1 dib h-0"/>
     <p style="text-indent: -0.7em" class="ttl w-100-ns lh-copy sans-serif f4 f5-ns pb0 near-black">
       <span class="riso-kellygreen b">&#8225;</span> Images with poor lighting will not be considered.<br/>
       X Journal is a selective publication, not all entries will be accepted.
