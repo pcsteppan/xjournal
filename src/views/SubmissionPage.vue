@@ -2,15 +2,15 @@
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center pr3 pa0-ns">
     <h1 class="serif lh-display f2 near-black mb3">
-      submissions for <span class="riso-kellygreen">issue 4</span> are now open.
+      submissions for <span class="riso-kellygreen">issue 4</span> are now closed.
     </h1>
-    <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
+    <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
       physical work can be submitted in WAC, on the second floor, near the open studios.
     </p>
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
       to submit online, please review our <router-link class="riso-kellygreen" to="./submit/guide">guide for documenting your own work</router-link> and then submit your work &#10230; <a class="riso-kellygreen" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf63kCDd6cZJ_FBJHrBcz46tYQdSIg7NnSLkf8VuGUe1swllA/viewform?usp=sf_link">here.</a>
     </p>
-    <!-- <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p> -->
+    <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p> -->
     <!-- <ul style="list-style: outside circle; column-count: 2;" class="sans-serif measure-narrow lh-solid mb3 near-black f6">
       <li>animation</li>
       <li>ceramics</li>
