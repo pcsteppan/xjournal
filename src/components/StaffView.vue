@@ -6,6 +6,7 @@
         <button class="f6 dim hover-riso-kellygreen link dib bg-light-gray bw0 pa0 ma0 pr4 pointer" style="z-index: 2;" v-on:click="year=2018" :class="{ 'riso-kellygreen': year===2018 }">2018</button>
         <button class="f6 dim hover-riso-kellygreen link dib bg-light-gray bw0 pa0 ma0 pr4 pointer" style="z-index: 2;" v-on:click="year=2019" :class="{ 'riso-kellygreen': year===2019 }">2019</button>
         <button class="f6 dim hover-riso-kellygreen link dib bg-light-gray bw0 pa0 ma0 pr4 pointer" style="z-index: 2;" v-on:click="year=2020" :class="{ 'riso-kellygreen': year===2020 }">2020</button>
+        <button class="f6 dim hover-riso-kellygreen link dib bg-light-gray bw0 pa0 ma0 pr4 pointer" style="z-index: 2;" v-on:click="year=2022" :class="{ 'riso-kellygreen': year===2022 }">2022</button>
       </div>
     </div>
     <ul class="pb4 lh-copy list relative w-100">

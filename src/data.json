@@ -2978,6 +2978,35 @@
           "role" : "Faculty advisor / mentor"
         }
       ]
+    },
+    "2022" : {
+      "year" : "2022",
+      "staff" : [
+        { 
+          "name": "Rose Marshall",
+          "role": "Designer"
+        },
+        {
+          "name": "James Adamson",
+          "role": "Designer"
+        },
+        {
+          "name": "Kelly Fisk",
+          "role": "Designer"
+        },
+        {
+          "name": "Zoe Rose",
+          "role": "Designer"
+        },
+        {
+          "name": "Dan Briggs",
+          "role": "Designer"
+        },
+        {
+          "name" :"Tim Stedman",
+          "role" : "Faculty advisor / mentor"
+        }
+      ]
     }
   },
   "essays" : {
