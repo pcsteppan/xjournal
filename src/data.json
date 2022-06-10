@@ -10,6 +10,10 @@
     },
     "3" : {
       "spotColor" : "riso-kellygreen"
+    },
+    "4" : {
+      "essayId" : "dans",
+      "spotColor" : "riso-burgundy"
     }
   },
   "artworks": {
@@ -3038,6 +3042,16 @@
         "This challenges the idea of distortion itself. Distortion assumes a singular normative reality which is socially defined and static. When something is distorted, it means that it is abnormal, for the original subject is somehow twisted or altered. Without the expectation of normal, we couldn’t recognize the abnormal. It is no coincidence that more extreme distortion in art coincides with increasing awareness of diversity in society. Increasingly, limiting concepts of “normalcy” are identified and pushed back against through exposure to different people and societies via globalized media. Distortion engages the “abnormal” in order to draw attention to the inadequacy of a singular model to represent the diversity of our modern world. The act of recognizing distortion in art can question the assumption of normalcy and push the boundaries of represented reality. Like a mask, the normative narrative presents only one unchanging face and conceals the more dynamic and diverse reality underneath. Distortion can change the mask presented in order to catch our attention and get us to stop and question what is hidden beneath. When we peek at the less shiny but truer reality underneath we can recognize and relate to the abnormal, the messy, and the anomalous within ourselves and grapple with the intricacies of a more diverse world.",
         "Because of the urbanized, consumerist, globalized, and diverse reality we inhabit, we are experts at unifying disparate bits of information. Every day, we take in huge sums of information via social and traditional media which connect people and events around the world, creating an inevitable disjunction between conflicting and changing narratives. As consumers of global media, we have learned our own unique ways for synthesizing our dynamic world into a coherent understanding of reality. When approaching distortion, the first step is stopping long enough to recognize what is distorted. Sometimes this is easier said than done. Subtle distortion like advertising and social media may appear to reflect reality, but the distorted narrative often conceals the truth. Advertisements and social media distort in order to attract our attention and appeal to our consumerist desires through the exploitation of a singular idealized reality which can only be attained through the purchase of goods.  As more and more of our mental landscape is filtered through screens deploying these subtly distorted normative narratives, it can become more challenging to distinguish between what is “real” and “fake,” a dichotomy which is often manipulated or ignored. Rather than passively absorbing, we must ask what do I see and why? Distortion can challenge us to question the original idea of a unified whole. If what we see now is different, how? And more importantly, why? By not depicting the naturalistic whole, what is being said about the subject?",
         "The current generation of artists highlighted in this journal share this dynamic world and continue to engage with humanity’s relationship to reality, just as artists have done throughout the history of human expression. Rather than the defined and regulated methods of distortion common in earlier artistic periods, contemporary artists encounter and respond with greater personal liberty to a diverse and fluid global reality. Distortion confronts the myth of a normative reality by depicting reality filtered through the minds of the artist as well as the viewer. Art invites the viewer into a dialogue with the artist, the artwork, and the subject. You only need to take a walk through WAC to see this in action. While an entire painting class might be looking at the same still life, everyone’s works will vary greatly – bright or muted color, geometric or organic shapes, thick or thin paint, it is clear that the “real” subject matter of the still life is being distorted through the dialogue between the subject and the artist who brings their unique experience of “abnormalities” into their work. As viewers, when we enter into this dialogue, we bring with us our own unique background and perception of reality. Distortion’s shifting relationship with reality facilitates contemplation of the dynamic conversation between art, artists, history, society, and ourselves. In this disjunction of perspectives, we can connect and create in a new way, bringing in our diverse backgrounds and experiences to foster a novel discussion of art and the world around us."
+      ]
+    },
+    "dans" : {
+      "issueId": 4,
+      "title" : "Dans. We Come Away With",
+      "author" : "Nicholas Nurre",
+      "graduationYear": "18",
+      "paragraphs": [
+        "yo",
+        "As a closing thought, Beep beep"
       ]
     }
   }

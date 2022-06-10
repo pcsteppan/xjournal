@@ -26,7 +26,10 @@ export default {
   },
   computed: {
     essayData () {
+      console.log(this.issue)
       return sourceData.essays[this.issue]
+      //return sourceData.essays["dans"]
+
     }
   }
 }
