@@ -29,6 +29,18 @@
       "issueId": "1",
       "pageNumber": "1"
     },
+    "dans": {
+      "title": "dans Daze",
+      "yearMade": "2018",
+      "size": "17 1/2\"x23\"",
+      "description": "Acrylic",
+      "artistId": "DansID",
+      "imageNames": [
+        "dan.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "1"
+    },
     "GqIGeVsFi1": {
       "title": "Freedom",
       "yearMade": "2017",
@@ -2908,6 +2920,18 @@
       "graduationYear": "2020",
       "issueIds": [
         "3"
+      ]
+    },
+
+
+
+    "DansID": {
+      "artistID": "DansID",
+      "name": "Dan Briggs",
+      "artworks": null,
+      "graduationYear": "2020",
+      "issueIds": [
+        "4"
       ]
     }
   },
