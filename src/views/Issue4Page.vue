@@ -5,7 +5,7 @@
         the fourth issue of x<br/>
         the print edition of issue 4 contains both the work from 2020, and 2022. work from 2020 can be found in the <a href="../../../issue/3/artwork">online issue 3</a><br/><br/>
         thank you to all 28 artists who contributed,
-        and special thanks to Alyx Farris for her Essay.<br/><br/>
+        and special thanks to alyx farris for her essay.<br/><br/>
         <span class="i black-60 f5">The xJournal team &#10086;<br/>&nbsp;</span>
       </p>
       <router-link class="black-80 link  db b--black-80 bw1 b--solid br-0 bl-0 h3" exact-active-class="b" to="/issue/4/essay">

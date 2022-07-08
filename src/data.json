@@ -12,7 +12,7 @@
       "spotColor" : "riso-kellygreen"
     },
     "4" : {
-      "essayId" : "dans",
+      "essayId" : "interrupted",
       "spotColor" : "riso-burgundy"
     }
   },
@@ -27,18 +27,6 @@
         "SummerDaze.jpg"
       ],
       "issueId": "1",
-      "pageNumber": "1"
-    },
-    "dans": {
-      "title": "dans Daze",
-      "yearMade": "2018",
-      "size": "17 1/2\"x23\"",
-      "description": "Acrylic",
-      "artistId": "DansID",
-      "imageNames": [
-        "dan.jpg"
-      ],
-      "issueId": "4",
       "pageNumber": "1"
     },
     "GqIGeVsFi1": {
@@ -2229,7 +2217,44 @@
       ],
       "issueId": "3",
       "pageNumber": "61"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    "MTurnerDullingHum": {
+      "title": "A Dulling Hum",
+      "yearMade": "2022",
+      "size": "9\"x12\"",
+      "description": "Photography",
+      "artistId": "MKViyvMBJ9",
+      "imageNames": [
+        "Dan.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "2"
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
   },
   "artists" : {
     "chLSbRZvaL": {
@@ -2487,7 +2512,8 @@
       "artworks": null,
       "graduationYear": "2021",
       "issueIds": [
-        "3"
+        "3",
+        "4"
       ]
     },
     "qlkkKnql7B": {
@@ -2559,7 +2585,8 @@
       "artworks": null,
       "graduationYear": "2023",
       "issueIds": [
-        "2"
+        "2",
+        "4"
       ]
     },
     "zfYa1soyoz": {
@@ -2577,7 +2604,8 @@
       "artworks": null,
       "graduationYear": "2023",
       "issueIds": [
-        "3"
+        "3",
+        "4"
       ]
     },
     "lH3dv6oRiE": {
@@ -2660,7 +2688,8 @@
       "artworks": null,
       "graduationYear": "2021",
       "issueIds": [
-        "3"
+        "3",
+        "4"
       ]
     },
     "WUdSdgPpE6": {
@@ -2883,7 +2912,8 @@
       "artworks": null,
       "graduationYear": "2019",
       "issueIds": [
-        "2"
+        "2",
+        "4"
       ]
     },
     "ApZFV9YFyE": {
@@ -2892,7 +2922,8 @@
       "artworks": null,
       "graduationYear": "2023",
       "issueIds": [
-        "3"
+        "3",
+        "4"
       ]
     },
     "Mo2Wr2LzT1": {
@@ -2925,16 +2956,207 @@
 
 
 
-    "DansID": {
-      "artistID": "DansID",
-      "name": "Dan Briggs",
-      "artworks": null,
-      "graduationYear": "2020",
+
+
+    
+    "9fKcOEQTcM": {
+      "artistID":"9fKcOEQTcM",
+      "name": "Adri Perrucci",
+      "artworks":"",
+      "graduationYear":"",
       "issueIds": [
         "4"
       ]
+    },
+    "czMmjQJvpr": {
+      "artistID":"czMmjQJvpr",
+      "name":"Allison Kelly",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "Oq3BQ3g3xk": {
+      "artistID":"Oq3BQ3g3xk",
+      "name":"Amanda Fair Jens",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "fgEu7BUd2P": {
+      "artistID":"fgEu7BUd2P",
+      "name":"Amelia Walz",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "rpS8n55JDC": {
+      "artistID":"rpS8n55JDC",
+      "name":"Anna Shulz",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "d2ei2XH7pI": {
+      "artistID":"d2ei2XH7pI",
+      "name":"Caleb Moore",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
+    },
+    "eeYw0jCrNI": {
+      "artistID":"eeYw0jCrNI",
+      "name":"Cyan Oelklaus",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "Ir9Ehd1Z8J": {
+      "artistID":"Ir9Ehd1Z8J",
+      "name":"Dan Briggs",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "BUqz6TFqkd": {
+      "artistID":"BUqz6TFqkd",
+      "name":"Fabian Chavez Portillo",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+     },
+    "gkXtZbo3Rm": {
+      "artistID":"gkXtZbo3Rm",
+      "name":"James Adamson",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "7Yl77nksPX": {
+      "artistID":"7Yl77nksPX",
+      "name":"Jay Bettner",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "fLD91uqVGT": {
+      "artistID":"fLD91uqVGT",
+      "name":"Jess Kriho",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
+    },
+    "XcuWBcPFLG": {
+      "artistID":"XcuWBcPFLG",
+      "name":"Kate Snyder",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
+    },
+    "nVxftmuPTn": {
+      "artistID":"nVxftmuPTn",
+      "name":"Morgan Hopkins",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
+    },
+    "seHZlukkKa": {
+      "artistID":"seHZlukkKa",
+      "name":"Morghan Bacon",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
+    },
+    "SlL0gSGcef": {
+      "artistID":"SlL0gSGcef",
+      "name":"Neori Yasumaru",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "T3aMREfmTI": {
+      "artistID":"T3aMREfmTI",
+      "name":"Odette Herrand",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
+    },
+    "pTeIRCHnyk": {
+      "artistID":"pTeIRCHnyk",
+      "name":"Rose Marshall",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "WbkHxgpJQP": {
+      "artistID":"WbkHxgpJQP",
+      "name":"Sage Lunquist",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "snZV3bubIV": {
+      "artistID":"snZV3bubIV",
+      "name":"Teagan Springer",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "FqCe7vH9x1": {
+      "artistID":"FqCe7vH9x1",
+      "name":"Zoe Rose",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4"
+      ]
+    },
+    "QltLN5SBcy": {
+      "artistID":"QltLN5SBcy",
+      "name":"Zomina Peterson",
+      "artworks":"",
+      "graduationYear":"",
+      "issueIds": [
+        "4" 
+      ]
     }
-
 
     
   },
@@ -3071,7 +3293,7 @@
         "The current generation of artists highlighted in this journal share this dynamic world and continue to engage with humanity’s relationship to reality, just as artists have done throughout the history of human expression. Rather than the defined and regulated methods of distortion common in earlier artistic periods, contemporary artists encounter and respond with greater personal liberty to a diverse and fluid global reality. Distortion confronts the myth of a normative reality by depicting reality filtered through the minds of the artist as well as the viewer. Art invites the viewer into a dialogue with the artist, the artwork, and the subject. You only need to take a walk through WAC to see this in action. While an entire painting class might be looking at the same still life, everyone’s works will vary greatly – bright or muted color, geometric or organic shapes, thick or thin paint, it is clear that the “real” subject matter of the still life is being distorted through the dialogue between the subject and the artist who brings their unique experience of “abnormalities” into their work. As viewers, when we enter into this dialogue, we bring with us our own unique background and perception of reality. Distortion’s shifting relationship with reality facilitates contemplation of the dynamic conversation between art, artists, history, society, and ourselves. In this disjunction of perspectives, we can connect and create in a new way, bringing in our diverse backgrounds and experiences to foster a novel discussion of art and the world around us."
       ]
     },
-    "dans" : {
+    "interrupted" : {
       "issueId": 4,
       "title" : "Interruption, and Digital Culture",
       "author" : "Alyx Farris",
