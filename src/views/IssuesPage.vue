@@ -45,7 +45,7 @@
 
       <!-- Change colors of text here                                   V   -->
       <router-link class="b pl2 pl4-ns link f1 sans-serif bw1 b--solid riso-burgundy b--riso-burgundy br-0 bb-0" id="issue-4-essay" to="/issue/4/essay">
-        fourth
+        essay
       </router-link>
       <router-link class="b pl2 pl4-ns link f1 sans-serif bw1 b--solid riso-burgundy b--riso-burgundy br-0 bb-0" id="issue-4-artworks" to="/issue/4/artwork">
         artwork
