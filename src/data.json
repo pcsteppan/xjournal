@@ -3750,9 +3750,9 @@
     "2022" : {
       "year" : "2022",
       "staff" : [
-        { 
-          "name": "Rose Marshall",
-          "role": "Designer / Project manager"
+        {
+          "name": "Dan Briggs",
+          "role": "Designer / Developer"
         },
         {
           "name": "James Adamson",
@@ -3762,13 +3762,13 @@
           "name": "Kelly Fisk",
           "role": "Designer / Photographer"
         },
+        { 
+          "name": "Rose Marshall",
+          "role": "Designer / Project manager"
+        },
         {
           "name": "Zoe Rose",
           "role": "Designer"
-        },
-        {
-          "name": "Dan Briggs",
-          "role": "Designer / Developer"
         },
         {
           "name" :"Tim Stedman",
