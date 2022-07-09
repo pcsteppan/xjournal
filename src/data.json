@@ -3760,15 +3760,15 @@
       "staff" : [
         { 
           "name": "Rose Marshall",
-          "role": "Designer"
+          "role": "Designer / Project manager"
         },
         {
           "name": "James Adamson",
-          "role": "Designer"
+          "role": "Designer / Art editor"
         },
         {
           "name": "Kelly Fisk",
-          "role": "Designer"
+          "role": "Designer / Photographer"
         },
         {
           "name": "Zoe Rose",
@@ -3776,7 +3776,7 @@
         },
         {
           "name": "Dan Briggs",
-          "role": "Developer"
+          "role": "Designer / Developer"
         },
         {
           "name" :"Tim Stedman",

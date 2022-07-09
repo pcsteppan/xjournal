@@ -2,7 +2,7 @@
   <section class="w-100 h-100">
     <div class="w-75 w-50-ns h-100 fr flex flex-column justify-center pr3 pa0-ns">
     <h1 class="serif lh-display f2 near-black mb3">
-      submissions for <span class="riso-kellygreen">issue 4</span> are now closed.
+      submissions for <span class="riso-burgundy">issue 4</span> are now closed.
     </h1>
     <!-- <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
       physical work can be submitted in WAC, on the second floor, near the open studios.
@@ -39,7 +39,7 @@
       issue 3 will be released online on the 29th.
     </p> -->
     <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
-      please send questions to <a class="link riso-kellygreen" href = "mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
+      please send questions to <a class="link riso-burgundy" href = "mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
     </p>
   </div>
   </section>
