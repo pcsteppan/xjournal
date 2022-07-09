@@ -79,11 +79,16 @@ export default new Router({
     }
   ],
   scrollBehavior: function (to, from, savePosition) {
+    document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+    
+    /* Not sure what all this means, but it causes the app to keep the scroll position
+    from previous link, as opposed to starting at the top of each page
     if (to.hash) {
       return {
         selector: to.hash,
         offset: { x: 0, y: 10 }
       }
     }
+    */
   }
 })
