@@ -2220,14 +2220,549 @@
     },
 
 
-
-
-
-
-
-
-
-
+    "0n2hEg7DDS": {
+      "title": "Intact Thrucible",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Prop",
+      "artistId": "7Yl77nksPX",
+      "imageNames": [
+        "Thrucible_Bettner.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "1"
+    },
+    "0Y3PpZKjsd": {
+      "title": "Nature",
+      "yearMade": "2022",
+      "size": "3\" x 3\"",
+      "description": "Graphic design",
+      "artistId": "nVxftmuPTn",
+      "imageNames": [
+        "Nature1_Hopkins.jpg",
+        "Nature2_Hopkins.jpg",
+        "Nature3_Hopkins.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "2"
+    },
+    "1iQ1TP5Qpe": {
+      "title": "60 BPM",
+      "yearMade": "2022",
+      "size": "50\" x 40\"",
+      "description": "Oil, pastel, and collage on canvas",
+      "artistId": "pL3ZQsSh3O",
+      "imageNames": [
+        "60BPM_Wasmer.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "3"
+    },
+    "3VJEKHSgTt": {
+      "title": "Madonna Jacket",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Fabric, rhinestones",
+      "artistId": "XcuWBcPFLG",
+      "imageNames": [
+        "MadonnaJacket_1_Snyder.jpg",
+        "MadonnaJacket_2_Snyder.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "4"
+    },
+    "6BamPdvcSM": {
+      "title": "Kiss",
+      "yearMade": "2022",
+      "size": "20\" x 14\" x 6\"",
+      "description": "Sculpture",
+      "artistId": "fLD91uqVGT",
+      "imageNames": [
+        "Kiss_Kriho.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "5"
+    },
+    "7dmTfIsxAK": {
+      "title": "Afterwards II",
+      "yearMade": "2022",
+      "size": "19\" x 17\"",
+      "description": "Acrylic paint, oil pastel",
+      "artistId": "rpS8n55JDC",
+      "imageNames": [
+        "AfterwardsII_Schultz.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "6"
+    },
+    "8abQsKGPsQ": {
+      "title": "Untitled Clay 1 and 2",
+      "yearMade": "2021",
+      "size": "",
+      "description": "Ceramic",
+      "artistId": "czMmjQJvpr",
+      "imageNames": [
+        "UntitledClay1_Kelly.jpg",
+        "UntitledClay2_1_Kelly.jpg",
+        "UntitledClay2_2_Kelly.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "7"
+    },
+    "993nIYNHnD": {
+      "title": "Pop",
+      "yearMade": "2022",
+      "size": "2\" x 12\"",
+      "description": "Installation",
+      "artistId": "9fKcOEQTcM",
+      "imageNames": [
+        "Pop_Perrucci.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "8"
+    },
+    "b8zHNQRVBB": {
+      "title": "White, Red, and Blue on Hate",
+      "yearMade": "2022",
+      "size": "52\" x 39.5\" ",
+      "description": "Oil on canvas",
+      "artistId": "GmpnOPnDHl",
+      "imageNames": [
+        "WhiteRedHate_Cox.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "9"
+    },
+    "bgSrFAnTdJ": {
+      "title": "Thanks for the Wings!",
+      "yearMade": "2022",
+      "size": "60\" x 72\"",
+      "description": "Oil, dye, and collage on canvas",
+      "artistId": "pL3ZQsSh3O",
+      "imageNames": [
+        "ThanksForWings_Wasmer.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "10"
+    },
+    "CAXkp3Ynso": {
+      "title": "Suture Pants",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Fabric, embroidery",
+      "artistId": "seHZlukkKa",
+      "imageNames": [
+        "SuturePants_Bacon.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "11"
+    },
+    "EkBh1vP5uv": {
+      "title": "Pussy Riot",
+      "yearMade": "2022",
+      "size": "",
+     "description": "Drawing",
+      "artistId": "SlL0gSGcef",
+      "imageNames": [
+        "PussyRiot_Yasumaru.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "12"
+    },
+    "ES74j7vTQX": {
+      "title": "Yale Architecture Poster",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Graphic design",
+      "artistId": "bPjHRkWrcD",
+      "imageNames": [
+        "ArchitecturePoster_Fisk.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "13"
+    },
+    "ex5xI8N2BQ": {
+      "title": "A Prick and then Warmth",
+      "yearMade": "2022",
+      "size": "60\" x 72\"",
+      "description": "Painting",
+      "artistId": "MKViyvMBJ9",
+      "imageNames": [
+        "APrickWarmth_Turner.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "14"
+    },
+    "g0ALPPIoJQ": {
+      "title": "Jazz Night",
+      "yearMade": "2021",
+      "size": "",
+      "description": "Mixed media",
+      "artistId": "T3aMREfmTI",
+      "imageNames": [
+        "JazzNight_Herrand.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "15"
+    },
+    "GQWYw58unW": {
+      "title": "Architecture Poster",
+      "yearMade": "2022",
+      "size": "24\" x 36\"",
+      "description": "Graphic design",
+      "artistId": "gkXtZbo3Rm",
+      "imageNames": [
+        "ArchitecturePoster_Adamson.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "16"
+    },
+    "hsniiGWiPn": {
+      "title": "Knox Ultimate Disc Design",
+      "yearMade": "2020",
+      "size": "",
+      "description": "Graphic design",
+      "artistId": "Ir9Ehd1Z8J",
+      "imageNames": [
+        "D11_Briggs.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "17"
+    },
+    "iSc6qMukox": {
+      "title": "A Dulling Hum",
+      "yearMade": "2021",
+      "size": "72\" x 60\"",
+      "description": "Painting",
+      "artistId": "MKViyvMBJ9",
+      "imageNames": [
+        "DullingHum_Turner.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "18"
+    },
+    "j4jakX2NGL": {
+      "title": "Change",
+      "yearMade": "2021",
+      "size": "",
+      "description": "Oil on canvas",
+      "artistId": "T3aMREfmTI",
+      "imageNames": [
+        "Change_Herrand.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "19"
+    },
+    "KaN5rIwhMC": {
+      "title": "Gwendolen from The Importance of Being Ernest",
+      "yearMade": "2019",
+      "size": "9\" x 12\"",
+      "description": "Costume rendering",
+      "artistId": "fgEu7BUd2P",
+      "imageNames": [
+        "Gwendolen_Walz.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "20"
+    },
+    "KFSQRvju9m": {
+      "title": "Patriarch Vestments for We are Pussy Riot",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Textiles",
+      "artistId": "Oq3BQ3g3xk",
+      "imageNames": [
+        "PatriarchVestements_Farijens.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "21"
+    },
+    "LGiZxs75au": {
+      "title": "Tooth and Nail",
+      "yearMade": "2021",
+      "size": "25\" x 20\"",
+      "description": "Sculpture",
+      "artistId": "FqCe7vH9x1",
+      "imageNames": [
+        "ToothNail_Rose.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "22"
+    },
+    "MGuz3cALJC": {
+      "title": "Dangerous History",
+      "yearMade": "2022",
+      "size": "24\" x 36\"",
+      "description": "Newspaper on paper",
+      "artistId": "BUqz6TFqkd",
+      "imageNames": [
+        "DangerousHistory_ChavezPortillo.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "23"
+    },
+    "N9oxCiIroH": {
+      "title": "Sarah from Funnyhouse of a Negro",
+      "yearMade": "2021",
+      "size": "11\" x 15\"",
+      "description": "Costume rendering",
+      "artistId": "fgEu7BUd2P",
+      "imageNames":"Sarah_Walz.jpg",
+      "issueId": "4",
+      "pageNumber": "24"
+    },
+    "nBZGwtpWGb": {
+      "title": "Reptilian Flower",
+      "yearMade": "2022",
+      "size": "17\" x 13\" x 8.5\"",
+      "description": "Sculpture",
+      "artistId": "fLD91uqVGT",
+      "imageNames": [
+        "ReptillianFlower_Kriho.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "25"
+    },
+    "nvLTqqxjDx": {
+      "title": "The Abs Costume, Pussy Riot",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Costume",
+      "artistId": "7Yl77nksPX",
+      "imageNames": [
+        "Abs_Bettner.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "26"
+    },
+    "PIAgcznhi3": {
+      "title": "Untitled",
+      "yearMade": "2022",
+      "size": "13\" x 7.5\" x 7\"",
+      "description": "Sculpture",
+      "artistId": "fLD91uqVGT",
+      "imageNames":"Untitled_Kriho.jpg",
+      "issueId": "4",
+      "pageNumber": "27"
+    },
+    "R9iIF6SYC4": {
+      "title": "Living Room IV",
+      "yearMade": "2022",
+      "size": "19\" x 17\"",
+      "description": "Acrylic paint, oil pastel",
+      "artistId": "rpS8n55JDC",
+      "imageNames": [
+        "LivingRoomIV_Schultz.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "28"
+    },
+    "rRZAPLhyh8": {
+      "title": "Judge's Robes for Pussy Riot",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Fabric, fabric dye",
+      "artistId": "",
+      "imageNames": [
+        "JudgesRobe_Marshall_Lundquist.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "29"
+    },
+    "SmK5dumnuU": {
+      "title": "GIBLIE",
+      "yearMade": "2020",
+      "size": "12\" x 8\" 19\"",
+      "description": "Ceramic",
+      "artistId": "IFL8EhUQdg",
+      "imageNames": [
+        "Giblie_1_Longorria.jpg",
+        "Giblie_2_Longorria.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "30"
+    },
+    "snlun6fRH5": {
+      "title": "Shadows Fowey Abstracted",
+      "yearMade": "2022",
+      "size": "24\" x 24\"",
+      "description": "Oil paint on wood",
+      "artistId": "WbkHxgpJQP",
+      "imageNames": [
+        "ShadowsFoyerAbstracted_Lundquist.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "31"
+    },
+    "SXd1Tgig1U": {
+      "title": "Studio Study",
+      "yearMade": "2022",
+      "size": "10\" x 8\"",
+      "description": "Oil on canvas",
+      "artistId": "d2ei2XH7pI",
+      "imageNames": [
+        "StudioStudy_Moore.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "32"
+    },
+    "T37wgCgOsK": {
+      "title": "The Church",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Monotype, chine colle, acrylic",
+      "artistId": "pTeIRCHnyk",
+      "imageNames": [
+        "Church_Marshall.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "33"
+    },
+    "t6vaQ2JUbB": {
+      "title": "Severed",
+      "yearMade": "2022",
+      "size": "40\" x 50\"",
+      "description": "Oil on canvas",
+      "artistId": "snZV3bubIV",
+      "imageNames": [
+        "Severed_Springer.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "34"
+    },
+    "Th4PvRcsPQ": {
+      "title": "End Game",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Monotype, chine colle, acrylic",
+      "artistId": "pTeIRCHnyk",
+      "imageNames": [
+        "EndGameI_Marshall.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "35"
+    },
+    "uwxjNra3JN": {
+      "title": "Growing Pains",
+      "yearMade": "2022",
+      "size": "2' x 4'",
+      "description": "Oil paint, linocut stamps, glitter, canvas",
+      "artistId": "WbkHxgpJQP",
+      "imageNames": [
+        "GrowingPains_Lundquist.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "36"
+    },
+    "vk45EwsqFB": {
+      "title": "Blood Clots and Migraines",
+      "yearMade": "2021",
+      "size": "48\" x 60\"",
+      "description": "Painting",
+      "artistId": "MKViyvMBJ9",
+      "imageNames": [
+        "BloodClotsMigraines_Turner.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "37"
+    },
+    "w0nyrYEh45": {
+      "title": "21st Birthday",
+      "yearMade": "2022",
+      "size": "28\" x 22\"",
+      "description": "Oil on canvas",
+      "artistId": "ApZFV9YFyE",
+      "imageNames": [
+        "21stBirthday_Westreich.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "38"
+    },
+    "W8dKbdOcJ1": {
+      "title": "Bloody Shirt",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Fabric, dye",
+      "artistId": "QltLN5SBcy",
+      "imageNames": [
+        "BloodyRose_Peterson.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "39"
+    },
+    "XTU85bWpAF": {
+      "title": "Mom, I stepped on a Lego",
+      "yearMade": "2022",
+      "size": "12\" x 12\"",
+      "description": "Graphic design",
+      "artistId": "Ir9Ehd1Z8J",
+      "imageNames": [
+        "LegoLogo_Briggs.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "40"
+    },
+    "y3Bh0PLcNK": {
+      "title": "Healing Dress",
+      "yearMade": "2022",
+      "size": "36\" x 32\"",
+      "description": "Fiber and aluminum",
+      "artistId": "eeYw0jCrNI",
+      "imageNames": [
+        "HealingDress_Oelklaus.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "41"
+    },
+    "yiK0HZyzuH": {
+      "title": "X Journal Poster",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Graphic design",
+      "artistId": "bPjHRkWrcD",
+      "imageNames": [
+        "XJournalPoster_Fisk.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "42"
+    },
+    "ZdOj1uObmu": {
+      "title": "Tower",
+      "yearMade": "2022",
+      "size": "30\" x 40\"",
+      "description": "Oil on canvas",
+      "artistId": "d2ei2XH7pI",
+      "imageNames": [
+        "Tower_Moore.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "43"
+    },
+    "zg8mZFrZTD": {
+      "title": "Untitled (material study)",
+      "yearMade": "2021",
+      "size": "",
+      "description": "Mixed media",
+      "artistId": "czMmjQJvpr",
+      "imageNames": [
+        "UntitledMaterial_Kelly.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "44"
+    },
+    "zMdqImg3oh": {
+      "title": "Separation 1 and 2",
+      "yearMade": "2022",
+      "size": "36\" x 60\"",
+      "description": "Oil on canvas",
+      "artistId": "gkXtZbo3Rm",
+      "imageNames":[
+        "Seperation1_Adamson.jpg",
+        "Seperation2_Adamson.jpg"
+      ],
+      "issueId": "4",
+      "pageNumber": "45"
+    },
 
 
     "MTurnerDullingHum": {
@@ -2958,200 +3493,200 @@
 
 
 
-    
+
     "9fKcOEQTcM": {
-      "artistID":"9fKcOEQTcM",
+      "artistID": "9fKcOEQTcM",
       "name": "Adri Perrucci",
-      "artworks":"",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "czMmjQJvpr": {
-      "artistID":"czMmjQJvpr",
-      "name":"Allison Kelly",
-      "artworks":"",
+      "artistID": "czMmjQJvpr",
+      "name": "Allison Kelly",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "Oq3BQ3g3xk": {
-      "artistID":"Oq3BQ3g3xk",
-      "name":"Amanda Fair Jens",
-      "artworks":"",
+      "artistID": "Oq3BQ3g3xk",
+      "name": "Amanda Fair Jens",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "fgEu7BUd2P": {
-      "artistID":"fgEu7BUd2P",
-      "name":"Amelia Walz",
-      "artworks":"",
+      "artistID": "fgEu7BUd2P",
+      "name": "Amelia Walz",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "rpS8n55JDC": {
-      "artistID":"rpS8n55JDC",
-      "name":"Anna Shulz",
-      "artworks":"",
+      "artistID": "rpS8n55JDC",
+      "name": "Anna Shulz",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "d2ei2XH7pI": {
-      "artistID":"d2ei2XH7pI",
-      "name":"Caleb Moore",
-      "artworks":"",
+      "artistID": "d2ei2XH7pI",
+      "name": "Caleb Moore",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
       ]
     },
     "eeYw0jCrNI": {
-      "artistID":"eeYw0jCrNI",
-      "name":"Cyan Oelklaus",
-      "artworks":"",
+      "artistID": "eeYw0jCrNI",
+      "name": "Cyan Oelklaus",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "Ir9Ehd1Z8J": {
-      "artistID":"Ir9Ehd1Z8J",
-      "name":"Dan Briggs",
-      "artworks":"",
+      "artistID": "Ir9Ehd1Z8J",
+      "name": "Dan Briggs",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "BUqz6TFqkd": {
-      "artistID":"BUqz6TFqkd",
-      "name":"Fabian Chavez Portillo",
-      "artworks":"",
+      "artistID": "BUqz6TFqkd",
+      "name": "Fabian Chavez Portillo",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
      },
     "gkXtZbo3Rm": {
-      "artistID":"gkXtZbo3Rm",
-      "name":"James Adamson",
-      "artworks":"",
+      "artistID": "gkXtZbo3Rm",
+      "name": "James Adamson",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "7Yl77nksPX": {
-      "artistID":"7Yl77nksPX",
-      "name":"Jay Bettner",
-      "artworks":"",
+      "artistID": "7Yl77nksPX",
+      "name": "Jay Bettner",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "fLD91uqVGT": {
-      "artistID":"fLD91uqVGT",
-      "name":"Jess Kriho",
-      "artworks":"",
+      "artistID": "fLD91uqVGT",
+      "name": "Jess Kriho",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
       ]
     },
     "XcuWBcPFLG": {
-      "artistID":"XcuWBcPFLG",
-      "name":"Kate Snyder",
-      "artworks":"",
+      "artistID": "XcuWBcPFLG",
+      "name": "Kate Snyder",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
       ]
     },
     "nVxftmuPTn": {
-      "artistID":"nVxftmuPTn",
-      "name":"Morgan Hopkins",
-      "artworks":"",
+      "artistID": "nVxftmuPTn",
+      "name": "Morgan Hopkins",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
       ]
     },
     "seHZlukkKa": {
-      "artistID":"seHZlukkKa",
-      "name":"Morghan Bacon",
-      "artworks":"",
+      "artistID": "seHZlukkKa",
+      "name": "Morghan Bacon",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
       ]
     },
     "SlL0gSGcef": {
-      "artistID":"SlL0gSGcef",
-      "name":"Neori Yasumaru",
-      "artworks":"",
+      "artistID": "SlL0gSGcef",
+      "name": "Neori Yasumaru",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "T3aMREfmTI": {
-      "artistID":"T3aMREfmTI",
-      "name":"Odette Herrand",
-      "artworks":"",
+      "artistID": "T3aMREfmTI",
+      "name": "Odette Herrand",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
       ]
     },
     "pTeIRCHnyk": {
-      "artistID":"pTeIRCHnyk",
-      "name":"Rose Marshall",
-      "artworks":"",
+      "artistID": "pTeIRCHnyk",
+      "name": "Rose Marshall",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "WbkHxgpJQP": {
-      "artistID":"WbkHxgpJQP",
-      "name":"Sage Lunquist",
-      "artworks":"",
+      "artistID": "WbkHxgpJQP",
+      "name": "Sage Lunquist",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "snZV3bubIV": {
-      "artistID":"snZV3bubIV",
-      "name":"Teagan Springer",
-      "artworks":"",
+      "artistID": "snZV3bubIV",
+      "name": "Teagan Springer",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "FqCe7vH9x1": {
-      "artistID":"FqCe7vH9x1",
-      "name":"Zoe Rose",
-      "artworks":"",
+      "artistID": "FqCe7vH9x1",
+      "name": "Zoe Rose",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4"
       ]
     },
     "QltLN5SBcy": {
-      "artistID":"QltLN5SBcy",
-      "name":"Zomina Peterson",
-      "artworks":"",
+      "artistID": "QltLN5SBcy",
+      "name": "Zomina Peterson",
+      "artworks": null,
       "graduationYear":"",
       "issueIds": [
         "4" 
