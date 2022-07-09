@@ -150,12 +150,16 @@ export default {
     },
     spotColor () {
       return this.issueIndex ? sourceData.issues[this.issueIndex].spotColor : 'riso-red'
+      //return 'riso-red'
     },
     hoverSpotColor () {
       return 'hover-' + this.spotColor
+      //this function doesn't seem to be called ever?
     },
     bSpotColor () {
+      console.log(this.spotColor) //this keeps returning riso red?
       return 'b--' + this.spotColor
+      //return 'riso-red'
     }
   },
   methods: {

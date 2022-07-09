@@ -17,18 +17,18 @@
       <router-link class="black-80 link f3 db b--black-80 h3" exact-active-class="b" to="/issue/4/artists">
         <span class="ttu pt3 db serif f3 pl2">artists &#8594;</span>
       </router-link>
-      <div style="background: linear-gradient(var(--riso-kellygreen) 0%, rgba(240,240,240,0) 30%)" class="h4">
+      <div style="background: linear-gradient(var(--riso-burgundy) 0%, rgba(240,240,240,0) 30%)" class="h4">
         &nbsp;
       </div>
     </section>
     <!-- Add green line here -->
     <section id="issue4--artworks-container" class="w-100 fr-ns w-75-ns" v-if="view.includes('artwork')">
-      <Issue3ArtworkItem
+      <Issue4ArtworkItem
         v-for="artwork in artworks"
         :id="artwork.pageNumber"
         :key="artwork.pageNumber"
         :artwork="artwork">
-      </Issue3ArtworkItem>
+      </Issue4ArtworkItem>
     </section>
     <section id="issue4--artworks-container" class="w-100 fr-ns w-75-ns bg-light-gray" v-else-if="view=='essay'">
       <Issue4Essay :issueIndex='"4"'/>
@@ -41,7 +41,7 @@
 
 <script>
 import sourceData from '@/data'
-import Issue3ArtworkItem from '@/components/Issue3ArtworkItem.vue'
+import Issue4ArtworkItem from '@/components/Issue4ArtworkItem.vue'
 import ArtistsView from '@/components/ArtistsView.vue'
 import Issue4Essay from '@/views/EssayPage.vue'
 
@@ -61,7 +61,7 @@ export default {
   },
 
   components: {
-    Issue3ArtworkItem,
+    Issue4ArtworkItem,
     Issue4Essay,
     ArtistsView
   },
