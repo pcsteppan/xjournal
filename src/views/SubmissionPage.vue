@@ -7,14 +7,13 @@
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
         physical work can be submitted in WAC, on the second floor, near the open studios.
       </p>
-      <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
+      <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns b">
         only submit your work here here if it is a digital work, or high resolution photo of your work in correct
         format.
-        <br />
-        <em>
+      </p>
+      <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns i">
 
-          (We will have people take photo of your physical work).
-        </em>
+        (We will have people take photo of your physical work).
       </p>
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
         to submit online, please review our <router-link class="riso-kellygreen" to="./submit/guide">guide for

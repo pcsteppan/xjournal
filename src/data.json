@@ -3775,6 +3775,31 @@
           "role" : "Faculty advisor / mentor"
         }
       ]
+    },
+    "2023" : {
+      "year" : "2023",
+      "staff" : [
+        {
+          "name": "An Trieu",
+          "role": ""
+        },
+        {
+          "name": "James Adamson",
+          "role": ""
+        },
+        { 
+          "name": "Rose Marshall",
+          "role": ""
+        },
+        {
+          "name": "Ellen Miller Garrett",
+          "role": ""
+        },
+        {
+          "name" :"Tim Stedman",
+          "role" : "Faculty advisor / mentor"
+        }
+      ]
     }
   },
   "essays" : {
