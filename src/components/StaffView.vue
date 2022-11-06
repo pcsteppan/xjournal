@@ -23,7 +23,7 @@ import StaffMemberItem from '@/components/StaffMemberItem.vue'
 export default {
   data () {
     return {
-      year: 2022
+      year: 2023
     }
   },
 
