@@ -13,7 +13,7 @@
       </p>
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns i">
 
-        (We will have people take photo of your physical work).
+        (We photograph physical submissions).
       </p>
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
         to submit online, please review our <router-link class="riso-kellygreen" to="./submit/guide">guide for
