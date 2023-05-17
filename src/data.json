@@ -14,6 +14,10 @@
     "4" : {
       "essayId" : "interrupted",
       "spotColor" : "riso-burgundy"
+    },
+    "5" : {
+      "essayId" : "reclamation",
+      "spotColor" : "riso-sunflower"
     }
   },
   "artworks": {
@@ -2886,7 +2890,8 @@
       "artworks": null,
       "graduationYear":"",
       "issueIds": [
-        "4"
+        "4",
+        "5"
       ]
     },
     "fA0OOtlNRB": {
@@ -3126,7 +3131,8 @@
       "artworks": null,
       "graduationYear": "2023",
       "issueIds": [
-        "3"
+        "3",
+        "5"
       ]
     },
     "gkXtZbo3Rm": {
@@ -3135,7 +3141,8 @@
       "artworks": null,
       "graduationYear":"",
       "issueIds": [
-        "4"
+        "4",
+        "5"
       ]
     },
     "7Yl77nksPX": {
@@ -3198,7 +3205,8 @@
       "artworks": null,
       "graduationYear": "2023",
       "issueIds": [
-        "3"
+        "3",
+        "5"
       ]
     },
     "BDNCGWtQSz": {
@@ -3245,7 +3253,8 @@
       "graduationYear": "2023",
       "issueIds": [
         "3",
-        "4"
+        "4",
+        "5"
       ]
     },
     "lH3dv6oRiE": {
@@ -3487,7 +3496,8 @@
       "artworks": null,
       "graduationYear":"",
       "issueIds": [
-        "4"
+        "4",
+        "5"
       ]
     },
     "CNcc0T05De": {
@@ -3617,7 +3627,8 @@
       "graduationYear": "2023",
       "issueIds": [
         "3",
-        "4"
+        "4",
+        "5"
       ]
     },
     "snZV3bubIV": {
@@ -3626,7 +3637,8 @@
       "artworks": null,
       "graduationYear":"",
       "issueIds": [
-        "4"
+        "4",
+        "5"
       ]
     },
     "Mo2Wr2LzT1": {
@@ -3780,19 +3792,23 @@
       "year" : "2023",
       "staff" : [
         {
+          "name": "James Adamson",
+          "role": ""
+        },
+        {
+          "name": "Rose Marshall",
+          "role": ""
+        },
+        { 
           "name": "An Trieu",
           "role": ""
         },
         {
-          "name": "James Adamson",
-          "role": ""
-        },
-        { 
-          "name": "Rose Marshall",
+          "name": "Ellen Miller Garrett",
           "role": ""
         },
         {
-          "name": "Ellen Miller Garrett",
+          "name": "Urvi Bohra",
           "role": ""
         },
         {
@@ -3855,6 +3871,20 @@
         "As you’ll see in the following works, Knox students have continued the contemporary phenomenon of challenging social norms through disrupting the traditional art cannon. You will find ceramic vessels with supposedly no function at all, vessels that occupy the threshold between representation and abstraction. Students are not afraid to participate in the space between restrictive and oppressive binaries. There will be sculptural pieces that you might not have considered artworks had they not been featured in this journal. You will see various projects in design, theatre, sports. Knox students challenge the qualifications required to be deemed an “artwork,” making us then question the credentials we uphold for other classifications.",
         "When you’re looking at the following artworks, focus on the way a piece may interrupt your normal experience. Your visceral reaction to something says a lot about how you navigate the world. Let yourself be interrupted, let yourself be confused. If an interruption disturbs you, why? Sit with it. Maybe you will see something that you didn’t see before."
       ]
+    },
+    "reclamation" : {
+      "issueId": 5,
+      "title" : "Reclamation",
+      "author" : "Wilder Myslivy",
+      "graduationYear": "24",
+      "paragraphs": [
+        "Collage has long been an artistic tool of political activism, using found material fragments and nontraditional spaces to create new things that reclaim and reshape familiar themes. Cutting apart and reusing images can put them into new shape and context, creating novel fusions. Putting symbols in a new context can entirely reshape their meanings and challenge old systems. Art based in reuse, like collage and assemblage, has historically been valued below traditional “high art” and excluded from traditional art spaces. Collage sites span from quiet journal pages to public alleyways. The forms are incredibly accessible, allowing creativity with little financial barrier as artistic sites and materials may be found all around. The use of discarded materials and nontraditional space pushes the boundaries and allows disciplines to merge. Language merges with visual art in these additive forms, bridging gaps in mediums. The journal itself claims and adopts images and texts, bringing them together into newly created shared meaning. Principles of collage and assemblage can drive innovation in art and reshape social systems.\nReclamation",
+        "The reclamation of materials and the use of found materials in art opens up broad possibilities in visual creation, art accessibility, and perspective on historical or personal memorabilia. Artists who work in collage often pull fragments from popular visual culture. Magazine cuttings, catalog scraps, and old newspapers become art materials, inviting commercial pop culture images into art.1 Advertisements are a wealth of material to collage artists. In the non-commercial realm, news clippings and historical 1(Richards 3) items can preserve a piece of the past in contemporary art.2 These items call back to historical moments, emphasize notable events, and illustrate our recorded past.3 Others bring in the domestic archive of personally significant items, pulling directly from lived experiences.4 Old letters become a source of language, old clothing becomes a workable textile, items to discard are given a second life.5 The use of vulnerable personal items in artwork reclaims a personal narrative. Anthropologically, assemblage has origins in the junk shop, with strong historical precedent for collage and assemblage artists working with trash.6 Popular contemporary artist Nick Cave works almost entirely in the realm of discarded objects to create his assemblages, finding familiarity and meaning in trash.7 The strategy forces messiness, a lack of marketability, a gap between collage and the high art world.8 The use of ephemeral non-art materials, debris of everyday life, leaves a trace of bodily reality and lived experience in artwork.9 Reclaiming commercialized visual culture items, historically important fragments, ensures that artwork is grounded in a contextual historical basis.10 Saving scraps not meant to be saved preserves them in history, claiming the daily reality as the material of art. The use of found materials is a subversive act, a reclamation of art in accessible material.\nMaterials",
+        "When materials are removed from initial context and recontextualized, their meanings are changed and shifted into something unfamiliar. When the initial context is separated from the image, the symbols can be reappropriated.11 American commercial imagery is presented for consumption in its original context, but in collage, the discarded images lose marketability and become symbolic of consumerism.12 Harsh realities may merge with familiar imagery, beauty juxtaposed with the brutal, exposing viewers to complex perspectives.13 Materials hold some of the context they were taken from, relying on familiarity, fragments of recollected experience.14 Emotional association with popular imagery may shift when it is reclaimed in art, allowing cultural commentary.15 Nick Cave, Mickalene Thomas, and Sara Cwynar reclaim historical Black images in their artwork, utilizing imagery which was frequently offensive in its original context to make new statements on racial identity. Many collage and assemblage artists rework the meanings of symbols through their reclamation in art. III SPACE. Another definition of reclamation focuses on the recultivation of damaged sites for positive means. Although it is often environmental, similar principles may be applied to artistic work, taking spaces which have been harmed and using them as sites for new artworks. This is seen frequently with artists who work in graffiti, taking public space and turning it into a canvas.16 This phenomenon of stickering and graffiti in visual art represents the street art movement, a movement of art taking place outside of traditional art spaces.17It’s collaborative, additive, and full of reclamation of symbol and space. Urban areas become potential spaces for free creativity.18 Likewise, the abandoned house used to create Womanhouse was physically reclaimed by a group of laboring artists who aimed to use the space as an artistic site.19 Feminist artists and scholars often use the home as a site to reclaim. Look to Martha Rosler’s collages, using depictions of the kitchen from popular magazines subverted to feminist statements.20 Feminists focus on reclamation of space as a marginalized person. The canvas can be transformed to a site of activism, taking space to create a spectacle intentionally.21 Notably, the museum/gallery space is a space for marginalized artists to reclaim. The mere presence of less formal collage and assemblage pieces in museums represents a reclamation of high art space. The merging reclamation of material and space pushes artistic boundaries and encourages social progress.\nMeaning",
+        "Found-material reclaimed collage and assemblage are democratized forms which are highly accessible to the poor. Bringing these into the space of high art brings marginalized artists into the spotlight. The art world has long seen photography as of a lesser order than painting. It is accessible, immediate.22 The inclusion of photography with discarded materials forces a gap between these forms and the realm of High Art.23 Recontextualizing found fragments can weave counter-narratives and define societal moments. In the 1920s and 1930s, Dada and Surrealist artists used collage as an innovative activist form, influencing the political-social sphere and entering the artistic canon.24 The combination of advertising consumer images with politics is unexpected and can communicate a strong message to the viewer.25 Collage and assemblage has the ability to incite intense guilt and emotion, presenting narratives to the viewer with the ability to cause strong impact.26 Collage pushes into the realm of the written word on the page, taking forms of journal and art book, or collaged forms of poetry. Zines are another example of collaged content used to communicate a political message. The new spaces occupied by collage extend the reach of art into public space, the written page, and the political sphere.\nArt and Culture",
+        "The collage form itself carries power as a feminist art strategy, allowing artists to move forward through the past, removing subjects from time and signifying a hopeful future.27 Black artists can project racial images into the historical narrative to pressure inclusion, or intentionally juxtapose the racism of the white Western narrative.28 Feminist artists can comment on historical images of women while reclaiming domestic and public spaces.29 The fragments of material culture capture a nebulous form of bodily life, while allowing for alteration and a path forward. In the midst of political movements attempting to remove gender transition care, reproductive rights, and other bodily autonomy, collage claims our ability to alter and shape our own material reality. The simple representation projected by collage forms in the public sphere like stickering, graffiti, and zines can stand against suppression of minorities.30\nFUTURE",
+        "Items all around us may be used as art materials. It’s not just reuse, but putting these everyday things into new shape and context, claiming material and space as something new. Written word, photography, and ephemera, are the basis of new artistic creations. Abandoned places and public space, reclaimed, become a canvas. And despite high-art’s devaluation of collage and assemblage, the forms strive forward into the museum space and the artistic canon.31 They have moved confidently into popular visual culture and the public consciousness, shaping the political realm. As discarded materials find new life, we are able to shift our past, present, and future into something reused but entirely new.\nConclusion"
+        ]
     }
   }
 }

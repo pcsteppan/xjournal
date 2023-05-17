@@ -36,6 +36,12 @@ export default new Router({
       component: () => import('@/views/Issue4Page.vue')
     },
     {
+      path: '/issue/5/:view',
+      name: 'Issue5Page',
+      props: true,
+      component: () => import('@/views/Issue5Page.vue')
+    },
+    {
       path: '/issue/:issueIndex/essay',
       name: 'EssayPage',
       props: true,

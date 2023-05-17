@@ -42,8 +42,6 @@
           3
         </p>
       </div>
-
-      <!-- Change colors of text here                                   V   -->
       <router-link class="b pl2 pl4-ns link f1 sans-serif bw1 b--solid riso-burgundy b--riso-burgundy br-0 bb-0" id="issue-4-essay" to="/issue/4/essay">
         essay
       </router-link>
@@ -56,6 +54,21 @@
       <div id="link-wrapper-4" class="flex items-center h-100">
         <p class="tc f-banner f-banner-l f-banner-m display riso-burgundy h-100 center">
           4
+        </p>
+      </div>
+      <!-- Change colors of text here                                   V   -->
+      <router-link class="b pl2 pl4-ns link f1 sans-serif bw1 b--solid riso-sunflower b--riso-sunflower br-0 bb-0" id="issue-5-essay" to="/issue/5/essay">
+        essay
+      </router-link>
+      <router-link class="b pl2 pl4-ns link f1 sans-serif bw1 b--solid riso-sunflower b--riso-sunflower br-0 bb-0" id="issue-5-artworks" to="/issue/5/artwork">
+        artwork
+      </router-link>
+      <router-link class="b pl2 pl4-ns link f1 sans-serif bw1 b--solid riso-sunflower b--riso-sunflower bb-0" id="issue-5-artists" to="/issue/5/artists">
+        artists
+      </router-link>
+      <div id="link-wrapper-5" class="flex items-center h-100">
+        <p class="tc f-banner f-banner-l f-banner-m display riso-sunflower h-100 center">
+          5
         </p>
       </div>
     </section>
@@ -77,6 +90,10 @@
   #link-wrapper-4{
     background: linear-gradient(90deg, var(--riso-burgundy), rgba(0,0,0,0) 30%);
     grid-area: iss4;
+  }
+  #link-wrapper-5{
+    background: linear-gradient(90deg, var(--riso-sunflower), rgba(0,0,0,0) 30%);
+    grid-area: iss5;
   }
   #issue-1-essay{
     grid-area: e1;
@@ -115,6 +132,15 @@
   #issue-4-artists{
     grid-area: ppl4;
   }
+  #issue-5-poem{
+    grid-area: p5;
+  }
+  #issue-5-artworks{
+    grid-area: work5;
+  }
+  #issue-5-artists{
+    grid-area: ppl5;
+  }
 
   #issue-nav-wrapper{
     top: 0;
@@ -137,7 +163,10 @@
       "iss3 ppl3"
       "iss4 p4"
       "iss4 work4"
-      "iss4 ppl4";
+      "iss4 ppl4"
+      "iss5 p5"
+      "iss5 work5"
+      "iss5 ppl5";
   }
   @media screen and (min-width: 60rem){
     #link-wrapper-1{
@@ -158,13 +187,14 @@
       grid-row: 1/4; */
       /* writing-mode: vertical-lr; */
     }
-    
-    
-    /*change background color here */
-
-
     #link-wrapper-4{
       background: linear-gradient(90deg, var(--riso-burgundy), rgba(240,240,240,0) 30%);
+      /* grid-column-start: 4;
+      grid-row: 1/4; */
+      /* writing-mode: vertical-lr; */
+    }
+    #link-wrapper-5{
+      background: linear-gradient(90deg, var(--riso-sunflower), rgba(240,240,240,0) 30%);
       /* grid-column-start: 4;
       grid-row: 1/4; */
       /* writing-mode: vertical-lr; */
@@ -206,7 +236,8 @@
       "iss1   e1    work1 ppl1"
       "iss2   e2    work2 ppl2"
       "iss3   p3    work3 ppl3"
-      "iss4   p4    work4 ppl4";
+      "iss4   p4    work4 ppl4"
+      "iss5   p5    work5 ppl5";
     }
   }
 </style>

@@ -8,7 +8,9 @@
         <span class="ttl small-caps">{{essayData.author}},</span> &#39;{{essayData.graduationYear}}</span>
       <div id="essay--body-wrapper" class="w-100-ns lh-copy sans-serif f4 f3-ns pb3 near-black">
         <p v-for="(p, i) in this.essayData.paragraphs" :key="i" class="measure pb4">
-          {{p}}
+          <b>{{p.split("\n")[1]}}</b>
+          <br/>
+          {{p.split("\n")[0]}}
         </p>
       </div>
   </div>

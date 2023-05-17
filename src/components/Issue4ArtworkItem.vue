@@ -1,9 +1,7 @@
 
 <template>
 
-
 <!-- COPY OF ISSUE3 ARTWORK BUT WITH CHANGED COLOR-->
-
 
   <div class="w-100 relative bw1 b--black b--solid br-0 bl-0 bb-0"
   @click="expand">
@@ -156,16 +154,16 @@ export default {
     },
     spotColor () {
       return this.issueIndex ? sourceData.issues[this.issueIndex].spotColor : 'riso-red'
-      //return 'riso-red'
+      // return 'riso-red'
     },
     hoverSpotColor () {
       return 'hover-' + this.spotColor
-      //this function doesn't seem to be called ever?
+      // this function doesn't seem to be called ever?
     },
     bSpotColor () {
-      console.log(this.spotColor) //this keeps returning riso red?
+      console.log(this.spotColor) // this keeps returning riso red?
       return 'b--' + this.spotColor
-      //return 'riso-red'
+      // return 'riso-red'
     }
   },
   methods: {
