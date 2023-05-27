@@ -3133,6 +3133,151 @@
       ],
       "issueId": "5",
       "pageNumber": "49"
+    },
+    "54kK3ixFJ1": {
+      "title": "Renovation",
+      "yearMade": "2022",
+      "size": "4\" x 2\"",
+      "description": "Oil paint, photographs",
+      "artistId": "snZV3bubIV",
+      "imageNames":[
+        "DSC05018.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "52"
+    },
+    "cC7qmPavwZ": {
+      "title": "So Sleepy",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Video",
+      "artistId": "iCibNsZuCx",
+      "imageNames":[
+      ],
+      "issueId": "5",
+      "pageNumber": "53"
+    },
+    "8UtxG5rgrK": {
+      "title": "Homeslice",
+      "yearMade": "2022",
+      "size": "7\" x 9\"",
+      "description": "Paper, ink, charcoal",
+      "artistId": "GmpnOPnDHl",
+      "imageNames":[
+        "UNTITLED4.COX.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "54"
+    },
+    "JMOMrcBzWV": {
+      "title": "This Shirt is Made of Letters",
+      "yearMade": "2022",
+      "size": "30\" x 21.5\"",
+      "description": "Stretchy fabric, thread",
+      "artistId": "QltLN5SBcy",
+      "imageNames":[
+        "DSC05021.jpeg",
+        "DSC05019.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "55"
+    },
+    "EBjCytWN44": {
+      "title": "Untitled",
+      "yearMade": "2022",
+      "size": "5\" x 7\"",
+      "description": "Analog photography",
+      "artistId": "2GqtKIKZBC",
+      "imageNames":[
+        "UNTITLED3.HORVATH.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "56"
+    },
+    "yCccNeekeJ": {
+      "title": "Hope Through All",
+      "yearMade": "2023",
+      "size": "10\" x 14\"",
+      "description": "Graphic design",
+      "artistId": "WbkHxgpJQP",
+      "imageNames":[
+        "Hope_Through_All.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "58"
+    },
+    "rbCiTvKFmb": {
+      "title": "Into the Light We Go",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Photography",
+      "artistId": "dAyJ4odhR9",
+      "imageNames":[
+        "IntotheLightWeGo.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "59"
+    },
+    "nqFxfr16yx": {
+      "title": "1870's Housmaid Corset Recreation",
+      "yearMade": "2021",
+      "size": "1.5\" x 1.5\"",
+      "description": "Fabric, thread, corset boning",
+      "artistId": "fgEu7BUd2P",
+      "imageNames":[
+        "DSC04970.jpeg",
+        "DSC04974.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "60"
+    },
+    "XXQGEyKgsT": {
+      "title": "Neon Darkness",
+      "yearMade": "2022",
+      "size": "",
+      "description": "Digital",
+      "artistId": "pI6JUUHGMk",
+      "imageNames":[
+        "Griffin1.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "62"
+    },
+    "DP0mztjUwH": {
+      "title": "Untitled",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Collage",
+      "artistId": "DyiZ7zLPPc",
+      "imageNames":[
+        "DF3F55D9-C3F3-43C8-A9D9-3359881C92B7.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "63"
+    },
+    "48BLkLrq6t": {
+      "title": "Self Portrait (Hold me Close)",
+      "yearMade": "2022",
+      "size": "13\" x 8\"",
+      "description": "Mixed media sculpture",
+      "artistId": "kHHiMtK04u",
+      "imageNames":[
+        "DSC04957-1.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "64"
+    },
+    "AYU9nrX1V9": {
+      "title": "First Real Snowfall of Winter",
+      "yearMade": "2023",
+      "size": "13\" x 8\"",
+      "description": "Photograph",
+      "artistId": "pI6JUUHGMk",
+      "imageNames":[
+        "20230125_132916.jpeg"
+      ],
+      "issueId": "5",
+      "pageNumber": "65"
     }
 
 
@@ -4029,7 +4174,8 @@
       "artworks": null,
       "graduationYear":"",
       "issueIds": [
-        "4" 
+        "4",
+        "5"
       ]
     },
     "WdvV2uk59j": {
@@ -4179,6 +4325,15 @@
     "kHHiMtK04u":{
       "artistID": "kHHiMtK04u",
       "name":"Ellen Miller Garrett",
+      "artworks": null,
+      "graduationYear": "",
+      "issueIds": [
+        "5"
+      ]
+    },
+    "pI6JUUHGMk":{
+      "artistID": "pI6JUUHGMk",
+      "name":"Owen Griffin",
       "artworks": null,
       "graduationYear": "",
       "issueIds": [

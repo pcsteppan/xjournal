@@ -33,6 +33,7 @@
     <div class="issue3--image-container h-auto db dib-ns w-100" v-if="isExpanded">
       <img v-for="(data, key) in imagesrcsandsrcsets" class="db di-ns w-100 w-auto-ns" :srcset="data.srcset"
         :sizes="data.sizes" :key="key" />
+      <iframe v-for="(data, key) in video" src="https://www.youtube.com/embed/6GcOqoPS4t0?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen :key="key"></iframe>
     </div>
   </div>
 </template>
@@ -83,17 +84,27 @@ export default {
     images () {
       return this.artwork.imageNames
     },
+    video () {
+      if (this.images.length === 0) {
+        return {
+          'width': `(min-width: 30em) ${this.intendedImageWidth / 2}vw,
+                    ${this.intendedImageWidth}vw`
+        }
+      }
+    },
     imagesrcsandsrcsets () {
-      return this.images
-        .map(image => {
-          return {
-            'srcset': `${this.baseUrl}images/compressed/400/${image} 400w,
-                  ${this.baseUrl}images/compressed/768/${image} 768w,
-                  ${this.baseUrl}images/compressed/1200/${image} 1200w`,
-            'sizes': `(min-width: 30em) ${this.intendedImageWidth / 2}vw,
-                  ${this.intendedImageWidth}vw`
-          }
-        })
+      if (this.images.length !== 0) {
+        return this.images
+          .map(image => {
+            return {
+              'srcset': `${this.baseUrl}images/compressed/400/${image} 400w,
+                    ${this.baseUrl}images/compressed/768/${image} 768w,
+                    ${this.baseUrl}images/compressed/1200/${image} 1200w`,
+              'sizes': `(min-width: 30em) ${this.intendedImageWidth / 2}vw,
+                    ${this.intendedImageWidth}vw`
+            }
+          })
+      }
     },
     // alternative for loading lower res first, does not work
     // imagesrcsandsrcsets () {
