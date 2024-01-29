@@ -19,7 +19,7 @@
         to submit online, please review our <router-link class="riso-kellygreen" to="./submit/guide">guide for
           documenting your own work</router-link> and then submit your work &#10230; <a class="riso-kellygreen"
           target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSe8JhtU_zU6ny1Q56ZYvyoXfnP_KNGYulVbOfSVyW6dO201IA/viewform?usp=pp_url">here</a>.
+          href="https://forms.gle/2qMypAQbtFGLVxhn6">here</a>.
       </p>
       <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p>
       <ul style="list-style: outside circle; column-count: 2;"
@@ -46,10 +46,10 @@
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">does your work not fit any of that? if your work is
         visual, we'd like to see it.</p>
       <p class="sans-serif lh-copy mb3 near-black f5 f4-ns">
-        submissions will close on Spring Term 2023.
+        submissions will close on Spring Term 2024.
       </p>
       <p class="sans-serif lh-copy mb3 near-black f5 f4-ns">
-        issue 5 will be released online on the April 8, 2023.
+        issue 6 will be released online on the April 8, 2023.
       </p>
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
         please send questions to <a class="link riso-burgundy" href="mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
