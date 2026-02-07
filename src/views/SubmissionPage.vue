@@ -19,7 +19,7 @@
         to submit online, please review our <router-link class="riso-kellygreen" to="./submit/guide">guide for
           documenting your own work</router-link> and then submit your work &#10230; <a class="riso-kellygreen"
           target="_blank"
-          href="https://forms.gle/2qMypAQbtFGLVxhn6">here</a>.
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfizL_6KmFBOvm9h6ggEQjVMIcFh1lj4uM0ETzerqa9exs0Jw/viewform?usp=dialog">here</a>.
       </p>
       <p class="sans-serif measure-narrow lh-copy near-black f6 b">we accept:</p>
       <ul style="list-style: outside circle; column-count: 2;"
