@@ -46,10 +46,10 @@
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f6">does your work not fit any of that? if your work is
         visual, we'd like to see it.</p>
       <p class="sans-serif lh-copy mb3 near-black f5 f4-ns">
-        submissions will close on Spring Term 2024.
+        submissions will close in April in Spring Term 2026.
       </p>
       <p class="sans-serif lh-copy mb3 near-black f5 f4-ns">
-        issue 6 will be released online on the April 8, 2023.
+        issue 8 will be released later in 2026.
       </p>
       <p class="sans-serif measure-narrow lh-copy mb3 near-black f5 f4-ns">
         please send questions to <a class="link riso-burgundy" href="mailto: xjournal@knox.edu">xjournal@knox.edu</a>.
